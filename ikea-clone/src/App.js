@@ -1,6 +1,6 @@
 import './App.css';
-import Cart from './Components/Navbar/cart/cart';
-import Wishlist from './Components/Navbar/cart/wishlist';
+import Cart from './Pages/cart';
+import Wishlist from './Pages/wishlist';
 import ProductList from './Pages/ProductList';
 
 
