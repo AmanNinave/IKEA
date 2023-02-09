@@ -1,0 +1,29 @@
+#banner_signup{
+    display: none;
+}
+@media screen and (max-width: 770px) {
+    #card_medium{
+        display: none !important;
+    }
+    #banner_signup{
+        display: block;
+    }
+    
+    div#singup_form {
+        width: 100% !important;
+        padding-left: 116px !important;
+    }
+        
+}
+@media screen and (max-width: 560px) {
+    #signup_input{
+        width: 100% !important;
+    }
+    div#singup_form {
+        width: 100% !important;
+        padding-left: 40px !important;
+    }
+    input#signup_input {
+        width: 300px !important;
+    } 
+}
