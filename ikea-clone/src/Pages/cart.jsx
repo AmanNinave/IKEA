@@ -1,7 +1,11 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
+// import myStore from '../Redux/Store'
 
 const Cart = () => {
+//  const{dispatch, getState}=myStore;
+
+
   return (
 <div>
     <div className="cart-container">

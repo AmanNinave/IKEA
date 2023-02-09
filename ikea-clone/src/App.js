@@ -1,14 +1,15 @@
 import './App.css';
 import Cart from './Pages/cart';
-import Wishlist from './Pages/wishlist';
 import ProductList from './Pages/ProductList';
+import Wishlist from './Pages/wishlist';
 
 
 function App() {
   return (
     <div className="App">
-      <Cart/>
-      {/* <Wishlist/> */}
+      {/* <ProductList/> */}
+    <Cart/>
+    {/* <Wishlist/> */}
     </div>
   );
 }
