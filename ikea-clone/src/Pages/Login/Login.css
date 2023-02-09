@@ -1,0 +1,26 @@
+#login_parentdiv{
+    display: flex;
+}
+   
+#login_firstchildiv{
+   background-color: #0058A3;
+   width: 40%;
+}
+
+#login_secoundchildiv{
+    width: 60%;
+}
+
+@media screen and (max-width: 964px) {
+   
+}
+@media screen and (max-width: 711px) {
+    #login_parentdiv{
+        display: block;
+    }
+    #login_firstchildiv,#login_secoundchildiv{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 892px) {}
