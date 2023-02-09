@@ -53,5 +53,5 @@ function Sofa1() {
     )
 }
 
-
+// aman
 export default Sofa1;
