@@ -1,0 +1,3217 @@
+{
+  "usergroup": "[SIK_FIX_COMPOUND_QUERIES_AUTOCORRECTOR_V2:A, SIK_NULL_TEST_20230125:A]",
+  "productListPage": {
+    "category": {
+      "name": "Sofas \u0026 Sofa-beds",
+      "key": "fu003",
+      "url": "https://www.ikea.com/in/en/cat/sofas-armchairs-fu003/",
+      "imageUrl": "https://www.ikea.com/global/assets/navigation/images/sofas-fu003.jpeg"
+    },
+    "productWindow": [
+      {
+        "name": "GAMMALBYN",
+        "typeName": "3-seat sofa",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868926_pe781434_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-3-seat-sofa-grey-70473251/",
+        "id": "70473251",
+        "itemNoGlobal": "50504809",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 3,
+          "variants": [
+            {
+              "id": "60473261",
+              "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-3-seat-sofa-beige-60473261/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-beige__0868906_pe781416_s5.jpg",
+              "imageAlt": "GAMMALBYN 3-seat sofa, beige",
+              "quickFacts": [],
+              "availability": [],
+              "name": "GAMMALBYN",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-beige__0868906_pe781416_s5.jpg",
+              "mainImageAlt": "GAMMALBYN 3-seat sofa, beige",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-beige__0868907_pe781417_s5.jpg",
+              "itemNoGlobal": "70504808",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "60473261",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 20990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "20,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "80473255",
+              "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-3-seat-sofa-blue-80473255/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-blue__0868912_pe781422_s5.jpg",
+              "imageAlt": "GAMMALBYN 3-seat sofa, blue",
+              "quickFacts": [],
+              "availability": [],
+              "name": "GAMMALBYN",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-blue__0868912_pe781422_s5.jpg",
+              "mainImageAlt": "GAMMALBYN 3-seat sofa, blue",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-blue__0891063_pe782234_s5.jpg",
+              "itemNoGlobal": "20544091",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "80473255",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 20990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "20,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "70473265",
+              "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-3-seat-sofa-red-70473265/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-red__0868918_pe781428_s5.jpg",
+              "imageAlt": "GAMMALBYN 3-seat sofa, red",
+              "quickFacts": [],
+              "availability": [],
+              "name": "GAMMALBYN",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-red__0868918_pe781428_s5.jpg",
+              "mainImageAlt": "GAMMALBYN 3-seat sofa, red",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-red__0868919_pe781429_s5.jpg",
+              "itemNoGlobal": "60544094",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "70473265",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 20990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "20,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          }
+        ],
+        "badge": {
+          "type": "TOP_SELLER",
+          "text": "Top seller"
+        },
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "70473251",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 20990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "20,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-3-seat-sofa-grey__0868927_pe781435_s5.jpg",
+        "mainImageAlt": "GAMMALBYN 3-seat sofa, grey",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Fabric sofas",
+            "key": "10661"
+          },
+          {
+            "name": "Three-seat sofas",
+            "key": "10670"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "ORMARYD",
+        "typeName": "3-seat sofa",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-dark-blue__0919663_pe786703_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/ormaryd-3-seat-sofa-dark-blue-60477594/",
+        "id": "60477594",
+        "itemNoGlobal": "60477594",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 3,
+          "variants": [
+            {
+              "id": "90477597",
+              "pipUrl": "https://www.ikea.com/in/en/p/ormaryd-3-seat-sofa-beige-90477597/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-beige__0919651_pe786695_s5.jpg",
+              "imageAlt": "ORMARYD 3-seat sofa, beige",
+              "quickFacts": [],
+              "availability": [],
+              "name": "ORMARYD",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-beige__0919651_pe786695_s5.jpg",
+              "mainImageAlt": "ORMARYD 3-seat sofa, beige",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-beige__0919652_pe786696_s5.jpg",
+              "itemNoGlobal": "90477597",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "90477597",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 19990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "19,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "10477596",
+              "pipUrl": "https://www.ikea.com/in/en/p/ormaryd-3-seat-sofa-grey-10477596/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-grey__0919853_pe786760_s5.jpg",
+              "imageAlt": "ORMARYD 3-seat sofa, grey",
+              "quickFacts": [],
+              "availability": [],
+              "name": "ORMARYD",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-grey__0919853_pe786760_s5.jpg",
+              "mainImageAlt": "ORMARYD 3-seat sofa, grey",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-grey__0919854_pe786761_s5.jpg",
+              "itemNoGlobal": "10477596",
+              "onlineSellable": true,
+              "lastChance": false,
+              "badge": {
+                "type": "TOP_SELLER",
+                "text": "Top seller"
+              },
+              "itemNo": "10477596",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 19990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "19,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "30477595",
+              "pipUrl": "https://www.ikea.com/in/en/p/ormaryd-3-seat-sofa-dark-red-30477595/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-dark-red__0919844_pe786754_s5.jpg",
+              "imageAlt": "ORMARYD 3-seat sofa, dark red",
+              "quickFacts": [],
+              "availability": [],
+              "name": "ORMARYD",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-dark-red__0919844_pe786754_s5.jpg",
+              "mainImageAlt": "ORMARYD 3-seat sofa, dark red",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-dark-red__0919845_pe786755_s5.jpg",
+              "itemNoGlobal": "30477595",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "30477595",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 19990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "19,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "blue",
+            "id": "10007",
+            "hex": "0058a3"
+          }
+        ],
+        "badge": {
+          "type": "TOP_SELLER",
+          "text": "Top seller"
+        },
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "60477594",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 19990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "19,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ormaryd-3-seat-sofa-dark-blue__0919664_pe786704_s5.jpg",
+        "mainImageAlt": "ORMARYD 3-seat sofa, dark blue",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Fabric sofas",
+            "key": "10661"
+          },
+          {
+            "name": "Three-seat sofas",
+            "key": "10670"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "LINANÄS",
+        "typeName": "Sofa protector for 3-seat sofa",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/linanaes-sofa-protector-for-3-seat-sofa-vissle-dark-green__1162660_pe889918_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/linanaes-sofa-protector-for-3-seat-sofa-vissle-dark-green-80543201/",
+        "id": "80543201",
+        "itemNoGlobal": "60564402",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "green",
+            "id": "10033",
+            "hex": "3b7d22"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "80543201",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 4500.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "4,500",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/linanaes-sofa-protector-for-3-seat-sofa-vissle-dark-green__1162659_pe889917_s5.jpg",
+        "mainImageAlt": "LINANÄS Sofa protector for 3-seat sofa, Vissle dark green",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Sofa-beds",
+            "key": "10663"
+          },
+          {
+            "name": "Sofa-beds parts \u0026 accessories",
+            "key": "57538"
+          },
+          {
+            "name": "Sofa accessories",
+            "key": "42249"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "HAMMARN",
+        "typeName": "Sofa-bed",
+        "itemMeasureReferenceText": "120 cm (47 1/4 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/hammarn-sofa-bed-knisa-dark-grey-black__0519027_pe641353_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/hammarn-sofa-bed-knisa-dark-grey-black-80361494/",
+        "id": "80361494",
+        "itemNoGlobal": "90354327",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [
+          {
+            "type": "FIRMNESS",
+            "id": "47465",
+            "name": "Firm",
+            "typeName": "Firmness"
+          }
+        ],
+        "features": [],
+        "availability": [],
+        "itemNo": "80361494",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 9990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "9,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": true,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/hammarn-sofa-bed-knisa-dark-grey-black__0833786_pe641354_s5.jpg",
+        "mainImageAlt": "HAMMARN Sofa-bed, Knisa dark grey/black, 120 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa beds.",
+          "productAreaNo": "0113",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Sofa-beds",
+            "key": "10663"
+          },
+          {
+            "name": "Sofa-beds",
+            "key": "20874"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "EKTORP",
+        "typeName": "3-seat sofa with chaise longue",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-totebo-light-beige__0818587_pe774509_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-with-chaise-longue-totebo-light-beige-s29320082/",
+        "id": "s29320082",
+        "itemNoGlobal": "59320066",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 4,
+          "variants": [
+            {
+              "id": "s29320077",
+              "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-with-chaise-longue-hallarp-beige-s29320077/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-hallarp-beige__0818581_pe774503_s5.jpg",
+              "imageAlt": "EKTORP 3-seat sofa with chaise longue, Hallarp beige",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "59511",
+                  "name": "Extra soft",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKTORP",
+              "typeName": "3-seat sofa with chaise longue",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-hallarp-beige__0818581_pe774503_s5.jpg",
+              "mainImageAlt": "EKTORP 3-seat sofa with chaise longue, Hallarp beige",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-hallarp-beige__0818580_pe774502_s5.jpg",
+              "itemNoGlobal": "39320072",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "29320077",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 39990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "39,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s89320079",
+              "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-with-chaise-longue-remmarn-light-grey-s89320079/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-remmarn-light-grey__0818583_pe774505_s5.jpg",
+              "imageAlt": "EKTORP 3-seat sofa with chaise longue, Remmarn light grey",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "59511",
+                  "name": "Extra soft",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKTORP",
+              "typeName": "3-seat sofa with chaise longue",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-remmarn-light-grey__0818583_pe774505_s5.jpg",
+              "mainImageAlt": "EKTORP 3-seat sofa with chaise longue, Remmarn light grey",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-remmarn-light-grey__0818582_pe774511_s5.jpg",
+              "itemNoGlobal": "49320062",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "89320079",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 35990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "35,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s09320078",
+              "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-with-chaise-longue-hallarp-grey-s09320078/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-hallarp-grey__0818579_pe774501_s5.jpg",
+              "imageAlt": "EKTORP 3-seat sofa with chaise longue, Hallarp grey",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "59511",
+                  "name": "Extra soft",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKTORP",
+              "typeName": "3-seat sofa with chaise longue",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-hallarp-grey__0818579_pe774501_s5.jpg",
+              "mainImageAlt": "EKTORP 3-seat sofa with chaise longue, Hallarp grey",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-hallarp-grey__0818578_pe774500_s5.jpg",
+              "itemNoGlobal": "39320067",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "09320078",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 39990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "39,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s99320069",
+              "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-with-chaise-longue-totebo-dark-turquoise-s99320069/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-totebo-dark-turquoise__0818585_pe774507_s5.jpg",
+              "imageAlt": "EKTORP 3-seat sofa with chaise longue, Totebo dark turquoise",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "59511",
+                  "name": "Extra soft",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKTORP",
+              "typeName": "3-seat sofa with chaise longue",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-totebo-dark-turquoise__0818585_pe774507_s5.jpg",
+              "mainImageAlt": "EKTORP 3-seat sofa with chaise longue, Totebo dark turquoise",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-totebo-dark-turquoise__0818584_pe774506_s5.jpg",
+              "itemNoGlobal": "49320076",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "99320069",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 31990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "31,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [
+          {
+            "type": "FIRMNESS",
+            "id": "59511",
+            "name": "Extra soft",
+            "typeName": "Firmness"
+          }
+        ],
+        "features": [],
+        "availability": [],
+        "itemNo": "29320082",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 31990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "31,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-with-chaise-longue-totebo-light-beige__0818586_pe774508_s5.jpg",
+        "mainImageAlt": "EKTORP 3-seat sofa with chaise longue, Totebo light beige",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Fabric sofas",
+            "key": "10661"
+          },
+          {
+            "name": "Fabric sofas with chaise longues",
+            "key": "47388"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "GAMMALBYN",
+        "typeName": "2-seat sofa",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-grey__0865039_pe781338_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-2-seat-sofa-grey-30473248/",
+        "id": "30473248",
+        "itemNoGlobal": "90504807",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 5,
+          "variants": [
+            {
+              "id": "30473253",
+              "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-2-seat-sofa-beige-30473253/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-beige__0865028_pe781328_s5.jpg",
+              "imageAlt": "GAMMALBYN 2-seat sofa, beige",
+              "quickFacts": [],
+              "availability": [],
+              "name": "GAMMALBYN",
+              "typeName": "2-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-beige__0865028_pe781328_s5.jpg",
+              "mainImageAlt": "GAMMALBYN 2-seat sofa, beige",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-beige__0865029_pe781329_s5.jpg",
+              "itemNoGlobal": "10504806",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "30473253",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 17990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "17,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "40473257",
+              "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-2-seat-sofa-blue-40473257/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-blue__0865034_pe781333_s5.jpg",
+              "imageAlt": "GAMMALBYN 2-seat sofa, blue",
+              "quickFacts": [],
+              "availability": [],
+              "name": "GAMMALBYN",
+              "typeName": "2-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-blue__0865034_pe781333_s5.jpg",
+              "mainImageAlt": "GAMMALBYN 2-seat sofa, blue",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-blue__0865035_pe781334_s5.jpg",
+              "itemNoGlobal": "30544095",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "40473257",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 17990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "17,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "40473262",
+              "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-2-seat-sofa-brown-40473262/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-brown__1030890_pe836424_s5.jpg",
+              "imageAlt": "GAMMALBYN 2-seat sofa, brown",
+              "quickFacts": [],
+              "availability": [],
+              "name": "GAMMALBYN",
+              "typeName": "2-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-brown__1030890_pe836424_s5.jpg",
+              "mainImageAlt": "GAMMALBYN 2-seat sofa, brown",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-brown__1030891_pe836423_s5.jpg",
+              "itemNoGlobal": "40473262",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "40473262",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 21990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "21,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "20473263",
+              "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-2-seat-sofa-red-20473263/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-red__0865044_pe781343_s5.jpg",
+              "imageAlt": "GAMMALBYN 2-seat sofa, red",
+              "quickFacts": [],
+              "availability": [],
+              "name": "GAMMALBYN",
+              "typeName": "2-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-red__0865044_pe781343_s5.jpg",
+              "mainImageAlt": "GAMMALBYN 2-seat sofa, red",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-red__0865045_pe781344_s5.jpg",
+              "itemNoGlobal": "80544093",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "20473263",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 17990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "17,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "60501834",
+              "pipUrl": "https://www.ikea.com/in/en/p/gammalbyn-2-seat-sofa-black-60501834/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-black__1030886_pe836420_s5.jpg",
+              "imageAlt": "GAMMALBYN 2-seat sofa, black",
+              "quickFacts": [],
+              "availability": [],
+              "name": "GAMMALBYN",
+              "typeName": "2-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-black__1030886_pe836420_s5.jpg",
+              "mainImageAlt": "GAMMALBYN 2-seat sofa, black",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-black__1030887_pe836419_s5.jpg",
+              "itemNoGlobal": "60501834",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "60501834",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 21990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "21,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          }
+        ],
+        "badge": {
+          "type": "TOP_SELLER",
+          "text": "Top seller"
+        },
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "30473248",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 17990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "17,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-grey__0865040_pe781339_s5.jpg",
+        "mainImageAlt": "GAMMALBYN 2-seat sofa, grey",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Fabric sofas",
+            "key": "10661"
+          },
+          {
+            "name": "Two-seat sofas",
+            "key": "10668"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "PÄRUP",
+        "typeName": "Cover for 3-seat sofa",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-vissle-grey__0950183_pe800198_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/paerup-cover-for-3-seat-sofa-vissle-grey-00493808/",
+        "id": "00493808",
+        "itemNoGlobal": "20493807",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 3,
+          "variants": [
+            {
+              "id": "10493822",
+              "pipUrl": "https://www.ikea.com/in/en/p/paerup-cover-for-3-seat-sofa-gunnared-beige-10493822/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-gunnared-beige__0950177_pe800192_s5.jpg",
+              "imageAlt": "PÄRUP Cover for 3-seat sofa, Gunnared beige",
+              "quickFacts": [],
+              "availability": [],
+              "name": "PÄRUP",
+              "typeName": "Cover for 3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-gunnared-beige__0950177_pe800192_s5.jpg",
+              "mainImageAlt": "PÄRUP Cover for 3-seat sofa, Gunnared beige",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-gunnared-beige__0515739_pe639996_s5.jpg",
+              "itemNoGlobal": "30493821",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "10493822",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 11500.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "11,500",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "20493826",
+              "pipUrl": "https://www.ikea.com/in/en/p/paerup-cover-for-3-seat-sofa-gunnared-dark-grey-20493826/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-gunnared-dark-grey__0950179_pe800194_s5.jpg",
+              "imageAlt": "PÄRUP Cover for 3-seat sofa, Gunnared dark grey",
+              "quickFacts": [],
+              "availability": [],
+              "name": "PÄRUP",
+              "typeName": "Cover for 3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-gunnared-dark-grey__0950179_pe800194_s5.jpg",
+              "mainImageAlt": "PÄRUP Cover for 3-seat sofa, Gunnared dark grey",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-gunnared-dark-grey__0709885_pe727145_s5.jpg",
+              "itemNoGlobal": "40493825",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "20493826",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 11500.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "11,500",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "90493818",
+              "pipUrl": "https://www.ikea.com/in/en/p/paerup-cover-for-3-seat-sofa-vissle-dark-green-90493818/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-vissle-dark-green__0950181_pe800196_s5.jpg",
+              "imageAlt": "PÄRUP Cover for 3-seat sofa, Vissle dark green",
+              "quickFacts": [],
+              "availability": [],
+              "name": "PÄRUP",
+              "typeName": "Cover for 3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-vissle-dark-green__0950181_pe800196_s5.jpg",
+              "mainImageAlt": "PÄRUP Cover for 3-seat sofa, Vissle dark green",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-vissle-dark-green__0950191_pe800204_s5.jpg",
+              "itemNoGlobal": "10493817",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "90493818",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 9500.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "9,500",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "00493808",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 9500.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "9,500",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/paerup-cover-for-3-seat-sofa-vissle-grey__0515709_pe639965_s5.jpg",
+        "mainImageAlt": "PÄRUP Cover for 3-seat sofa, Vissle grey",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Extra covers",
+            "key": "10664"
+          },
+          {
+            "name": "PÄRUP covers",
+            "key": "54994"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "EKTORP",
+        "typeName": "3-seat sofa",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-totebo-light-beige__0818573_pe774495_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-totebo-light-beige-s99320050/",
+        "id": "s99320050",
+        "itemNoGlobal": "49320043",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 4,
+          "variants": [
+            {
+              "id": "s09320040",
+              "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-hallarp-beige-s09320040/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-hallarp-beige__0818569_pe774497_s5.jpg",
+              "imageAlt": "EKTORP 3-seat sofa, Hallarp beige",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "59511",
+                  "name": "Extra soft",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKTORP",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-hallarp-beige__0818569_pe774497_s5.jpg",
+              "mainImageAlt": "EKTORP 3-seat sofa, Hallarp beige",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-hallarp-beige__0818568_pe774490_s5.jpg",
+              "itemNoGlobal": "39320053",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "09320040",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 29990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "29,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s19320049",
+              "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-hallarp-grey-s19320049/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-hallarp-grey__0818567_pe774489_s5.jpg",
+              "imageAlt": "EKTORP 3-seat sofa, Hallarp grey",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "59511",
+                  "name": "Extra soft",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKTORP",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-hallarp-grey__0818567_pe774489_s5.jpg",
+              "mainImageAlt": "EKTORP 3-seat sofa, Hallarp grey",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-hallarp-grey__0818566_pe774488_s5.jpg",
+              "itemNoGlobal": "39320048",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "19320049",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 29990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "29,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s19320054",
+              "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-remmarn-light-grey-s19320054/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-remmarn-light-grey__0924992_pe788686_s5.jpg",
+              "imageAlt": "EKTORP 3-seat sofa, Remmarn light grey",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "59511",
+                  "name": "Extra soft",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKTORP",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-remmarn-light-grey__0924992_pe788686_s5.jpg",
+              "mainImageAlt": "EKTORP 3-seat sofa, Remmarn light grey",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-remmarn-light-grey__0924993_pe788685_s5.jpg",
+              "itemNoGlobal": "59320047",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "19320054",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 27990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "27,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s29320039",
+              "pipUrl": "https://www.ikea.com/in/en/p/ektorp-3-seat-sofa-totebo-dark-turquoise-s29320039/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-totebo-dark-turquoise__0818571_pe774493_s5.jpg",
+              "imageAlt": "EKTORP 3-seat sofa, Totebo dark turquoise",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "59511",
+                  "name": "Extra soft",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKTORP",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-totebo-dark-turquoise__0818571_pe774493_s5.jpg",
+              "mainImageAlt": "EKTORP 3-seat sofa, Totebo dark turquoise",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-totebo-dark-turquoise__0818570_pe774492_s5.jpg",
+              "itemNoGlobal": "49320057",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "29320039",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 24990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "24,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [
+          {
+            "type": "FIRMNESS",
+            "id": "59511",
+            "name": "Extra soft",
+            "typeName": "Firmness"
+          }
+        ],
+        "features": [],
+        "availability": [],
+        "itemNo": "99320050",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 24990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "24,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-totebo-light-beige__0818572_pe774494_s5.jpg",
+        "mainImageAlt": "EKTORP 3-seat sofa, Totebo light beige",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Fabric sofas",
+            "key": "10661"
+          },
+          {
+            "name": "Three-seat sofas",
+            "key": "10670"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "BRIMNES",
+        "typeName": "Day-bed w 2 drawers/2 mattresses",
+        "itemMeasureReferenceText": "80x200 cm (31 1/2x78 3/4 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-black-agotnes-firm__1171952_pe893216_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/brimnes-day-bed-w-2-drawers-2-mattresses-black-agotnes-firm-s69427340/",
+        "id": "s69427340",
+        "itemNoGlobal": "49427058",
+        "onlineSellable": true,
+        "lastChance": true,
+        "gprDescription": {
+          "numberOfVariants": 2,
+          "variants": [
+            {
+              "id": "s49427336",
+              "pipUrl": "https://www.ikea.com/in/en/p/brimnes-day-bed-w-2-drawers-2-mattresses-black-asvang-firm-s49427336/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-black-asvang-firm__1161843_pe889559_s5.jpg",
+              "imageAlt": "BRIMNES Day-bed w 2 drawers/2 mattresses, black/Åsvang firm, 80x200 cm (31 1/2x78 3/4 \")",
+              "quickFacts": [
+                {
+                  "type": "MATTRESS_MATERIAL",
+                  "id": "47466",
+                  "name": "Foam",
+                  "typeName": "Mattress material"
+                },
+                {
+                  "type": "FIRMNESS",
+                  "id": "47465",
+                  "name": "Firm",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "BRIMNES",
+              "typeName": "Day-bed w 2 drawers/2 mattresses",
+              "itemMeasureReferenceText": "80x200 cm (31 1/2x78 3/4 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-black-asvang-firm__1161843_pe889559_s5.jpg",
+              "mainImageAlt": "BRIMNES Day-bed w 2 drawers/2 mattresses, black/Åsvang firm, 80x200 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-black-asvang-firm__1101311_pe866580_s5.jpg",
+              "itemNoGlobal": "29494510",
+              "onlineSellable": true,
+              "lastChance": true,
+              "itemNo": "49427336",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 33970.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "33,970",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s09427338",
+              "pipUrl": "https://www.ikea.com/in/en/p/brimnes-day-bed-w-2-drawers-2-mattresses-black-vannareid-extra-firm-s09427338/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-black-vannareid-extra-firm__1161831_pe889530_s5.jpg",
+              "imageAlt": "BRIMNES Day-bed w 2 drawers/2 mattresses, black/Vannareid extra firm, 80x200 cm (31 1/2x78 3/4 \")",
+              "quickFacts": [
+                {
+                  "type": "MATTRESS_MATERIAL",
+                  "id": "47479",
+                  "name": "Pocket springs",
+                  "typeName": "Mattress material"
+                },
+                {
+                  "type": "FIRMNESS",
+                  "id": "47463",
+                  "name": "Extra firm",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "BRIMNES",
+              "typeName": "Day-bed w 2 drawers/2 mattresses",
+              "itemMeasureReferenceText": "80x200 cm (31 1/2x78 3/4 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-black-vannareid-extra-firm__1161831_pe889530_s5.jpg",
+              "mainImageAlt": "BRIMNES Day-bed w 2 drawers/2 mattresses, black/Vannareid extra firm, 80x200 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-black-vannareid-extra-firm__1101311_pe866580_s5.jpg",
+              "itemNoGlobal": "09390957",
+              "onlineSellable": true,
+              "lastChance": true,
+              "itemNo": "09427338",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 35970.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "35,970",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [
+          {
+            "type": "MATTRESS_MATERIAL",
+            "id": "47466",
+            "name": "Foam",
+            "typeName": "Mattress material"
+          },
+          {
+            "type": "FIRMNESS",
+            "id": "47465",
+            "name": "Firm",
+            "typeName": "Firmness"
+          }
+        ],
+        "features": [],
+        "availability": [],
+        "itemNo": "69427340",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 29970.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "29,970",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-black-agotnes-firm__1101311_pe866580_s5.jpg",
+        "mainImageAlt": "BRIMNES Day-bed w 2 drawers/2 mattresses, black/Ågotnes firm, 80x200 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Beds \u0026 Mattresses",
+          "homeFurnishingBusinessNo": "05",
+          "productAreaName": "Flexible sleep solutions",
+          "productAreaNo": "0522",
+          "productRangeAreaName": "Beds.",
+          "productRangeAreaNo": "052"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Beds",
+            "key": "bm003"
+          },
+          {
+            "name": "Single beds",
+            "key": "16285"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "GLOSTAD",
+        "typeName": "2-seat sofa",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/glostad-2-seat-sofa-knisa-dark-grey__0950864_pe800736_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/glostad-2-seat-sofa-knisa-dark-grey-10489009/",
+        "id": "10489009",
+        "itemNoGlobal": "50489012",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "00488821",
+              "pipUrl": "https://www.ikea.com/in/en/p/glostad-2-seat-sofa-knisa-medium-blue-00488821/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/glostad-2-seat-sofa-knisa-medium-blue__0950900_pe800740_s5.jpg",
+              "imageAlt": "GLOSTAD 2-seat sofa, Knisa medium blue",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "47465",
+                  "name": "Firm",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "GLOSTAD",
+              "typeName": "2-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/glostad-2-seat-sofa-knisa-medium-blue__0950900_pe800740_s5.jpg",
+              "mainImageAlt": "GLOSTAD 2-seat sofa, Knisa medium blue",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/glostad-2-seat-sofa-knisa-medium-blue__0950902_pe800742_s5.jpg",
+              "itemNoGlobal": "10465824",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "00488821",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 9990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "9,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": true,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [
+          {
+            "type": "FIRMNESS",
+            "id": "47465",
+            "name": "Firm",
+            "typeName": "Firmness"
+          }
+        ],
+        "features": [],
+        "availability": [],
+        "itemNo": "10489009",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 9990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "9,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": true,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/glostad-2-seat-sofa-knisa-dark-grey__0950897_pe800737_s5.jpg",
+        "mainImageAlt": "GLOSTAD 2-seat sofa, Knisa dark grey",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Fabric sofas",
+            "key": "10661"
+          },
+          {
+            "name": "Two-seat sofas",
+            "key": "10668"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "FRIHETEN",
+        "typeName": "Corner sofa-bed with storage",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-hyllie-beige__0690253_pe723174_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/friheten-corner-sofa-bed-with-storage-hyllie-beige-s09297563/",
+        "id": "s09297563",
+        "itemNoGlobal": "29297562",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 4,
+          "variants": [
+            {
+              "id": "s09297558",
+              "pipUrl": "https://www.ikea.com/in/en/p/friheten-corner-sofa-bed-with-storage-skiftebo-blue-s09297558/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-skiftebo-blue__0690243_pe723167_s5.jpg",
+              "imageAlt": "FRIHETEN Corner sofa-bed with storage, Skiftebo blue",
+              "quickFacts": [],
+              "availability": [],
+              "name": "FRIHETEN",
+              "typeName": "Corner sofa-bed with storage",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-skiftebo-blue__0690243_pe723167_s5.jpg",
+              "mainImageAlt": "FRIHETEN Corner sofa-bed with storage, Skiftebo blue",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-skiftebo-blue__0690241_pe723168_s5.jpg",
+              "itemNoGlobal": "49297561",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "09297558",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 54990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "54,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s09216755",
+              "pipUrl": "https://www.ikea.com/in/en/p/friheten-corner-sofa-bed-with-storage-skiftebo-dark-grey-s09216755/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-skiftebo-dark-grey__0175610_pe328883_s5.jpg",
+              "imageAlt": "FRIHETEN Corner sofa-bed with storage, Skiftebo dark grey",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "47465",
+                  "name": "Firm",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "FRIHETEN",
+              "typeName": "Corner sofa-bed with storage",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-skiftebo-dark-grey__0175610_pe328883_s5.jpg",
+              "mainImageAlt": "FRIHETEN Corner sofa-bed with storage, Skiftebo dark grey",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-skiftebo-dark-grey__1089881_pe861727_s5.jpg",
+              "itemNoGlobal": "39216754",
+              "onlineSellable": true,
+              "lastChance": false,
+              "badge": {
+                "type": "TOP_SELLER",
+                "text": "Top seller"
+              },
+              "itemNo": "09216755",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 54990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "54,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s99297568",
+              "pipUrl": "https://www.ikea.com/in/en/p/friheten-corner-sofa-bed-with-storage-hyllie-dark-grey-s99297568/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-hyllie-dark-grey__0690261_pe723182_s5.jpg",
+              "imageAlt": "FRIHETEN Corner sofa-bed with storage, Hyllie dark grey",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "47465",
+                  "name": "Firm",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "FRIHETEN",
+              "typeName": "Corner sofa-bed with storage",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-hyllie-dark-grey__0690261_pe723182_s5.jpg",
+              "mainImageAlt": "FRIHETEN Corner sofa-bed with storage, Hyllie dark grey",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-hyllie-dark-grey__0690259_pe723183_s5.jpg",
+              "itemNoGlobal": "19297567",
+              "onlineSellable": true,
+              "lastChance": false,
+              "badge": {
+                "type": "TOP_SELLER",
+                "text": "Top seller"
+              },
+              "itemNo": "99297568",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 59990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "59,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s29216820",
+              "pipUrl": "https://www.ikea.com/in/en/p/friheten-corner-sofa-bed-with-storage-bomstad-black-s29216820/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-bomstad-black__0248337_pe386785_s5.jpg",
+              "imageAlt": "FRIHETEN Corner sofa-bed with storage, Bomstad black",
+              "quickFacts": [],
+              "availability": [],
+              "name": "FRIHETEN",
+              "typeName": "Corner sofa-bed with storage",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-bomstad-black__0248337_pe386785_s5.jpg",
+              "mainImageAlt": "FRIHETEN Corner sofa-bed with storage, Bomstad black",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-bomstad-black__0829726_pe600308_s5.jpg",
+              "itemNoGlobal": "69216818",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "29216820",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 64990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "64,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [
+          {
+            "type": "FIRMNESS",
+            "id": "47465",
+            "name": "Firm",
+            "typeName": "Firmness"
+          }
+        ],
+        "features": [],
+        "availability": [],
+        "itemNo": "09297563",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 59990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "59,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/friheten-corner-sofa-bed-with-storage-hyllie-beige__0690251_pe723175_s5.jpg",
+        "mainImageAlt": "FRIHETEN Corner sofa-bed with storage, Hyllie beige",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa beds.",
+          "productAreaNo": "0113",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Sofa-beds",
+            "key": "10663"
+          },
+          {
+            "name": "Sofa-beds",
+            "key": "20874"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "EKENÄSET",
+        "typeName": "3-seat sofa",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/ekenaeset-3-seat-sofa-kelinge-grey-turquoise__1109714_pe870180_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/ekenaeset-3-seat-sofa-kelinge-grey-turquoise-50533519/",
+        "id": "50533519",
+        "itemNoGlobal": "70533518",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "40533529",
+              "pipUrl": "https://www.ikea.com/in/en/p/ekenaeset-3-seat-sofa-kilanda-light-beige-40533529/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/ekenaeset-3-seat-sofa-kilanda-light-beige__1109716_pe870182_s5.jpg",
+              "imageAlt": "EKENÄSET 3-seat sofa, Kilanda light beige",
+              "quickFacts": [
+                {
+                  "type": "FIRMNESS",
+                  "id": "47465",
+                  "name": "Firm",
+                  "typeName": "Firmness"
+                }
+              ],
+              "availability": [],
+              "name": "EKENÄSET",
+              "typeName": "3-seat sofa",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/ekenaeset-3-seat-sofa-kilanda-light-beige__1109716_pe870182_s5.jpg",
+              "mainImageAlt": "EKENÄSET 3-seat sofa, Kilanda light beige",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ekenaeset-3-seat-sofa-kilanda-light-beige__1109715_pe870183_s5.jpg",
+              "itemNoGlobal": "40533529",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "40533529",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 34990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "34,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NEW_PRODUCT",
+                "tagText": "New"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          },
+          {
+            "name": "turquoise",
+            "id": "10152",
+            "hex": "77ddd0"
+          }
+        ],
+        "tag": "NEW_PRODUCT",
+        "tagText": "New",
+        "quickFacts": [
+          {
+            "type": "FIRMNESS",
+            "id": "47465",
+            "name": "Firm",
+            "typeName": "Firmness"
+          }
+        ],
+        "features": [],
+        "availability": [],
+        "itemNo": "50533519",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 37990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "37,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NEW_PRODUCT",
+          "tagText": "New"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/ekenaeset-3-seat-sofa-kelinge-grey-turquoise__1109713_pe870181_s5.jpg",
+        "mainImageAlt": "EKENÄSET 3-seat sofa, Kelinge grey-turquoise",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofas",
+          "productAreaNo": "0111",
+          "productRangeAreaName": "Sofas",
+          "productRangeAreaNo": "011"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Sofas \u0026 Sofa-beds",
+            "key": "fu003"
+          },
+          {
+            "name": "Fabric sofas",
+            "key": "10661"
+          },
+          {
+            "name": "Three-seat sofas",
+            "key": "10670"
+          }
+        ],
+        "heroBackoffData": {}
+      }
+    ],
+    "productCount": 1074,
+    "plannerWindow": [],
+    "plannerCount": 0,
+    "filters2": [
+      {
+        "id": "SEATS",
+        "name": "Number of seats",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-seats",
+        "eventAction": "filter_by_seats",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "1-seat",
+            "id": "38827",
+            "count": 120,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "2-seats",
+            "id": "38767",
+            "count": 211,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "3-seats",
+            "id": "38768",
+            "count": 318,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "4-seats",
+            "id": "38769",
+            "count": 87,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "5-seats",
+            "id": "38770",
+            "count": 6,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "6-seats",
+            "id": "38771",
+            "count": 6,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "7-seats",
+            "id": "38833",
+            "count": 3,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "CATEGORIES",
+        "name": "Category",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-subcategories",
+        "eventAction": "filter_by_category",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "Sofa parts \u0026 accessories",
+            "id": "700299",
+            "count": 398,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Extra covers",
+            "id": "10664",
+            "count": 379,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Fabric sofas",
+            "id": "10661",
+            "count": 356,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Modular sofas",
+            "id": "16238",
+            "count": 277,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Footstools \u0026 pouffes",
+            "id": "20926",
+            "count": 115,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Sofa-beds",
+            "id": "10663",
+            "count": 104,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Chaise longues",
+            "id": "57527",
+            "count": 51,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Lounging \u0026 relaxing furniture",
+            "id": "21959",
+            "count": 6,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "PRICE",
+        "name": "Price",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-price-buckets",
+        "eventAction": "filter_by_price",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "₹0 - 19,999",
+            "id": "PRICE_0_2000000",
+            "count": 506,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "₹20,000 - 39,999",
+            "id": "PRICE_2000000_4000000",
+            "count": 191,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "₹40,000 - 59,999",
+            "id": "PRICE_4000000_6000000",
+            "count": 155,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "₹60,000 - 79,999",
+            "id": "PRICE_6000000_8000000",
+            "count": 97,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "₹80,000+",
+            "id": "PRICE_8000000_2147483647",
+            "count": 125,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "SHAPES",
+        "name": "Shape",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-shape",
+        "eventAction": "filter_by_shape",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "Standard",
+            "id": "38823",
+            "count": 454,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "L-shaped",
+            "id": "38824",
+            "count": 208,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Modular",
+            "id": "47673",
+            "count": 54,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Corner",
+            "id": "38825",
+            "count": 42,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Free shape",
+            "id": "38867",
+            "count": 33,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "U-shaped",
+            "id": "38826",
+            "count": 6,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Rectangular",
+            "id": "44838",
+            "count": 3,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "MATERIAL",
+        "name": "Material",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-materials",
+        "eventAction": "filter_by_materials",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "Fabric",
+            "id": "38828",
+            "count": 779,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Wood (including board)",
+            "id": "47349",
+            "count": 23,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Metal",
+            "id": "47350",
+            "count": 12,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Plastic",
+            "id": "47675",
+            "count": 6,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Coated fabric",
+            "id": "38830",
+            "count": 2,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Synthetic fibres",
+            "id": "48360",
+            "count": 2,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Solid wood",
+            "id": "50788",
+            "count": 2,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "COLOR",
+        "name": "Colour",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-colors",
+        "eventAction": "filter_by_color",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "count": 453,
+            "selected": false,
+            "enabled": true,
+            "hex": "949494"
+          },
+          {
+            "name": "beige",
+            "id": "10003",
+            "count": 274,
+            "selected": false,
+            "enabled": true,
+            "hex": "f4f3d7"
+          },
+          {
+            "name": "blue",
+            "id": "10007",
+            "count": 137,
+            "selected": false,
+            "enabled": true,
+            "hex": "0058a3"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "count": 105,
+            "selected": false,
+            "enabled": true,
+            "hex": "000000"
+          },
+          {
+            "name": "green",
+            "id": "10033",
+            "count": 98,
+            "selected": false,
+            "enabled": true,
+            "hex": "3b7d22"
+          },
+          {
+            "name": "white",
+            "id": "10156",
+            "count": 67,
+            "selected": false,
+            "enabled": true,
+            "hex": "ffffff"
+          },
+          {
+            "name": "brown",
+            "id": "10019",
+            "count": 61,
+            "selected": false,
+            "enabled": true,
+            "hex": "814820"
+          },
+          {
+            "name": "red",
+            "id": "10124",
+            "count": 44,
+            "selected": false,
+            "enabled": true,
+            "hex": "f00f00"
+          },
+          {
+            "name": "yellow",
+            "id": "10042",
+            "count": 37,
+            "selected": false,
+            "enabled": true,
+            "hex": "ffdb00"
+          },
+          {
+            "name": "turquoise",
+            "id": "10152",
+            "count": 30,
+            "selected": false,
+            "enabled": true,
+            "hex": "77ddd0"
+          },
+          {
+            "name": "multicolour",
+            "id": "10583",
+            "count": 4,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "lilac",
+            "id": "10064",
+            "count": 3,
+            "selected": false,
+            "enabled": true,
+            "hex": "a96ecc"
+          },
+          {
+            "name": "orange",
+            "id": "10112",
+            "count": 2,
+            "selected": false,
+            "enabled": true,
+            "hex": "ff9a02"
+          },
+          {
+            "name": "pink",
+            "id": "10119",
+            "count": 2,
+            "selected": false,
+            "enabled": true,
+            "hex": "ffb8c3"
+          }
+        ]
+      },
+      {
+        "id": "MEASUREMENT_BUCKETS",
+        "name": "Size",
+        "collapsed": false,
+        "type": "TYPED_CLASS_FILTER",
+        "parameter": "f-measurement-buckets",
+        "eventAction": "filter_by_measurement_bucket",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "types": [
+          {
+            "id": "WIDTH",
+            "name": "Width",
+            "values": [
+              {
+                "name": "0 - 99 cm",
+                "id": "WIDTH_0_100",
+                "count": 230,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "100 - 199 cm",
+                "id": "WIDTH_100_200",
+                "count": 204,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "200 - 299 cm",
+                "id": "WIDTH_200_300",
+                "count": 206,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "300 - 399 cm",
+                "id": "WIDTH_300_400",
+                "count": 55,
+                "selected": false,
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "HEIGHT",
+            "name": "Height",
+            "values": [
+              {
+                "name": "0 - 49 cm",
+                "id": "HEIGHT_0_50",
+                "count": 110,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "50 - 59 cm",
+                "id": "HEIGHT_50_60",
+                "count": 13,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "60 - 69 cm",
+                "id": "HEIGHT_60_70",
+                "count": 30,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "70 - 79 cm",
+                "id": "HEIGHT_70_80",
+                "count": 111,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "80+ cm",
+                "id": "HEIGHT_80_2147483647",
+                "count": 142,
+                "selected": false,
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "DEPTH",
+            "name": "Depth",
+            "values": [
+              {
+                "name": "0 - 59 cm",
+                "id": "DEPTH_0_60",
+                "count": 43,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "60 - 69 cm",
+                "id": "DEPTH_60_70",
+                "count": 7,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "70 - 79 cm",
+                "id": "DEPTH_70_80",
+                "count": 20,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "80 - 89 cm",
+                "id": "DEPTH_80_90",
+                "count": 75,
+                "selected": false,
+                "enabled": true
+              },
+              {
+                "name": "90+ cm",
+                "id": "DEPTH_90_2147483647",
+                "count": 485,
+                "selected": false,
+                "enabled": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FIRMNESS",
+        "name": "Firmness",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-firmness",
+        "eventAction": "filter_by_firmness",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "Soft",
+            "id": "47482",
+            "count": 130,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Extra soft",
+            "id": "59511",
+            "count": 124,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Medium firm",
+            "id": "47473",
+            "count": 78,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Firm",
+            "id": "47465",
+            "count": 41,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Extra firm",
+            "id": "47463",
+            "count": 5,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "FEATURE",
+        "name": "Features",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-feature",
+        "eventAction": "filter_by_feature",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "Washable cover",
+            "id": "47644",
+            "count": 247,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Removable cover",
+            "id": "51527",
+            "count": 235,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Storage",
+            "id": "47487",
+            "count": 96,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Legs",
+            "id": "47668",
+            "count": 88,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Sofa-bed",
+            "id": "51715",
+            "count": 52,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Extendable",
+            "id": "47462",
+            "count": 20,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Roll packed",
+            "id": "47480",
+            "count": 16,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Storage box sold separately",
+            "id": "51716",
+            "count": 9,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Recliner",
+            "id": "52359",
+            "count": 5,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Armrest",
+            "id": "52365",
+            "count": 5,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Upholstered",
+            "id": "47490",
+            "count": 2,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Headrest",
+            "id": "52367",
+            "count": 2,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "With lid",
+            "id": "54602",
+            "count": 1,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "RATINGS",
+        "name": "Customer rating",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-ratings",
+        "eventAction": "filter_by_rating_value_integer",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "1",
+            "id": "1",
+            "count": 1,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "3",
+            "id": "3",
+            "count": 136,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "4",
+            "id": "4",
+            "count": 509,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "5",
+            "id": "5",
+            "count": 194,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "TOP_SELLER",
+        "name": "Top seller",
+        "collapsed": false,
+        "type": "BOOLEAN",
+        "parameter": "f-top-seller",
+        "eventAction": "filter_by_top_seller",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "count": 20
+      },
+      {
+        "id": "LAST_CHANCE",
+        "name": "Last chance",
+        "collapsed": false,
+        "type": "BOOLEAN",
+        "parameter": "f-last-chance",
+        "eventAction": "filter_by_last_chance",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "count": 78
+      },
+      {
+        "id": "NEW_PRODUCT",
+        "name": "New products",
+        "collapsed": false,
+        "type": "BOOLEAN",
+        "parameter": "f-new-product",
+        "eventAction": "filter_by_new_product",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "count": 138
+      },
+      {
+        "id": "SPECIAL_PRICE",
+        "name": "Price offers",
+        "collapsed": false,
+        "type": "BOOLEAN",
+        "parameter": "f-special-price",
+        "eventAction": "filter_by_special_price",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "count": 5
+      },
+      {
+        "id": "SERIES",
+        "name": "Series",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-series",
+        "eventAction": "filter_by_series",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "VIMLE series",
+            "id": "37814",
+            "count": 192,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "GRÖNLID series",
+            "id": "40704",
+            "count": 167,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "JÄTTEBO series",
+            "id": "59276",
+            "count": 87,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "SÖDERHAMN serie",
+            "id": "22178",
+            "count": 81,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "EKTORP series",
+            "id": "07488",
+            "count": 45,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "LANDSKRONA series",
+            "id": "29996",
+            "count": 42,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "POÄNG series",
+            "id": "07472",
+            "count": 40,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "KIVIK series",
+            "id": "18329",
+            "count": 38,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "PÄRUP series",
+            "id": "54971",
+            "count": 24,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "ÄPPLARYD series",
+            "id": "54972",
+            "count": 18,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "LYCKSELE series",
+            "id": "57208",
+            "count": 17,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "VINLIDEN series",
+            "id": "47158",
+            "count": 16,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "BACKSÄLEN series",
+            "id": "54970",
+            "count": 15,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "FRIHETEN series",
+            "id": "54980",
+            "count": 14,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "VISKAFORS series",
+            "id": "59275",
+            "count": 12,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "ESSEBODA series",
+            "id": "59277",
+            "count": 11,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "VRETSTORP series",
+            "id": "57212",
+            "count": 10,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "KLIPPAN series",
+            "id": "58350",
+            "count": 10,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "NYHAMN series",
+            "id": "57210",
+            "count": 8,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "STRANDMON series",
+            "id": "57217",
+            "count": 7,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "HEMNES bedroom series",
+            "id": "58619",
+            "count": 7,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "HOLMSUND series",
+            "id": "57211",
+            "count": 6,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "BRIMNES series",
+            "id": "18125",
+            "count": 4,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "EKOLSUND series",
+            "id": "57213",
+            "count": 4,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "MATTRESS_MATERIAL",
+        "name": "Mattress material",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-mattress-material",
+        "eventAction": "filter_by_mattress_material",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "Foam",
+            "id": "47466",
+            "count": 16,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Pocket springs",
+            "id": "47479",
+            "count": 6,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "SLEEPING_POSITION",
+        "name": "Sleeping position",
+        "collapsed": false,
+        "type": "CLASS_FILTER",
+        "parameter": "f-sleeping-position",
+        "eventAction": "filter_by_sleeping_position",
+        "enabled": true,
+        "selected": false,
+        "actionTokens": [],
+        "values": [
+          {
+            "name": "Back",
+            "id": "47451",
+            "count": 16,
+            "selected": false,
+            "enabled": true
+          },
+          {
+            "name": "Stomach",
+            "id": "47485",
+            "count": 16,
+            "selected": false,
+            "enabled": true
+          }
+        ]
+      }
+    ],
+    "sortOrders": {
+      "name": "Sort",
+      "values": [
+        {
+          "id": "RELEVANCE",
+          "name": "Best match",
+          "eventAction": "sort_by_relevance",
+          "selected": true
+        },
+        {
+          "id": "PRICE_LOW_TO_HIGH",
+          "name": "Price: low to high",
+          "eventAction": "sort_by_price_low",
+          "selected": false
+        },
+        {
+          "id": "PRICE_HIGH_TO_LOW",
+          "name": "Price: high to low",
+          "eventAction": "sort_by_price_high",
+          "selected": false
+        },
+        {
+          "id": "NEWEST",
+          "name": "Newest",
+          "eventAction": "sort_by_newest",
+          "selected": false
+        },
+        {
+          "id": "RATING",
+          "name": "Customer rating",
+          "eventAction": "sort_by_rating",
+          "selected": false
+        },
+        {
+          "id": "NAME_ASCENDING",
+          "name": "Name",
+          "eventAction": "sort_by_name",
+          "selected": false
+        },
+        {
+          "id": "MOST_POPULAR",
+          "name": "Most popular",
+          "eventAction": "sort_by_most_popular",
+          "selected": false
+        },
+        {
+          "id": "WIDTH",
+          "name": "Width",
+          "eventAction": "sort_by_width",
+          "selected": false
+        },
+        {
+          "id": "HEIGHT",
+          "name": "Height",
+          "eventAction": "sort_by_height",
+          "selected": false
+        },
+        {
+          "id": "DEPTH",
+          "name": "Depth",
+          "eventAction": "sort_by_depth",
+          "selected": false
+        },
+        {
+          "id": "LENGTH",
+          "name": "Length",
+          "eventAction": "sort_by_length",
+          "selected": false
+        }
+      ]
+    }
+  }
+}
