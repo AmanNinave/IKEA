@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../cart/cart.css"
+import styles from "../Pages/cart.css"
 
 const Wishlist = () => {
     return (
