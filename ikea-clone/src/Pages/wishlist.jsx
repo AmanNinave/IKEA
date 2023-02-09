@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
+import { BsFillCartPlusFill } from "react-icons/bs"
 
 const Wishlist = () => {
     return (
@@ -31,7 +32,7 @@ const Wishlist = () => {
                     </div>
                     <h5>Want to buy these articles online?</h5>
                     <div className="wishdelivery">
-                        <button>Add all products to cart<span><i className="fa fa-arrow"></i></span></button>
+                        <button><BsFillCartPlusFill/>View Add all products to cart<span><i className="fa fa-arrow"></i></span></button>
                     </div>
                 </div>
             </div>

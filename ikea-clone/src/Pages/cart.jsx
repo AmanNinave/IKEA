@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
 // import myStore from '../Redux/Store'
-
+import { BsFillCartPlusFill } from "react-icons/bs"
 const Cart = () => {
 //  const{dispatch, getState}=myStore;
 
@@ -53,7 +53,7 @@ const Cart = () => {
       Delivery estimates will be available on the next page.
     </div>
     <div className="viewdelivery">
-      <button>View delivery and pickup options <span><i className="fa fa-arrow"></i></span></button>
+      <button> delivery and pickup options <span></span></button>
     </div>
     <div className="cartreturnpolicy">
       <span><i className=""></i></span>
