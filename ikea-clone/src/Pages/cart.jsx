@@ -2,10 +2,16 @@ import React from 'react'
 import styles from "../Pages/cart.css"
 // import myStore from '../Redux/Store'
 import { BsFillCartPlusFill } from "react-icons/bs"
+import { useSelector } from 'react-redux'
+import { myStore } from '../Redux/Store'
+
+
 const Cart = () => {
 //  const{dispatch, getState}=myStore;
-
-
+const add=useSelector((store)=>{
+  return store.cartReducer
+})
+console.log(add)
   return (
 <div>
     <div className="cart-container">
