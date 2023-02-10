@@ -1,9 +1,16 @@
 
-import { legacy_createStore as createstore, applyMiddleware } from "redux";
+import { legacy_createStore as createstore, applyMiddleware ,combineReducers } from "redux";
 
 import logger from "redux-logger";
 import signupReducer from "./Reducers/signupReducer";
+import cartReducer from "./Reducers/cartReducer";
+import wishlistReducer from "./Reducers/wishlistReducer";
+const combinedRedcers = combineReducers({
+    signupReducer,
+    cartReducer,
+    wishlistReducer
 
-// import { combineReducers } from "redux";
+})
 
-export const myStore = createstore(signupReducer,   applyMiddleware(logger));
+
+export const myStore = createstore( combinedRedcers  , applyMiddleware(logger));
