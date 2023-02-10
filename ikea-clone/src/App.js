@@ -4,20 +4,19 @@ import Sofa1 from "./Pages/ProductList/Sofa/Sofa1";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Signup from "./Pages/Signup/Signup";
+import Login from "./Pages/Login/Login";
 import Cart from "./Pages/cart";
-import Wishlist from "./Pages/wishlist";
-// import Login from "./Pages/Login/Login";
 
 function App() {
   return (
     <div className="App">
       
-        {/* <Sofa1 />  */}
-        {/* <Navbar /> */}
-        {/* // <Signup />
-        // <Login /> */}
-        <Cart/>
-        {/* <Wishlist/> */}
+        
+        <Navbar />
+         <Sofa1 /> 
+        {/* // <Signup /> */}
+        {/* <Login /> */}
+      <Cart/>
     </div>
   );
 }

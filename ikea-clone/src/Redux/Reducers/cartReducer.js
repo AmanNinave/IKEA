@@ -8,18 +8,6 @@ function cartReducer ( state = initialData , action ) {
             ...state , cartData : [...state.cartData , action.payload ]
         }
     }
-    else if(action.type==="INCREMENT"){
-        let updateCart=state.item.map((curElm)=>{
-            if(curElm.id===action.payload){
-                return {
-                    ...state, 
-                }
-            }
-        })
-        return {
-            
-        }
-    }
     return state;
 }
 
