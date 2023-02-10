@@ -1,15 +1,15 @@
 import React from 'react';
 
-
 const FilterStyle = {
     zIndex: "1",
     position: "absolute",
     top: "260px",
-    left: "80px",
-    border: "0px solid",
+    left: "530px",
+    border: "1px solid",
     backgroundColor: "white",
     padding: "15px",
-    borderRadius : "10px"
+    borderRadius : "10px",
+    width : "fitcontent"
 }
 
 const buttonStyle = {
@@ -21,26 +21,25 @@ const buttonStyle = {
 }
 
 
-function Sort(props) {
-
+function Price (props) {
     const data = [
         { 
-            title : "Price : low to high"
+            title : " ₹0 - 19,999 "
         },
         { 
-            title : "Price : high to low"
+            title : "₹20,000 - 39,999"
         },
         { 
-            title : " Name "
+            title : "₹40,000 - 59,999"
         },
         { 
-            title : "Best match"
+            title : "₹60,000 - 79,999"
         },
         { 
-            title : "Newest"
+            title : "₹80,000 - 99,999"
         },
         { 
-            title : "Most popular"
+            title : "₹80,000 +  "
         },
 
     ]
@@ -51,7 +50,7 @@ function Sort(props) {
             { data.length > 0 && 
                     data.map(( ele )=> {
                         return <>
-                            <button style={ buttonStyle }> <input type="radio" name = "aman" width="40px"/> {ele.title} </button>
+                            <button style={ buttonStyle }> <input type="checkbox" name = "aman" width="40px"/> {ele.title} </button>
                             <br />
                         </>
                             
@@ -68,4 +67,4 @@ function Sort(props) {
     );
 }
 
-export default Sort;
+export default Price;
