@@ -1,8 +1,15 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
 import { BsFillCartPlusFill } from "react-icons/bs"
+import { useSelector } from 'react-redux'
+
+
 
 const Wishlist = () => {
+    const wishdata = useSelector((store) => {
+        return store.wishlistReducer
+      })
+    console.log(wishdata)
     return (
         <div>
             <div className="wishlist-container">

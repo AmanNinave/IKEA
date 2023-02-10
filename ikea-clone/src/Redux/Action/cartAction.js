@@ -53,5 +53,11 @@ function cartAction( elem , dispatch ) {
         }
     )
 }
+const increment=()=>{
+    return dispatch({
+        type:"INCREMENT",
+        payload:id
+    })
+}
 
-export default cartAction;
+export {cartAction, increment};
