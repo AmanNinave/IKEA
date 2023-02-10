@@ -17,7 +17,7 @@ function Navbar() {
         <nav className="" >
 
             <div style={{ textAlign: 'center', backgroundColor: 'black', color: "white" }}>
-                <p style={{ fontSize: '14px', padding: '5px' }}><FiTruck /> Now get home delivery from Rs. 99</p>
+                <p style={{ fontSize: '14px', padding: '5px', textAlign:"center"}}><FiTruck /> Now get home delivery from Rs. 99</p>
             </div>
 
 
