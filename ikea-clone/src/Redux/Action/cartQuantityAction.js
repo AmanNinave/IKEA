@@ -1,11 +1,11 @@
-function cartQtyAction( elem , dispatch ) {
+// function cartQtyAction( elem , dispatch ) {
     
-    dispatch(
-        {
-            type : "QTY",
-            payload : elem
-        }
-    )
-}
+//     dispatch(
+//         {
+//             type : "QTY",
+//             payload : elem
+//         }
+//     )
+// }
 
-export default cartQtyAction;
+// export default cartQtyAction;
