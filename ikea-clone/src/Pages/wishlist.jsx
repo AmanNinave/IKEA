@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
-import { BsFillCartPlusFill } from "react-icons/bs"
+import { HiShoppingCart } from "@react-icons/all-files/hi/HiShoppingCart"
 import { useSelector } from 'react-redux'
 
 
@@ -8,18 +8,18 @@ import { useSelector } from 'react-redux'
 const Wishlist = () => {
     const wishdata = useSelector((store) => {
         return store.wishlistReducer
-      })
+    })
     console.log(wishdata)
     return (
         <div>
             <div className="wishlist-container">
                 <div className='wishlist-inner'>
                     <div className='wishbox'>
-                    <div className=''>
-                        <h1>Shoppinglist</h1>
-                        <p>Manage your <a href="">shopping lists</a></p>
-                    </div>
-                    <h4>...</h4>
+                        <div className=''>
+                            <h1>Shoppinglist</h1>
+                            <p>Manage your <a href="">shopping lists</a></p>
+                        </div>
+                        <h4>...</h4>
                     </div>
                     <div className="wishlistsave">
                         <h1>Save your lists</h1>
@@ -39,7 +39,7 @@ const Wishlist = () => {
                     </div>
                     <h5>Want to buy these articles online?</h5>
                     <div className="wishdelivery">
-                        <button><BsFillCartPlusFill/>View Add all products to cart<span><i className="fa fa-arrow"></i></span></button>
+                        <button><HiShoppingCart />View Add all products to cart<span><i className="fa fa-arrow"></i></span></button>
                     </div>
                 </div>
             </div>

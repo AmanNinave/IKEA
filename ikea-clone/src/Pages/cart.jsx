@@ -1,19 +1,19 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
-import { BsArrowRight } from "react-icons/bs"
-import { useSelector,useDispatch } from 'react-redux'
+import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
+import { useSelector, useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
-import {cartAction,cartQtyAction, cartSubAction,cartDeleteAction} from '../Redux/Action/cartAction'
+import { cartAction, cartQtyAction, cartSubAction, cartDeleteAction } from '../Redux/Action/cartAction'
 
 const Cart = () => {
   const cartdata = useSelector((store) => {
     return store.cartReducer.cartData
   })
   console.log(cartdata)
-  var Totalprice=0
- cartdata.map((ele,index)=>{
-  Totalprice+=ele.Qty*ele.salesPrice.numeral
- })
+  var Totalprice = 0
+  cartdata.map((ele, index) => {
+    Totalprice += ele.Qty * ele.salesPrice.numeral
+  })
   return (
     <div>
       <div className="cart-container">
@@ -25,7 +25,7 @@ const Cart = () => {
 
           <div className="cartdiv">
             {
-             
+
               cartdata.length > 0 &&
               cartdata.map((ele, index) => {
                 return (
@@ -39,21 +39,21 @@ const Cart = () => {
                         <h4>{ele.name}</h4>
                         <p>{ele.typeName}</p>
                         <div>
-                        {ele.colors.length>0 && 
-                        ele.colors.map((c)=>{
-                            return(
-                              c.name
+                          {ele.colors.length > 0 &&
+                            ele.colors.map((c) => {
+                              return (
+                                c.name
                               )
-                        })
-                        }
+                            })
+                          }
                         </div>
                       </div>
                       <h5>{ele.salesPrice.current.prefix} {ele.salesPrice.numeral}</h5>
                       <div className='cartproduct'>
-                       <button onClick={()=>(cartQtyAction(ele))}>+</button>
-                       <button>{ele.Qty}</button>
-                       <button disabled={ele.Qty==1} onClick={()=>cartSubAction(ele)}>-</button>
-                        <button onClick={()=>cartDeleteAction(ele)}>Remove product</button>
+                        <button onClick={() => (cartQtyAction(ele))}>+</button>
+                        <button>{ele.Qty}</button>
+                        <button disabled={ele.Qty == 1} onClick={() => cartSubAction(ele)}>-</button>
+                        <button onClick={() => cartDeleteAction(ele)}>Remove product</button>
                         <button>Save for later</button>
                       </div>
                     </div>
@@ -79,7 +79,7 @@ const Cart = () => {
             Delivery estimates will be available on the next page.
           </div>
           <div className="viewdelivery">
-            <button> delivery and pickup options <span><BsArrowRight/></span></button>
+            <button> delivery and pickup options <span><BsArrowRight /></span></button>
           </div>
           <div className="cartreturnpolicy">
             <span><i className=""></i></span>
@@ -93,22 +93,22 @@ const Cart = () => {
       </div>
       <div className="bagempty">
         {
-          
+
         }
-      <div className="cartempty">
-        <div class="cartemptyinner">
-          <h2>Your bag is empty</h2>
-          <button type="button" class="" aria-label="Open context menu for shopping bag" data-testid="context_menu">...</button>
-        </div>
-      </div>
-      <div className="cartemptygo">
-        <div class="cartemptyinnergo">
-          <div>
-            <h2>Have an account?</h2>
-            <span><a href="">Join or log in</a>for a smoother checkout</span>
+        <div className="cartempty">
+          <div class="cartemptyinner">
+            <h2>Your bag is empty</h2>
+            <button type="button" class="" aria-label="Open context menu for shopping bag" data-testid="context_menu">...</button>
           </div>
-          <span><i className=""></i></span>
         </div>
+        <div className="cartemptygo">
+          <div class="cartemptyinnergo">
+            <div>
+              <h2>Have an account?</h2>
+              <span><a href="">Join or log in</a>for a smoother checkout</span>
+            </div>
+            <span><i className=""></i></span>
+          </div>
         </div>
       </div>
     </div>
