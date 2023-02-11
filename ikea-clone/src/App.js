@@ -5,14 +5,18 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Signup from "./Pages/Signup/Signup";
 import Login from "./Pages/Login/Login";
+import Home from "./Pages/Home/Home";
 function App() {
   return (
     <div className="App">
       {
         /* <Sofa1 /> */
-        // <Navbar />
+        <>
+          <Navbar />
+          <Home />
+        </>
         // <Signup />
-        <Login />
+        // <Login />
       }
     </div>
   );
