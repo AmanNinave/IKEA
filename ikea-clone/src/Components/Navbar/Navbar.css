@@ -85,3 +85,6 @@ button#rightlogin\ hov {
     text-decoration: underline;
 }
 
+#submenu1,#submenu2,#submenu3{
+    display: none;
+}

@@ -19,10 +19,10 @@ function Navbar() {
         <nav className="" >
 
             <div style={{ textAlign: 'center', backgroundColor: 'black', color: "white" }}>
-                <p style={{ fontSize: '12px', padding: '9px', textAlign:"center"}}><FiTruck /> Now get home delivery from Rs. 99</p>
+                <p style={{ fontSize: '12px', padding: '9px', textAlign: "center" }}><FiTruck /> Now get home delivery from Rs. 99</p>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: '', alignItems: 'center', textAlign: 'center',height:"90px", borderBottom: "solid 1px rgb(var(--colour-neutral-2, 245, 245, 245))" }}>
+            <div style={{ display: 'flex', justifyContent: '', alignItems: 'center', textAlign: 'center', height: "90px", borderBottom: "solid 1px rgb(var(--colour-neutral-2, 245, 245, 245))" }}>
                 <div className='col-1' style={{ textAlign: 'center' }}>
                     <p onClick={() => { document.getElementById('leftSidebar').style.display = 'block' }} style={{ textAlign: 'center' }}> <FiMenu /> </p>
                     <p className='d-none d-md-block' style={{ textAlign: 'center' }}> Menu</p>
@@ -30,15 +30,15 @@ function Navbar() {
                 <Link to='/'><img src="https://www.ikea.com/in/en/static/ikea-logo.f7d9229f806b59ec64cb.svg" alt="logo" width='100%' /></Link>
 
                 <span id='search1' className=' d-flex mx-3 col-6 p-1 d-none d-md-block'>
-                    <HiSearch className='col-1' /><input type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera/></span>
+                    <HiSearch className='col-1' /><input type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera /></span>
 
                 <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px' }} onClick={() => {
 
                     document.getElementById("rightSidebar").style.display = 'block';
-                }}><BiUser className='my-1'/><span className='d-none d-md-block pt-1 mx-2 my-1'>Hej! Log in or sign up</span> </h4>
+                }}><BiUser className='my-1' /><span className='d-none d-md-block pt-1 mx-2 my-1'>Hej! Log in or sign up</span> </h4>
 
                 <h4 className='dch mx-3'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart'><FiTruck /></Link></h4>
-                <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black', margin:"0 25px" }} to='/favourites' ><AiOutlineHeart /></Link></h4>
+                <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black', margin: "0 25px" }} to='/favourites' ><AiOutlineHeart /></Link></h4>
                 <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart' ><MdAddShoppingCart /></Link></h4>
             </div>
 
@@ -68,14 +68,55 @@ function Navbar() {
                     </div>
 
                     <div className='px-5 pb-3 d-grid'>
-                        <Link id='right' style={{ lineHeight: '40px' }}> <b>Tips and inspirations</b> </Link>
-                        <Link id='right' style={{ lineHeight: '40px' }}> <b>Currently at IKEA</b></Link>
-                        <Link id='right' style={{ lineHeight: '40px' }}> <b>Track your order</b></Link>
+                        <Link id='right' style={{ lineHeight: '40px' }} onClick={() => {
+                            console.log(typeof document.getElementById('submenu1').style.display)
+                            {
 
+                                document.getElementById('submenu1').style.display == 'none' ? document.getElementById('submenu1').style.display = 'grid' : document.getElementById('submenu1').style.display = 'none';
+                            }
+                        }}> <b>Furniture</b>  </Link>
+                        <div className='px-5 pb-3' id='submenu1'  >
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Sofas & Sofa-beds </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Furniture sets</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Beds</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bookcases & shelving units</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Tables</Link>
+                        </div>
+
+                        <Link id='right' style={{ lineHeight: '40px' }} onClick={() => {
+
+                            {
+                                document.getElementById('submenu2').style.display == 'none' ? document.getElementById('submenu2').style.display = 'grid' : document.getElementById('submenu2').style.display = 'none';
+                            }
+                        }}> <b >Decoration</b></Link>
+                        <div className='px-5 pb-3' id='submenu2' >
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Frames & pictures </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Plants & flowers</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Storage boxes & baskets</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Flower pots & planters</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Mirrors</Link>
+                        </div>
+
+
+                        <Link id='right' style={{ lineHeight: '40px' }} onClick={() => {
+
+                            {
+                                document.getElementById('submenu3').style.display == 'none' ? document.getElementById('submenu3').style.display = 'grid' : document.getElementById('submenu3').style.display = 'none';
+                            }
+                        }}> <b>Beds & mattresses</b></Link>
+
+                        <div className='px-5 pb-3' id='submenu3' >
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Beds </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bedding</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Mattresses</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bedside tables</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Under bed storage</Link>
+                        </div>
                     </div>
 
+
                     <div className='px-5 d-grid '>
-                        <Link style={{ lineHeight: '40px', textDecoration: 'none', color: 'black' }}>Join IKEA Family</Link>
+                        <Link style={{ lineHeight: '40px', textDecoration: 'none', color: 'black' }} to='/signup'>Join IKEA Family</Link>
                         <Link style={{ lineHeight: '40px', textDecoration: 'none', color: 'black' }}>IKEA Business</Link>
                         <Link style={{ lineHeight: '40px', textDecoration: 'none', color: 'black' }}>IKEA Restaurant</Link>
                         <Link style={{ lineHeight: '40px', textDecoration: 'none', color: 'black' }}>Our stores</Link>
@@ -98,10 +139,10 @@ function Navbar() {
                 </div>
                 <div className='d-flex justify-content-between pt-3 px-5 pb-4' style={{ backgroundColor: '#0058A3' }} >
                     <h1 style={{ color: 'white', fontSize: '2.25rem', fontWeight: 'bold' }}>Hej <span></span></h1>
-                    <button id='rightlogin hov'><Link id='right' >Log in</Link></button>
+                    <button id='rightlogin hov'><Link id='right' to='sign-in' >Log in</Link></button>
                 </div>
                 <div className='d-flex justify-content-between p-3 px-5 ' style={{ backgroundColor: '#0058A3', borderTop: '1px solid #007CC1', borderBottom: '1px solid #007CC1' }}>
-                    <h3 style={{ fontSize: '14px', fontWeight: 'bold' }} id='hov'><Link style={{ lineHeight: '40px', color: 'white' }}>Join IKEA Family</Link></h3>
+                    <h3 style={{ fontSize: '14px', fontWeight: 'bold' }} id='hov'><Link style={{ lineHeight: '40px', color: 'white' }} to='signup'> Join IKEA Family</Link></h3>
                     <h3><FaChevronRight /></h3>
 
                 </div>
