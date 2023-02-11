@@ -4,29 +4,20 @@ import styles from "../Pages/cart.css"
 import { BsFillCartPlusFill } from "react-icons/bs"
 import { useSelector,useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
-import cartAction from '../Redux/Action/cartAction'
-import cartQtyAction from '../Redux/Action/cartQuantityAction'
+import {cartAction,cartQtyAction, cartSubAction,cartDeleteAction} from '../Redux/Action/cartAction'
+// import cartQtyAction from '../Redux/Action/cartQuantityAction'
 
 const Cart = () => {
-  
-  //  const{dispatch, getState}=myStore;
   const cartdata = useSelector((store) => {
     return store.cartReducer.cartData
   })
-  const dispatch=useDispatch()
+ 
 
-  const handleqty=(index, type)=>{
-    if(type=="add"){
-    cartQtyAction({
-      ...cartdata[index],
-      Qty:cartdata[index].Qty+1
-     },dispatch)
-    }
-    else if(type=="sub"){
-
-    }
-  }
-  console.log(cartdata.cartData)
+  console.log(cartdata)
+  var Totalprice=0
+ cartdata.map((ele,index)=>{
+  Totalprice=Totalprice+ele.Qty*ele.salesPrice.numeral
+ })
   return (
     <div>
       <div className="cart-container">
@@ -38,6 +29,7 @@ const Cart = () => {
 
           <div className="cartdiv">
             {
+             
               cartdata.length > 0 &&
               cartdata.map((ele, index) => {
                 return (
@@ -62,10 +54,10 @@ const Cart = () => {
                       </div>
                       <h5>{ele.salesPrice.current.prefix} {ele.salesPrice.numeral}</h5>
                       <div className='cartproduct'>
-                       <button onClick={()=>handleqty(index, "add")}>+</button>
+                       <button onClick={()=>(cartQtyAction(ele))}>+</button>
                        <button>{ele.Qty}</button>
-                       <button onClick={()=>handleqty(index, "sub")}>-</button>
-                        <button>Remove product</button>
+                       <button onClick={()=>cartSubAction(ele)}>-</button>
+                        <button  onClick={()=>cartDeleteAction(ele)}>Remove product</button>
                         <button>Save for later</button>
                       </div>
                     </div>
@@ -85,7 +77,7 @@ const Cart = () => {
           <div className='carthr'></div>
           <div className='cartotal'>
             <span>Subtotal</span>
-            <h2>Rs.13,990.00</h2>
+            <h2>{Totalprice}</h2>
           </div>
           <div className="deliveryEstimate">
             Delivery estimates will be available on the next page.

@@ -40,18 +40,42 @@
 //     }
 
 // }
- 
-import React from 'react';
 
 
-function cartAction( elem , dispatch ) {
+import { myStore } from "../Store"
+export const cartAction=( elem , dispatch )=> {
     
     dispatch(
         {
-            type : "CART",
+            type : "ADD_TO_CART",
             payload : elem
         }
     )
 }
-
-export default cartAction;
+export const cartQtyAction=( elem , dispatch )=> {
+    
+        return myStore.dispatch(
+            {
+                type : "ADD",
+                payload : elem
+            }
+        )
+    }
+export const cartSubAction=( elem , dispatch )=> {
+    
+        return myStore.dispatch(
+            {
+                type : "SUB",
+                payload : elem
+            }
+        )
+    }
+    export const cartDeleteAction=( elem , dispatch )=> {
+    
+        return myStore.dispatch(
+            {
+                type : "DELETE",
+                payload : elem
+            }
+        )
+    }

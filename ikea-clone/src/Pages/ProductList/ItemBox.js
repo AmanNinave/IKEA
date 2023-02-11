@@ -3,7 +3,7 @@ import { HiShoppingCart } from "@react-icons/all-files/hi/HiShoppingCart"
 import { AiOutlineHeart } from "@react-icons/all-files/ai/AiOutlineHeart"
 import { FiChevronDown } from "@react-icons/all-files/fi/FiChevronDown"
 
-import cartAction from "./../../Redux/Action/cartAction";
+import {cartAction} from "./../../Redux/Action/cartAction";
 import { useDispatch , useSelector  } from 'react-redux'
 import wishlistAction from "./../../Redux/Action/wishlistAction";
 
@@ -18,7 +18,7 @@ function ItemBox({elem}) {
         cartAction({...elem , Qty : 1 }, dispatch);
     } 
     function addToWishlist ( elem ) {
-        wishlistAction({...elem , Qty : 1 } , dispatch );
+        wishlistAction({...elem } , dispatch );
     }
 
     return (
