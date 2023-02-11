@@ -7,7 +7,12 @@ function cartReducer ( state = initialData , action ) {
         return {
             ...state , cartData : [...state.cartData , action.payload ]
         }
+    }else if(action.type === "QTY"){
+        return {
+            ...state , cartData : action.payload
+        }
     }
+
     return state;
 }
 

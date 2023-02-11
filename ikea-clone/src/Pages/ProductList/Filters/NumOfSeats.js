@@ -3,7 +3,7 @@ import React from 'react';
 const FilterStyle = {
     zIndex: "1",
     position: "absolute",
-    top: "260px",
+    top: "210px",
     left: "180px",
     border: "0px solid",
     backgroundColor: "white",

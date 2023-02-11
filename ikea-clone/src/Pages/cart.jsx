@@ -2,31 +2,52 @@ import React from 'react'
 import styles from "../Pages/cart.css"
 // import myStore from '../Redux/Store'
 import { BsFillCartPlusFill } from "react-icons/bs"
-import { useSelector,useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
 import cartAction from '../Redux/Action/cartAction'
 import cartQtyAction from '../Redux/Action/cartQuantityAction'
+// import { ImPlus } from "react-icons/im/ImPlus"
+
 
 const Cart = () => {
-  
+
   //  const{dispatch, getState}=myStore;
   const cartdata = useSelector((store) => {
     return store.cartReducer.cartData
   })
-  const dispatch=useDispatch()
+  const dispatch = useDispatch()
 
-  const handleqty=(index, type)=>{
-    if(type=="add"){
-    cartQtyAction({
-      ...cartdata[index],
-      Qty:cartdata[index].Qty+1
-     },dispatch)
+  const handleqty = (index, type) => {
+
+
+
+    if (type == "add") {
+
+      let mapdta = cartdata.map((elem, idx) => {
+        if (index == idx) {
+          return { ...elem, Qty: (elem.Qty + 1) };
+        } else {
+          return elem;
+        }
+      })
+
+      cartQtyAction( mapdta, dispatch)
     }
-    else if(type=="sub"){
+    else if (type == "sub") {
+
+      let mapdta = cartdata.map((elem, idx) => {
+        if (index == idx) {
+          return { ...elem, Qty: (elem.Qty - 1) };
+        } else {
+          return elem;
+        }
+      })
+
+      cartQtyAction( mapdta, dispatch)
 
     }
   }
-  console.log(cartdata.cartData)
+  console.log(cartdata)
   return (
     <div>
       <div className="cart-container">
@@ -51,20 +72,20 @@ const Cart = () => {
                         <h4>{ele.name}</h4>
                         <p>{ele.typeName}</p>
                         <div>
-                        {ele.colors.length>0 && 
-                        ele.colors.map((c)=>{
-                            return(
-                              c.name
+                          {ele.colors.length > 0 &&
+                            ele.colors.map((c) => {
+                              return (
+                                c.name
                               )
-                        })
-                        }
+                            })
+                          }
                         </div>
                       </div>
                       <h5>{ele.salesPrice.current.prefix} {ele.salesPrice.numeral}</h5>
                       <div className='cartproduct'>
-                       <button onClick={()=>handleqty(index, "add")}>+</button>
-                       <button>{ele.Qty}</button>
-                       <button onClick={()=>handleqty(index, "sub")}>-</button>
+                        <button disabled = {ele.Qty == 1} onClick={() => handleqty(index, "sub")}>-</button>
+                        <button>{ele.Qty}</button>
+                        <button onClick={() => handleqty(index, "add")}>  +  </button>
                         <button>Remove product</button>
                         <button>Save for later</button>
                       </div>
@@ -105,22 +126,22 @@ const Cart = () => {
       </div>
       <div className="bagempty">
         {
-          
+
         }
-      <div className="cartempty">
-        <div class="cartemptyinner">
-          <h2>Your bag is empty</h2>
-          <button type="button" class="" aria-label="Open context menu for shopping bag" data-testid="context_menu">...</button>
-        </div>
-      </div>
-      <div className="cartemptygo">
-        <div class="cartemptyinnergo">
-          <div>
-            <h2>Have an account?</h2>
-            <span><a href="">Join or log in</a>for a smoother checkout</span>
+        <div className="cartempty">
+          <div class="cartemptyinner">
+            <h2>Your bag is empty</h2>
+            <button type="button" class="" aria-label="Open context menu for shopping bag" data-testid="context_menu">...</button>
           </div>
-          <span><i className=""></i></span>
         </div>
+        <div className="cartemptygo">
+          <div class="cartemptyinnergo">
+            <div>
+              <h2>Have an account?</h2>
+              <span><a href="">Join or log in</a>for a smoother checkout</span>
+            </div>
+            <span><i className=""></i></span>
+          </div>
         </div>
       </div>
     </div>
