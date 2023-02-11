@@ -1,15 +1,18 @@
-*{
+
+
+
+
+/* #product-list {
     margin: 0px;
     text-align: left;
     
-}
-
+} */
 
 .Filters_productList > button {
     width: fit-content;
     background-color: rgb(245,245,245);
     border:  none;
-    margin: 10px;
-    padding: 5px 10px;
+    margin: -5px 10px 20px;
+    padding: 6px 15px;
     border-radius: 30px;
 }

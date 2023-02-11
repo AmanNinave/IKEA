@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 function Login() {
     const data = useSelector((storedData) => {
-        return storedData.signupUsers;
+        return storedData.signupReducer.signupUsers;
     })
     // console.log(data)
     const navigate = useNavigate();

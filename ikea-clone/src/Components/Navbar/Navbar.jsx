@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom'
 import { BiUser } from "@react-icons/all-files/bi/BiUser";
 import { FiTruck } from "@react-icons/all-files/fi/FiTruck"
 import { AiOutlineHeart } from "@react-icons/all-files/ai/AiOutlineHeart"
-import { HiShoppingCart } from "@react-icons/all-files/hi/HiShoppingCart"
+import { MdAddShoppingCart } from "@react-icons/all-files/md/MdAddShoppingCart"
 import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch"
+import { HiSearch } from "@react-icons/all-files/hi/HiSearch"
 import { FiMenu } from "@react-icons/all-files/fi/FiMenu"
 import { FaTimes } from "@react-icons/all-files/fa/FaTimes";
+import { GrCamera } from "@react-icons/all-files/gr/GrCamera";
 import { FaChevronRight } from "@react-icons/all-files/fa/FaChevronRight";
 // import { IoIosArrowForward } from "react-icons/io";
 
@@ -17,27 +19,27 @@ function Navbar() {
         <nav className="" >
 
             <div style={{ textAlign: 'center', backgroundColor: 'black', color: "white" }}>
-                <p style={{ fontSize: '14px', padding: '5px' }}><FiTruck /> Now get home delivery from Rs. 99</p>
+                <p style={{ fontSize: '12px', padding: '9px', textAlign:"center"}}><FiTruck /> Now get home delivery from Rs. 99</p>
             </div>
 
-
-            <div style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', textAlign: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: '', alignItems: 'center', textAlign: 'center',height:"90px", borderBottom: "solid 1px rgb(var(--colour-neutral-2, 245, 245, 245))" }}>
                 <div className='col-1' style={{ textAlign: 'center' }}>
                     <p onClick={() => { document.getElementById('leftSidebar').style.display = 'block' }} style={{ textAlign: 'center' }}> <FiMenu /> </p>
                     <p className='d-none d-md-block' style={{ textAlign: 'center' }}> Menu</p>
                 </div>
                 <Link to='/'><img src="https://www.ikea.com/in/en/static/ikea-logo.f7d9229f806b59ec64cb.svg" alt="logo" width='100%' /></Link>
 
-                <span id='search1' className=' d-flex  col-5 p-1 d-none d-md-block'><AiOutlineSearch className='col-1' /><input type="search" name="" id="search" className='p-2 px-5 col-10 rounded border-0' /></span>
+                <span id='search1' className=' d-flex mx-3 col-6 p-1 d-none d-md-block'>
+                    <HiSearch className='col-1' /><input type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera/></span>
 
-                <h4 className='col-2 sm-col-1 d-flex justify-content-center' style={{ fontSize: '14px' }} onClick={() => {
+                <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px' }} onClick={() => {
 
                     document.getElementById("rightSidebar").style.display = 'block';
-                }}><BiUser /><span className='d-none d-md-block pt-1 '>Hej! Log in or sign up</span> </h4>
+                }}><BiUser className='my-1'/><span className='d-none d-md-block pt-1 mx-2 my-1'>Hej! Log in or sign up</span> </h4>
 
-                <h4 className='col-1'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart'><FiTruck /></Link></h4>
-                <h4 className='col-1'><Link style={{ textDecoration: 'none', color: 'black' }} to='/favourites' ><AiOutlineHeart /></Link></h4>
-                <h4 className='col-1'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart' ><HiShoppingCart /></Link></h4>
+                <h4 className='dch mx-3'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart'><FiTruck /></Link></h4>
+                <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black', margin:"0 25px" }} to='/favourites' ><AiOutlineHeart /></Link></h4>
+                <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart' ><MdAddShoppingCart /></Link></h4>
             </div>
 
             <div className='thirdnav d-none d-md-block'>
