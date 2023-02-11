@@ -33,7 +33,7 @@ const Wishlist = () => {
                 </div>
                 <div className="wish-summary">
                     <p>Wish list summary</p>
-                    <div className='wishotal'>
+                    <div className='wishtotal'>
                         <span>Regular price:</span>
                         <h2>Rs.13,990.00</h2>
                     </div>

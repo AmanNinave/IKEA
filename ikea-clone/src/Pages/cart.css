@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;500;600;700;800&family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;500;600;700;800&family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-  *{
+* {
     font-family: 'Noto Sans', sans-serif;
-  }
+}
+
 .cart-container {
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,8 @@
     text-align: -webkit-center;
     margin: 2rem 3rem 0 3rem;
 }
-.cart-container-inner{
+
+.cart-container-inner {
     width: 60%;
     padding-left: 4rem;
 }
@@ -21,11 +22,13 @@
     justify-content: space-between;
     align-items: center;
 }
-.cart-container-inner .cartheading h1{
+
+.cart-container-inner .cartheading h1 {
     font-size: 36px;
     color: #111111;
     font-weight: 700;
 }
+
 .cartdiv {
     color: #484848;
     /* display: flex; */
@@ -33,12 +36,14 @@
     line-height: 1.571;
     padding: 2.5rem 0;
 }
+
 .cartdivmain {
     display: flex;
     margin: 2rem 0 2.5rem 0;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 2rem;
 }
+
 .cartdetails {
     grid-row-gap: 2rem;
     display: grid;
@@ -47,16 +52,19 @@
     line-height: 1.57;
     width: 100%;
 }
-.cartimg{
+
+.cartimg {
     display: grid;
     justify-items: center;
 }
+
 .cartimg img {
     height: 140px;
     padding: 6%;
     margin-right: 2%;
 }
-.cartimg span{
+
+.cartimg span {
     text-align: center;
     background-color: #f5f5f5;
     padding: 4px 12px;
@@ -64,6 +72,7 @@
     margin-top: 2%;
     font-weight: 700;
 }
+
 .cartdetailsinner {
     display: grid;
     justify-items: flex-start;
@@ -89,10 +98,12 @@
     grid-row: 2;
     grid-template-columns: 5.3125rem max-content auto;
 }
-.cartproduct button{
-border: none;
-background-color: transparent;
+
+.cartproduct button {
+    border: none;
+    background-color: transparent;
 }
+
 .cartproduct select {
     border-radius: 50px;
     font-size: 16px;
@@ -169,6 +180,7 @@ DIV.order-summary DIV:first-child {
 .order-summary .cartotal h2 {
     font-size: 22px;
 }
+
 .carthr {
     border-bottom: 2px solid #000;
     height: 2px;
@@ -211,6 +223,12 @@ DIV.order-summary DIV:first-child {
     width: 2.5rem;
 }
 
+.viewdelivery button span svg {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+}
+
 .viewdelivery button {
     display: flex;
     border: none;
@@ -222,7 +240,7 @@ DIV.order-summary DIV:first-child {
 }
 
 .cartreturnpolicy {
-    display:grid;
+    display: grid;
     row-gap: 1rem;
 }
 
@@ -283,19 +301,21 @@ span {
 
 .wishlist-container {
     display: flex;
-    justify-content: center;
-    margin: 2rem 2.5rem 1rem 2rem;
+    justify-content: space-between;
+    margin: 2rem 2rem 1rem 3rem;
     position: relative;
-    width: 68%;
+}
+
+.wishlist-inner {
+    width: 64%;
+    margin: 0rem 2rem 0rem 1rem;
 }
 
 .wishbox {
     display: flex;
     justify-content: space-between;
 }
-.wishlist-inner{
-    margin:0rem 2rem 0rem 1rem;
-}
+
 .wishbox h1,
 p {
     margin: 0;
@@ -336,12 +356,14 @@ p {
     margin-top: 1.4rem;
     margin-bottom: 1rem;
 }
-.buyonline{
+
+.buyonline {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 1rem;
     gap: 1rem;
 }
+
 .buyonline button {
     display: flex;
     flex: 1 1;
@@ -358,30 +380,35 @@ p {
     font-weight: 600;
     border-radius: 4px;
 }
-.buyonline .wishactive{
+
+.buyonline .wishactive {
     border: 2px solid #0058a3;
 }
-.buyonline .wishnotactive{
+
+.buyonline .wishnotactive {
     border: 1px solid #dfdfdf;
 }
-.wishEstimate{
+
+.wishEstimate {
     display: flex;
     text-align: center;
 }
-.wishEstimate p{
-    text-align: center!important;
+
+.wishEstimate p {
+    text-align: center !important;
     color: #484848;
     font-size: 14px;
-    margin:0;
+    margin: 0;
 }
-.wish-summary{
+
+.wish-summary {
     position: fixed;
-    top: 2.5rem;
     width: auto;
-    right: 2.4rem;
-    width: 28%;
+    right: 1.5rem;
+    width: 30%;
     transition: all .3s ease;
 }
+
 .wish-summary p {
     font-weight: 700;
     color: #484848;
@@ -390,28 +417,33 @@ p {
     border-bottom: 2px solid #111111;
     padding-bottom: 1rem;
 }
-.wish-summary h5{
+
+.wish-summary h5 {
     font-weight: 500;
     color: #484848;
     font-size: 14px;
     margin: 5px;
 }
-.wishotal {
+
+.wishtotal {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin: 1rem 0;
 }
- .wishotal span {
+
+.wishotal span {
     margin: 0;
     font-size: 0.875rem;
     font-weight: 500;
     color: #484848;
 }
 
- .wishotal h2 {
+.wishotal h2 {
     font-size: 22px;
 }
+
 .wishdelivery {
     display: flex;
     justify-content: center;
@@ -422,6 +454,7 @@ p {
     row-gap: 1rem;
     margin: 1.3rem 0;
 }
+
 .wishdelivery button span {
     align-items: center;
     background: #fff;

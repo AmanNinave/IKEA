@@ -17,11 +17,9 @@ function cartReducer ( state = initialData , action ) {
                 if(action.payload==ele){
                     console.log(action.payload==ele)
                     return{
-                        ...ele, Qty:ele.Qty+=1
-                        
+                        ...ele, Qty:ele.Qty+=1  
                     }
                 }
-
                 else{
                     return ele
                 }

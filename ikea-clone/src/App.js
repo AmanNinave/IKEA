@@ -6,17 +6,17 @@ import Navbar from "./Components/Navbar/Navbar";
 import Signup from "./Pages/Signup/Signup";
 import Login from "./Pages/Login/Login";
 import Cart from "./Pages/cart";
+import Wishlist from "./Pages/wishlist"
 
 function App() {
   return (
     <div className="App">
-      
-        
         <Navbar />
-         <Sofa1 /> 
-        {/* // <Signup /> */}
-        {/* <Login /> */}
+       <Sofa1 /> 
+        {/* <Signup />
+        <Login /> */}
       <Cart/>
+      {/* <Wishlist/> */}
     </div>
   );
 }

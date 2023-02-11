@@ -18,7 +18,7 @@ function ItemBox({elem}) {
         cartAction({...elem , Qty : 1 }, dispatch);
     } 
     function addToWishlist ( elem ) {
-        wishlistAction({...elem } , dispatch );
+        wishlistAction({...elem,Qty : 1 } , dispatch );
     }
 
     return (
