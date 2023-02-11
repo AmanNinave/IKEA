@@ -1,22 +1,18 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
-// import myStore from '../Redux/Store'
-import { BsFillCartPlusFill } from "react-icons/bs"
+import { BsArrowRight } from "react-icons/bs"
 import { useSelector,useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
 import {cartAction,cartQtyAction, cartSubAction,cartDeleteAction} from '../Redux/Action/cartAction'
-// import cartQtyAction from '../Redux/Action/cartQuantityAction'
 
 const Cart = () => {
   const cartdata = useSelector((store) => {
     return store.cartReducer.cartData
   })
- 
-
   console.log(cartdata)
   var Totalprice=0
  cartdata.map((ele,index)=>{
-  Totalprice=Totalprice+ele.Qty*ele.salesPrice.numeral
+  Totalprice+=ele.Qty*ele.salesPrice.numeral
  })
   return (
     <div>
@@ -56,8 +52,8 @@ const Cart = () => {
                       <div className='cartproduct'>
                        <button onClick={()=>(cartQtyAction(ele))}>+</button>
                        <button>{ele.Qty}</button>
-                       <button onClick={()=>cartSubAction(ele)}>-</button>
-                        <button  onClick={()=>cartDeleteAction(ele)}>Remove product</button>
+                       <button disabled={ele.Qty==1} onClick={()=>cartSubAction(ele)}>-</button>
+                        <button onClick={()=>cartDeleteAction(ele)}>Remove product</button>
                         <button>Save for later</button>
                       </div>
                     </div>
@@ -83,7 +79,7 @@ const Cart = () => {
             Delivery estimates will be available on the next page.
           </div>
           <div className="viewdelivery">
-            <button> delivery and pickup options <span></span></button>
+            <button> delivery and pickup options <span><BsArrowRight/></span></button>
           </div>
           <div className="cartreturnpolicy">
             <span><i className=""></i></span>
