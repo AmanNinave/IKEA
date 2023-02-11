@@ -32,7 +32,7 @@ function Navbar() {
                 <span id='search1' className=' d-flex mx-3 col-6 p-1 d-none d-md-block'>
                     <HiSearch className='col-1' /><input type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera /></span>
 
-                <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px' }} onClick={() => {
+                <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px', alignItems:"center" }} onClick={() => {
 
                     document.getElementById("rightSidebar").style.display = 'block';
                 }}><BiUser className='my-1' /><span className='d-none d-md-block pt-1 mx-2 my-1'>Hej! Log in or sign up</span> </h4>
