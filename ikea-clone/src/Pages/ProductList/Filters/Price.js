@@ -3,9 +3,9 @@ import React from 'react';
 const FilterStyle = {
     zIndex: "1",
     position: "absolute",
-    top: "260px",
-    left: "530px",
-    border: "1px solid",
+    top: "210px",
+    left: "330px",
+    border: "0px solid",
     backgroundColor: "white",
     padding: "15px",
     borderRadius : "10px",
@@ -43,6 +43,9 @@ function Price (props) {
         },
 
     ]
+
+
+    
 
     return (
         <div style={ FilterStyle } >
