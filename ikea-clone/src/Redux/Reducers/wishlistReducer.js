@@ -1,11 +1,12 @@
 const initialData = {
-    wishlistData : [] 
+    wishlistData : [],
 }
 
 function wishlistReducer (state  = initialData , action ) {
     if(action.type === "WISHLIST"){
         return {
-            ...state , wishlistData : [...state.wishlistData , action.payload ]
+            ...state , 
+            wishlistData : [...state.wishlistData , action.payload ]
         }
     }
     return state ;

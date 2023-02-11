@@ -1,53 +1,19 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
-// import myStore from '../Redux/Store'
-import { BsFillCartPlusFill } from "react-icons/bs"
+import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
 import { useSelector, useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
-import cartAction from '../Redux/Action/cartAction'
-import cartQtyAction from '../Redux/Action/cartQuantityAction'
-// import { ImPlus } from "react-icons/im/ImPlus"
-
+import { cartAction, cartQtyAction, cartSubAction, cartDeleteAction } from '../Redux/Action/cartAction'
 
 const Cart = () => {
-
-  //  const{dispatch, getState}=myStore;
   const cartdata = useSelector((store) => {
     return store.cartReducer.cartData
   })
-  const dispatch = useDispatch()
-
-  const handleqty = (index, type) => {
-
-
-
-    if (type == "add") {
-
-      let mapdta = cartdata.map((elem, idx) => {
-        if (index == idx) {
-          return { ...elem, Qty: (elem.Qty + 1) };
-        } else {
-          return elem;
-        }
-      })
-
-      cartQtyAction( mapdta, dispatch)
-    }
-    else if (type == "sub") {
-
-      let mapdta = cartdata.map((elem, idx) => {
-        if (index == idx) {
-          return { ...elem, Qty: (elem.Qty - 1) };
-        } else {
-          return elem;
-        }
-      })
-
-      cartQtyAction( mapdta, dispatch)
-
-    }
-  }
   console.log(cartdata)
+  var Totalprice = 0
+  cartdata.map((ele, index) => {
+    Totalprice += ele.Qty * ele.salesPrice.numeral
+  })
   return (
     <div>
       <div className="cart-container">
@@ -59,6 +25,7 @@ const Cart = () => {
 
           <div className="cartdiv">
             {
+
               cartdata.length > 0 &&
               cartdata.map((ele, index) => {
                 return (
@@ -83,10 +50,10 @@ const Cart = () => {
                       </div>
                       <h5>{ele.salesPrice.current.prefix} {ele.salesPrice.numeral}</h5>
                       <div className='cartproduct'>
-                        <button disabled = {ele.Qty == 1} onClick={() => handleqty(index, "sub")}>-</button>
+                        <button onClick={() => (cartQtyAction(ele))}>+</button>
                         <button>{ele.Qty}</button>
-                        <button onClick={() => handleqty(index, "add")}>  +  </button>
-                        <button>Remove product</button>
+                        <button disabled={ele.Qty == 1} onClick={() => cartSubAction(ele)}>-</button>
+                        <button onClick={() => cartDeleteAction(ele)}>Remove product</button>
                         <button>Save for later</button>
                       </div>
                     </div>
@@ -106,13 +73,13 @@ const Cart = () => {
           <div className='carthr'></div>
           <div className='cartotal'>
             <span>Subtotal</span>
-            <h2>Rs.13,990.00</h2>
+            <h2>{Totalprice}</h2>
           </div>
           <div className="deliveryEstimate">
             Delivery estimates will be available on the next page.
           </div>
           <div className="viewdelivery">
-            <button> delivery and pickup options <span></span></button>
+            <button> delivery and pickup options <span><BsArrowRight /></span></button>
           </div>
           <div className="cartreturnpolicy">
             <span><i className=""></i></span>
