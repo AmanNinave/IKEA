@@ -19,14 +19,14 @@ const intialData = {
       password: "1234",
     }
   ],
-  Auth: true,
+  Auth: localStorage.getItem("isAuth") || false
 };
 function signupReducer(state = intialData, action) {
   switch (action.type) {
     case "SIGNUP":
       // console.log(action.payload);
       return { ...state, signupUsers: [...state.signupUsers, action.payload] };
-    case "SIGNIN":
+    case "SIGNIN": localStorage.setItem("isAuth" , true )
       return { ...state, Auth: action.payload };
     default:
       return state;
