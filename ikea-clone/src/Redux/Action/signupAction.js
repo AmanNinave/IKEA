@@ -6,4 +6,12 @@ function signupAction(data) {
   });
 }
 
+function signinAction(data) {
+  myStore.dispatch({
+    type: "SIGNIN",
+    payload: data,
+  });
+}
+
 export default signupAction;
+export { signinAction };
