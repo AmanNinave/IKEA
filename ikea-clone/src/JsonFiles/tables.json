@@ -1,0 +1,4865 @@
+{
+  "usergroup": "[SIK_FIX_COMPOUND_QUERIES_AUTOCORRECTOR_V2:A, SIK_NULL_TEST_20230208:B]",
+  "moreProducts": {
+    "productWindow": [
+      {
+        "name": "LACK",
+        "typeName": "Side table",
+        "itemMeasureReferenceText": "35x35 cm (13 3/4x13 3/4 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/lack-side-table-white__1057250_pe848800_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/lack-side-table-white-10514792/",
+        "id": "10514792",
+        "itemNoGlobal": "30514791",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "10514792",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 799.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "799",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": true,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lack-side-table-white__1063541_ph182201_s5.jpg",
+        "mainImageAlt": "LACK Side table, white, 35x35 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "KNARREVIK",
+        "typeName": "Bedside table",
+        "itemMeasureReferenceText": "37x28 cm (14 5/8x11 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/knarrevik-bedside-table-black__0578634_pe669464_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/knarrevik-bedside-table-black-40386731/",
+        "id": "40386731",
+        "itemNoGlobal": "30381183",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "badge": {
+          "type": "TOP_SELLER",
+          "text": "Top seller"
+        },
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "40386731",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 899.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "899",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": true,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/knarrevik-bedside-table-black__0858302_pe669481_s5.jpg",
+        "mainImageAlt": "KNARREVIK Bedside table, black, 37x28 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Bedroom furniture",
+          "homeFurnishingBusinessNo": "04",
+          "productAreaName": "Bedside tables.",
+          "productAreaNo": "0432",
+          "productRangeAreaName": "Chests \u0026 other furniture",
+          "productRangeAreaNo": "043"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "TROTTEN",
+        "typeName": "Desk",
+        "itemMeasureReferenceText": "120x60 cm (47 1/4x23 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white__1012695_pe828977_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/trotten-desk-white-s59429542/",
+        "id": "s59429542",
+        "itemNoGlobal": "79429541",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "s89429545",
+              "pipUrl": "https://www.ikea.com/in/en/p/trotten-desk-white-anthracite-s89429545/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white-anthracite__1012699_pe828978_s5.jpg",
+              "imageAlt": "TROTTEN Desk, white/anthracite, 120x60 cm (47 1/4x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "TROTTEN",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "120x60 cm (47 1/4x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white-anthracite__1012699_pe828978_s5.jpg",
+              "mainImageAlt": "TROTTEN Desk, white/anthracite, 120x60 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white-anthracite__1187422_pe899208_s5.jpg",
+              "itemNoGlobal": "19429544",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "89429545",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 5990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "5,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "59429542",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 5990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "5,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white__1192595_pe901174_s5.jpg",
+        "mainImageAlt": "TROTTEN Desk, white, 120x60 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Office desks and tables",
+          "productAreaNo": "0351",
+          "productRangeAreaName": "Office workspace",
+          "productRangeAreaNo": "035"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Table \u0026 desk systems",
+            "key": "47423"
+          },
+          {
+            "name": "TROTTEN system",
+            "key": "55989"
+          },
+          {
+            "name": "TROTTEN office desks \u0026 tables",
+            "key": "55993"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "UTTER",
+        "typeName": "Children\u0027s table",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/utter-childrens-table-in-outdoor-white__0735850_pe740210_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/utter-childrens-table-in-outdoor-white-40357738/",
+        "id": "40357738",
+        "itemNoGlobal": "60357737",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "40357738",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 999.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "999",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/utter-childrens-table-in-outdoor-white__0876375_pe632285_s5.jpg",
+        "mainImageAlt": "UTTER Children\u0027s table, in/outdoor/white",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Children´s IKEA",
+          "homeFurnishingBusinessNo": "09",
+          "productAreaName": "Children´s small furniture",
+          "productAreaNo": "0923",
+          "productRangeAreaName": "Children´s storage \u0026 study",
+          "productRangeAreaNo": "092"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Children\u0027s tables",
+            "key": "18768"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "LACK",
+        "typeName": "Coffee table",
+        "itemMeasureReferenceText": "90x55 cm (35 3/8x21 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__57540_pe163122_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/lack-coffee-table-black-brown-20352987/",
+        "id": "20352987",
+        "itemNoGlobal": "40104294",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 2,
+          "variants": [
+            {
+              "id": "90431533",
+              "pipUrl": "https://www.ikea.com/in/en/p/lack-coffee-table-white-stained-oak-effect-90431533/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/lack-coffee-table-white-stained-oak-effect__0711928_pe728568_s5.jpg",
+              "imageAlt": "LACK Coffee table, white stained oak effect, 90x55 cm (35 3/8x21 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LACK",
+              "typeName": "Coffee table",
+              "itemMeasureReferenceText": "90x55 cm (35 3/8x21 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/lack-coffee-table-white-stained-oak-effect__0711928_pe728568_s5.jpg",
+              "mainImageAlt": "LACK Coffee table, white stained oak effect, 90x55 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lack-coffee-table-white-stained-oak-effect__0836314_pe709588_s5.jpg",
+              "itemNoGlobal": "50319029",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "90431533",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2690.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,690",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "70449906",
+              "pipUrl": "https://www.ikea.com/in/en/p/lack-coffee-table-white-70449906/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/lack-coffee-table-white__0702218_pe724350_s5.jpg",
+              "imageAlt": "LACK Coffee table, white, 90x55 cm (35 3/8x21 5/8\")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LACK",
+              "typeName": "Coffee table",
+              "itemMeasureReferenceText": "90x55 cm (35 3/8x21 5/8\")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/lack-coffee-table-white__0702218_pe724350_s5.jpg",
+              "mainImageAlt": "LACK Coffee table, white, 90x55 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lack-coffee-table-white__0702217_pe724349_s5.jpg",
+              "itemNoGlobal": "90449905",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "70449906",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2690.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,690",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "20352987",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 2690.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "2,690",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__0835835_pe601383_s5.jpg",
+        "mainImageAlt": "LACK Coffee table, black-brown, 90x55 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Coffee tables",
+            "key": "10716"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "VITTSJÖ",
+        "typeName": "Laptop table",
+        "itemMeasureReferenceText": "100x36 cm (39 3/8x14 1/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-laptop-table-black-brown-glass__0736023_pe740350_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/vittsjoe-laptop-table-black-brown-glass-60221353/",
+        "id": "60221353",
+        "itemNoGlobal": "80221352",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "60221353",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 3490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "3,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-laptop-table-black-brown-glass__1048417_ph158871_s5.jpg",
+        "mainImageAlt": "VITTSJÖ Laptop table, black-brown/glass, 100x36 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Home desks.",
+          "productAreaNo": "0341",
+          "productRangeAreaName": "Home workspace",
+          "productRangeAreaNo": "034"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Desks for home",
+            "key": "20651"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "MELLTORP / ADDE",
+        "typeName": "Table and 2 chairs",
+        "itemMeasureReferenceText": "75x75 cm (29 1/2x29 1/2 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-adde-table-and-2-chairs-white-white__0737985_pe741286_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/melltorp-adde-table-and-2-chairs-white-white-s59246378/",
+        "id": "s59246378",
+        "itemNoGlobal": "49011766",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 7,
+          "variants": [
+            {
+              "id": "s99297295",
+              "pipUrl": "https://www.ikea.com/in/en/p/melltorp-nilsove-table-and-2-chairs-white-rattan-white-s99297295/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/melltorp-nilsove-table-and-2-chairs-white-rattan-white__0720680_pe732746_s5.jpg",
+              "imageAlt": "MELLTORP / NILSOVE Table and 2 chairs, white/rattan white, 75x75 cm (29 1/2x29 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "MELLTORP / NILSOVE",
+              "typeName": "Table and 2 chairs",
+              "itemMeasureReferenceText": "75x75 cm (29 1/2x29 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-nilsove-table-and-2-chairs-white-rattan-white__0720680_pe732746_s5.jpg",
+              "mainImageAlt": "MELLTORP / NILSOVE Table and 2 chairs, white/rattan white, 75x75 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-nilsove-table-and-2-chairs-white-rattan-white__0870240_pe716965_s5.jpg",
+              "itemNoGlobal": "29297294",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "99297295",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 19790.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "19,790",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s39428195",
+              "pipUrl": "https://www.ikea.com/in/en/p/melltorp-kaettil-table-and-2-chairs-white-knisa-light-grey-s39428195/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/melltorp-kaettil-table-and-2-chairs-white-knisa-light-grey__1016370_pe830348_s5.jpg",
+              "imageAlt": "MELLTORP / KÄTTIL Table and 2 chairs, white/Knisa light grey, 75 cm (29 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "MELLTORP / KÄTTIL",
+              "typeName": "Table and 2 chairs",
+              "itemMeasureReferenceText": "75 cm (29 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-kaettil-table-and-2-chairs-white-knisa-light-grey__1016370_pe830348_s5.jpg",
+              "mainImageAlt": "MELLTORP / KÄTTIL Table and 2 chairs, white/Knisa light grey, 75 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-kaettil-table-and-2-chairs-white-knisa-light-grey__1028689_pe835493_s5.jpg",
+              "itemNoGlobal": "69428194",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "39428195",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 13790.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "13,790",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s49481578",
+              "pipUrl": "https://www.ikea.com/in/en/p/melltorp-lidas-table-and-2-chairs-white-white-green-white-s49481578/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/melltorp-lidas-table-and-2-chairs-white-white-green-white__1106354_pe868692_s5.jpg",
+              "imageAlt": "MELLTORP / LIDÅS Table and 2 chairs, white white/green white, 75x75 cm (29 1/2x29 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "MELLTORP / LIDÅS",
+              "typeName": "Table and 2 chairs",
+              "itemMeasureReferenceText": "75x75 cm (29 1/2x29 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-lidas-table-and-2-chairs-white-white-green-white__1106354_pe868692_s5.jpg",
+              "mainImageAlt": "MELLTORP / LIDÅS Table and 2 chairs, white white/green white, 75x75 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-lidas-table-and-2-chairs-white-white-green-white__1106353_pe868693_s5.jpg",
+              "itemNoGlobal": "69481577",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "49481578",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 10790.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "10,790",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s39246379",
+              "pipUrl": "https://www.ikea.com/in/en/p/melltorp-teodores-table-and-2-chairs-white-white-s39246379/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/melltorp-teodores-table-and-2-chairs-white-white__0738056_pe741339_s5.jpg",
+              "imageAlt": "MELLTORP / TEODORES Table and 2 chairs, white/white, 75x75 cm (29 1/2x29 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "MELLTORP / TEODORES",
+              "typeName": "Table and 2 chairs",
+              "itemMeasureReferenceText": "75x75 cm (29 1/2x29 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-teodores-table-and-2-chairs-white-white__0738056_pe741339_s5.jpg",
+              "mainImageAlt": "MELLTORP / TEODORES Table and 2 chairs, white/white, 75x75 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-teodores-table-and-2-chairs-white-white__0870681_pe594905_s5.jpg",
+              "itemNoGlobal": "39296901",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "39246379",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 8590.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "8,590",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "previous": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "9,790",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NEW_LOWER_PRICE",
+                "tagText": ""
+              }
+            },
+            {
+              "id": "s19246380",
+              "pipUrl": "https://www.ikea.com/in/en/p/melltorp-janinge-table-and-2-chairs-white-white-s19246380/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/melltorp-janinge-table-and-2-chairs-white-white__0547981_pe656963_s5.jpg",
+              "imageAlt": "MELLTORP / JANINGE Table and 2 chairs, white/white, 75x75 cm (29 1/2x29 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "MELLTORP / JANINGE",
+              "typeName": "Table and 2 chairs",
+              "itemMeasureReferenceText": "75x75 cm (29 1/2x29 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-janinge-table-and-2-chairs-white-white__0547981_pe656963_s5.jpg",
+              "mainImageAlt": "MELLTORP / JANINGE Table and 2 chairs, white/white, 75x75 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-janinge-table-and-2-chairs-white-white__0872206_pe656964_s5.jpg",
+              "itemNoGlobal": "19246380",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "19246380",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 12790.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "12,790",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "previous": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "14,790",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "prevPriceLabel": "Normal price",
+                "availabilityDisclaimer": "Price valid Feb 02 - Mar 06 or while supply lasts",
+                "tag": "FAMILY_PRICE",
+                "tagText": "IKEA Family price"
+              }
+            },
+            {
+              "id": "s09481617",
+              "pipUrl": "https://www.ikea.com/in/en/p/melltorp-lidas-table-and-2-chairs-white-white-white-white-s09481617/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/melltorp-lidas-table-and-2-chairs-white-white-white-white__1106356_pe868694_s5.jpg",
+              "imageAlt": "MELLTORP / LIDÅS Table and 2 chairs, white white/white white, 75x75 cm (29 1/2x29 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "MELLTORP / LIDÅS",
+              "typeName": "Table and 2 chairs",
+              "itemMeasureReferenceText": "75x75 cm (29 1/2x29 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-lidas-table-and-2-chairs-white-white-white-white__1106356_pe868694_s5.jpg",
+              "mainImageAlt": "MELLTORP / LIDÅS Table and 2 chairs, white white/white white, 75x75 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-lidas-table-and-2-chairs-white-white-white-white__1106355_pe868695_s5.jpg",
+              "itemNoGlobal": "29481616",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "09481617",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 10790.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "10,790",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "59246378",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 5490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "5,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/melltorp-adde-table-and-2-chairs-white-white__0872092_pe716742_s5.jpg",
+        "mainImageAlt": "MELLTORP / ADDE Table and 2 chairs, white/white, 75x75 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Furniture sets",
+            "key": "55036"
+          },
+          {
+            "name": "Dining sets",
+            "key": "19145"
+          },
+          {
+            "name": "Dining sets up to 2 chairs",
+            "key": "36209"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "KLIPSK",
+        "typeName": "Bed tray",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/klipsk-bed-tray-grey__0504717_pe633471_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/klipsk-bed-tray-grey-50330550/",
+        "id": "50330550",
+        "itemNoGlobal": "10327700",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "10289086",
+              "pipUrl": "https://www.ikea.com/in/en/p/klipsk-bed-tray-white-10289086/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/klipsk-bed-tray-white__0373657_pe553485_s5.jpg",
+              "imageAlt": "KLIPSK Bed tray, white",
+              "quickFacts": [],
+              "availability": [],
+              "name": "KLIPSK",
+              "typeName": "Bed tray",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/klipsk-bed-tray-white__0373657_pe553485_s5.jpg",
+              "mainImageAlt": "KLIPSK Bed tray, white",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/klipsk-bed-tray-white__0896305_pe553486_s5.jpg",
+              "itemNoGlobal": "00258882",
+              "onlineSellable": true,
+              "lastChance": false,
+              "badge": {
+                "type": "TOP_SELLER",
+                "text": "Top seller"
+              },
+              "itemNo": "10289086",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 599.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "599",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          }
+        ],
+        "badge": {
+          "type": "TOP_SELLER",
+          "text": "Top seller"
+        },
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "50330550",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 599.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "599",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/klipsk-bed-tray-grey__0896472_pe633472_s5.jpg",
+        "mainImageAlt": "KLIPSK Bed tray, grey",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Eating",
+          "homeFurnishingBusinessNo": "15",
+          "productAreaName": "Trays",
+          "productAreaNo": "1542",
+          "productRangeAreaName": "Set the table",
+          "productRangeAreaNo": "154"
+        },
+        "categoryPath": [
+          {
+            "name": "Kitchenware \u0026 tableware",
+            "key": "kt001"
+          },
+          {
+            "name": "Serveware",
+            "key": "16043"
+          },
+          {
+            "name": "Trays",
+            "key": "16048"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "FLISAT",
+        "typeName": "Children\u0027s table",
+        "itemMeasureReferenceText": "83x58 cm (32 5/8x22 7/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/flisat-childrens-table__0735831_pe740206_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/flisat-childrens-table-30298419/",
+        "id": "30298419",
+        "itemNoGlobal": "50298418",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          },
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "30298419",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 4990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "4,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/flisat-childrens-table__0421609_pe577920_s5.jpg",
+        "mainImageAlt": "FLISAT Children\u0027s table, 83x58 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Children´s IKEA",
+          "homeFurnishingBusinessNo": "09",
+          "productAreaName": "Children´s small furniture",
+          "productAreaNo": "0923",
+          "productRangeAreaName": "Children´s storage \u0026 study",
+          "productRangeAreaNo": "092"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Children\u0027s tables",
+            "key": "18768"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "HELMER",
+        "typeName": "Drawer unit on castors",
+        "itemMeasureReferenceText": "28x69 cm (11x27 1/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/helmer-drawer-unit-on-castors-white__0175264_pe328644_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/helmer-drawer-unit-on-castors-white-90251046/",
+        "id": "90251046",
+        "itemNoGlobal": "10251045",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "90251046",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 3990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "3,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/helmer-drawer-unit-on-castors-white__0832764_ph166181_s5.jpg",
+        "mainImageAlt": "HELMER Drawer unit on castors, white, 28x69 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Home desk storage",
+          "productAreaNo": "0343",
+          "productRangeAreaName": "Home workspace",
+          "productRangeAreaNo": "034"
+        },
+        "categoryPath": [
+          {
+            "name": "Beds \u0026 mattresses",
+            "key": "bm001"
+          },
+          {
+            "name": "Bedside tables",
+            "key": "20656"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "HOL",
+        "typeName": "Storage table",
+        "itemMeasureReferenceText": "98x50 cm (38 5/8x19 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/hol-storage-table-acacia__0104310_pe251255_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/hol-storage-table-acacia-70353022/",
+        "id": "70353022",
+        "itemNoGlobal": "50161321",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "70353022",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 5990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "5,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/hol-storage-table-acacia__0835868_pe601402_s5.jpg",
+        "mainImageAlt": "HOL Storage table, acacia, 98x50 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Coffee tables",
+            "key": "10716"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "NODELAND",
+        "typeName": "Coffee table",
+        "itemMeasureReferenceText": "80x50 cm (31 1/2x19 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-black-brown__0974628_pe812487_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/nodeland-coffee-table-black-brown-40500406/",
+        "id": "40500406",
+        "itemNoGlobal": "40500406",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "20500407",
+              "pipUrl": "https://www.ikea.com/in/en/p/nodeland-coffee-table-medium-brown-20500407/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974637_pe812499_s5.jpg",
+              "imageAlt": "NODELAND Coffee table, medium brown, 80x50 cm (31 1/2x19 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "NODELAND",
+              "typeName": "Coffee table",
+              "itemMeasureReferenceText": "80x50 cm (31 1/2x19 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974637_pe812499_s5.jpg",
+              "mainImageAlt": "NODELAND Coffee table, medium brown, 80x50 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974638_pe812501_s5.jpg",
+              "itemNoGlobal": "20500407",
+              "onlineSellable": true,
+              "lastChance": false,
+              "badge": {
+                "type": "TOP_SELLER",
+                "text": "Top seller"
+              },
+              "itemNo": "20500407",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 1990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "1,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "40500406",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 1990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "1,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-black-brown__0974629_pe812489_s5.jpg",
+        "mainImageAlt": "NODELAND Coffee table, black-brown, 80x50 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Coffee tables",
+            "key": "10716"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "KLINGSBO",
+        "typeName": "Side table",
+        "itemMeasureReferenceText": "49x62 cm (19 1/4x24 3/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/klingsbo-side-table-black-clear-glass__79345_pe202932_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/klingsbo-side-table-black-clear-glass-20161558/",
+        "id": "20161558",
+        "itemNoGlobal": "20128564",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "20161558",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 1990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "1,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/klingsbo-side-table-black-clear-glass__0835751_pe601417_s5.jpg",
+        "mainImageAlt": "KLINGSBO Side table, black/clear glass, 49x62 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "VITTSJÖ",
+        "typeName": "Laptop stand",
+        "itemMeasureReferenceText": "35x65 cm (13 3/4x25 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-laptop-stand-black-brown-glass__0176250_pe329143_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/vittsjoe-laptop-stand-black-brown-glass-80250250/",
+        "id": "80250250",
+        "itemNoGlobal": "00250249",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "70303447",
+              "pipUrl": "https://www.ikea.com/in/en/p/vittsjoe-laptop-stand-white-glass-70303447/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-laptop-stand-white-glass__0324875_pe517662_s5.jpg",
+              "imageAlt": "VITTSJÖ Laptop stand, white/glass, 35x65 cm (13 3/4x25 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "VITTSJÖ",
+              "typeName": "Laptop stand",
+              "itemMeasureReferenceText": "35x65 cm (13 3/4x25 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-laptop-stand-white-glass__0324875_pe517662_s5.jpg",
+              "mainImageAlt": "VITTSJÖ Laptop stand, white/glass, 35x65 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-laptop-stand-white-glass__0855521_pe564654_s5.jpg",
+              "itemNoGlobal": "90303446",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "70303447",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 1990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "1,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "80250250",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 1990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "1,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-laptop-stand-black-brown-glass__0855294_pe564652_s5.jpg",
+        "mainImageAlt": "VITTSJÖ Laptop stand, black-brown/glass, 35x65 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Complementary workspaces items",
+          "productAreaNo": "0361",
+          "productRangeAreaName": "Complementary work items",
+          "productRangeAreaNo": "036"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "ÖNSKLIG",
+        "typeName": "Stor baskets changing tbl set of 4",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/oensklig-stor-baskets-changing-tbl-set-of-4-white__0711380_pe728172_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/oensklig-stor-baskets-changing-tbl-set-of-4-white-10199284/",
+        "id": "10199284",
+        "itemNoGlobal": "30199283",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "10199284",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 799.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "799",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/oensklig-stor-baskets-changing-tbl-set-of-4-white__1048656_pe843819_s5.jpg",
+        "mainImageAlt": "ÖNSKLIG Stor baskets changing tbl set of 4, white",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Children´s IKEA",
+          "homeFurnishingBusinessNo": "09",
+          "productAreaName": "Baby eating \u0026 care",
+          "productAreaNo": "0963",
+          "productRangeAreaName": "Baby.",
+          "productRangeAreaNo": "096"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Changing tables",
+            "key": "45783"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "SVALSTA",
+        "typeName": "Nest of tables, set of 2",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/svalsta-nest-of-tables-set-of-2-birch-veneer__0735684_pe740089_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/svalsta-nest-of-tables-set-of-2-birch-veneer-30280693/",
+        "id": "30280693",
+        "itemNoGlobal": "80280676",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "30280693",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 6990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "6,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/svalsta-nest-of-tables-set-of-2-birch-veneer__1075125_ph181001_s5.jpg",
+        "mainImageAlt": "SVALSTA Nest of tables, set of 2, birch veneer",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "LAGKAPTEN",
+        "typeName": "Table top",
+        "itemMeasureReferenceText": "140x60 cm (55 1/8x23 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-white__0977800_pe813782_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/lagkapten-table-top-white-20460821/",
+        "id": "20460821",
+        "itemNoGlobal": "40460815",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 3,
+          "variants": [
+            {
+              "id": "90488534",
+              "pipUrl": "https://www.ikea.com/in/en/p/lagkapten-table-top-black-brown-90488534/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-black-brown__0977796_pe813779_s5.jpg",
+              "imageAlt": "LAGKAPTEN Table top, black-brown, 140x60 cm (55 1/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LAGKAPTEN",
+              "typeName": "Table top",
+              "itemMeasureReferenceText": "140x60 cm (55 1/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-black-brown__0977796_pe813779_s5.jpg",
+              "mainImageAlt": "LAGKAPTEN Table top, black-brown, 140x60 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-black-brown__1028369_pe835306_s5.jpg",
+              "itemNoGlobal": "80487016",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "90488534",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2890.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,890",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "10460812",
+              "pipUrl": "https://www.ikea.com/in/en/p/lagkapten-table-top-dark-grey-10460812/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-dark-grey__0977797_pe813780_s5.jpg",
+              "imageAlt": "LAGKAPTEN Table top, dark grey, 140x60 cm (55 1/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LAGKAPTEN",
+              "typeName": "Table top",
+              "itemMeasureReferenceText": "140x60 cm (55 1/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-dark-grey__0977797_pe813780_s5.jpg",
+              "mainImageAlt": "LAGKAPTEN Table top, dark grey, 140x60 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-dark-grey__1099897_ph184971_s5.jpg",
+              "itemNoGlobal": "00460817",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "10460812",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2890.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,890",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "10522565",
+              "pipUrl": "https://www.ikea.com/in/en/p/lagkapten-table-top-light-green-10522565/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-light-green__1073229_pe855663_s5.jpg",
+              "imageAlt": "LAGKAPTEN Table top, light green, 140x60 cm (55 1/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LAGKAPTEN",
+              "typeName": "Table top",
+              "itemMeasureReferenceText": "140x60 cm (55 1/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-light-green__1073229_pe855663_s5.jpg",
+              "mainImageAlt": "LAGKAPTEN Table top, light green, 140x60 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-light-green__1078933_pe857334_s5.jpg",
+              "itemNoGlobal": "20522560",
+              "onlineSellable": true,
+              "lastChance": true,
+              "itemNo": "10522565",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2890.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,890",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "20460821",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 2890.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "2,890",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lagkapten-table-top-white__1166683_ph182444_s5.jpg",
+        "mainImageAlt": "LAGKAPTEN Table top, white, 140x60 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Home desks.",
+          "productAreaNo": "0341",
+          "productRangeAreaName": "Home workspace",
+          "productRangeAreaNo": "034"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Table \u0026 desk systems",
+            "key": "47423"
+          },
+          {
+            "name": "Table bar system",
+            "key": "11811"
+          },
+          {
+            "name": "Table tops",
+            "key": "11844"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "FJÄLLBO",
+        "typeName": "Coffee table",
+        "itemMeasureReferenceText": "90x46 cm (35 3/8x18 1/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/fjaellbo-coffee-table-black__0475920_pe615876_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/fjaellbo-coffee-table-black-30340381/",
+        "id": "30340381",
+        "itemNoGlobal": "70335486",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "30340381",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 5990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "5,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/fjaellbo-coffee-table-black__0835968_pe616234_s5.jpg",
+        "mainImageAlt": "FJÄLLBO Coffee table, black, 90x46 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Coffee tables",
+            "key": "10716"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "PÅHL",
+        "typeName": "Desk top shelf",
+        "itemMeasureReferenceText": "64x60 cm (25 1/4x23 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/pahl-desk-top-shelf-white__0727235_pe735561_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/pahl-desk-top-shelf-white-90519502/",
+        "id": "90519502",
+        "itemNoGlobal": "10519501",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "90519502",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 2000.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "2,000",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/pahl-desk-top-shelf-white__1031732_pe836640_s5.jpg",
+        "mainImageAlt": "PÅHL Desk top shelf, white, 64x60 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Children´s IKEA",
+          "homeFurnishingBusinessNo": "09",
+          "productAreaName": "Children`s study furniture and accessories",
+          "productAreaNo": "0924",
+          "productRangeAreaName": "Children´s storage \u0026 study",
+          "productRangeAreaNo": "092"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Children\u0027s desks",
+            "key": "24714"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "ANFALLARE / ALEX",
+        "typeName": "Desk",
+        "itemMeasureReferenceText": "140x65 cm (55 1/8x25 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/anfallare-alex-desk-bamboo-white__0976200_pe813093_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/anfallare-alex-desk-bamboo-white-s39417743/",
+        "id": "s39417743",
+        "itemNoGlobal": "59417742",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "s69417746",
+              "pipUrl": "https://www.ikea.com/in/en/p/anfallare-alex-desk-bamboo-black-brown-s69417746/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/anfallare-alex-desk-bamboo-black-brown__0976199_pe813092_s5.jpg",
+              "imageAlt": "ANFALLARE / ALEX Desk, bamboo/black-brown, 140x65 cm (55 1/8x25 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "ANFALLARE / ALEX",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "140x65 cm (55 1/8x25 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/anfallare-alex-desk-bamboo-black-brown__0976199_pe813092_s5.jpg",
+              "mainImageAlt": "ANFALLARE / ALEX Desk, bamboo/black-brown, 140x65 cm",
+              "itemNoGlobal": "89417745",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "69417746",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 13590.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "13,590",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          },
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "39417743",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 13590.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "13,590",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/anfallare-alex-desk-bamboo-white__1028459_pe835360_s5.jpg",
+        "mainImageAlt": "ANFALLARE / ALEX Desk, bamboo/white, 140x65 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Home desks.",
+          "productAreaNo": "0341",
+          "productRangeAreaName": "Home workspace",
+          "productRangeAreaNo": "034"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Table \u0026 desk systems",
+            "key": "47423"
+          },
+          {
+            "name": "Table bar system",
+            "key": "11811"
+          },
+          {
+            "name": "Combinations",
+            "key": "18623"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "BURVIK",
+        "typeName": "Side table",
+        "itemMeasureReferenceText": "38 cm (15 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/burvik-side-table-white__0551240_pe658473_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/burvik-side-table-white-20340391/",
+        "id": "20340391",
+        "itemNoGlobal": "60340389",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 2,
+          "variants": [
+            {
+              "id": "60513002",
+              "pipUrl": "https://www.ikea.com/in/en/p/burvik-side-table-light-grey-green-60513002/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/burvik-side-table-light-grey-green__1022514_pe832781_s5.jpg",
+              "imageAlt": "BURVIK Side table, light grey-green, 38 cm (15 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "BURVIK",
+              "typeName": "Side table",
+              "itemMeasureReferenceText": "38 cm (15 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/burvik-side-table-light-grey-green__1022514_pe832781_s5.jpg",
+              "mainImageAlt": "BURVIK Side table, light grey-green, 38 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/burvik-side-table-light-grey-green__1022516_pe832785_s5.jpg",
+              "itemNoGlobal": "80513001",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "60513002",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2690.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,690",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "00340387",
+              "pipUrl": "https://www.ikea.com/in/en/p/burvik-side-table-black-00340387/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/burvik-side-table-black__0551236_pe658472_s5.jpg",
+              "imageAlt": "BURVIK Side table, black, 38 cm (15 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "BURVIK",
+              "typeName": "Side table",
+              "itemMeasureReferenceText": "38 cm (15 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/burvik-side-table-black__0551236_pe658472_s5.jpg",
+              "mainImageAlt": "BURVIK Side table, black, 38 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/burvik-side-table-black__0836683_pe667039_s5.jpg",
+              "itemNoGlobal": "70340384",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "00340387",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2690.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,690",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          },
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "20340391",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 2690.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "2,690",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/burvik-side-table-white__0835790_pe667051_s5.jpg",
+        "mainImageAlt": "BURVIK Side table, white, 38 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Coffee tables",
+            "key": "10716"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "LINNMON",
+        "typeName": "Table top",
+        "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-table-top-white__0734654_pe739562_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/linnmon-table-top-white-00361756/",
+        "id": "00361756",
+        "itemNoGlobal": "00251135",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 2,
+          "variants": [
+            {
+              "id": "60361174",
+              "pipUrl": "https://www.ikea.com/in/en/p/linnmon-table-top-black-brown-60361174/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/linnmon-table-top-black-brown__0734653_pe739561_s5.jpg",
+              "imageAlt": "LINNMON Table top, black-brown, 100x60 cm (39 3/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LINNMON",
+              "typeName": "Table top",
+              "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-table-top-black-brown__0734653_pe739561_s5.jpg",
+              "mainImageAlt": "LINNMON Table top, black-brown, 100x60 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-table-top-black-brown__1098642_pe865471_s5.jpg",
+              "itemNoGlobal": "00251338",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "60361174",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 1390.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "1,390",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "20490210",
+              "pipUrl": "https://www.ikea.com/in/en/p/linnmon-table-top-dark-grey-20490210/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/linnmon-table-top-dark-grey__0977886_pe813908_s5.jpg",
+              "imageAlt": "LINNMON Table top, dark grey, 100x60 cm (39 3/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LINNMON",
+              "typeName": "Table top",
+              "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-table-top-dark-grey__0977886_pe813908_s5.jpg",
+              "mainImageAlt": "LINNMON Table top, dark grey, 100x60 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-table-top-dark-grey__1159407_pe888469_s5.jpg",
+              "itemNoGlobal": "40490209",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "20490210",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 1390.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "1,390",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "00361756",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 1390.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "1,390",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-table-top-white__1097492_pe864988_s5.jpg",
+        "mainImageAlt": "LINNMON Table top, white, 100x60 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Home desks.",
+          "productAreaNo": "0341",
+          "productRangeAreaName": "Home workspace",
+          "productRangeAreaNo": "034"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Table \u0026 desk systems",
+            "key": "47423"
+          },
+          {
+            "name": "Table bar system",
+            "key": "11811"
+          },
+          {
+            "name": "Table tops",
+            "key": "11844"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "UTESPELARE",
+        "typeName": "Gaming desk",
+        "itemMeasureReferenceText": "160x80 cm (63x31 1/2 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/utespelare-gaming-desk-black__0985179_pe816538_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/utespelare-gaming-desk-black-40500350/",
+        "id": "40500350",
+        "itemNoGlobal": "80507627",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "50504060",
+              "pipUrl": "https://www.ikea.com/in/en/p/utespelare-gaming-desk-light-grey-50504060/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/utespelare-gaming-desk-light-grey__0998214_pe822969_s5.jpg",
+              "imageAlt": "UTESPELARE Gaming desk, light grey, 160x80 cm (63x31 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "UTESPELARE",
+              "typeName": "Gaming desk",
+              "itemMeasureReferenceText": "160x80 cm (63x31 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/utespelare-gaming-desk-light-grey__0998214_pe822969_s5.jpg",
+              "mainImageAlt": "UTESPELARE Gaming desk, light grey, 160x80 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/utespelare-gaming-desk-light-grey__0997779_pe822756_s5.jpg",
+              "itemNoGlobal": "40507629",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "50504060",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 11990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "11,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "40500350",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 11990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "11,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/utespelare-gaming-desk-black__0997777_pe822755_s5.jpg",
+        "mainImageAlt": "UTESPELARE Gaming desk, black, 160x80 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Gaming",
+          "productAreaNo": "0371",
+          "productRangeAreaName": "Gaming",
+          "productRangeAreaNo": "037"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Gaming furniture",
+            "key": "55002"
+          },
+          {
+            "name": "Desks for gaming",
+            "key": "47070"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "NORBERG",
+        "typeName": "Wall-mounted drop-leaf table",
+        "itemMeasureReferenceText": "74x60 cm (29 1/8x23 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__0736622_pe740674_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/norberg-wall-mounted-drop-leaf-table-white-90365793/",
+        "id": "90365793",
+        "itemNoGlobal": "30180504",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "90365793",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 4490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "4,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__0870365_pe653416_s5.jpg",
+        "mainImageAlt": "NORBERG Wall-mounted drop-leaf table, white, 74x60 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Bar tables",
+            "key": "20862"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "BJURSTA",
+        "typeName": "Wall-mounted drop-leaf table",
+        "itemMeasureReferenceText": "90x50 cm (35 3/8x19 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/bjursta-wall-mounted-drop-leaf-table-brown-black__0736621_pe740672_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/bjursta-wall-mounted-drop-leaf-table-brown-black-50217525/",
+        "id": "50217525",
+        "itemNoGlobal": "80217524",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "50217525",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 4490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "4,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/bjursta-wall-mounted-drop-leaf-table-brown-black__0871184_pe614162_s5.jpg",
+        "mainImageAlt": "BJURSTA Wall-mounted drop-leaf table, brown-black, 90x50 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Dining tables",
+            "key": "21825"
+          },
+          {
+            "name": "Wall-mounted tables",
+            "key": "25206"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "FRIDNÄS",
+        "typeName": "Nesting tables with stools set of 4",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/fridnaes-nesting-tables-with-stools-set-of-4-black-birch-effect__1038547_pe839730_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/fridnaes-nesting-tables-with-stools-set-of-4-black-birch-effect-10514382/",
+        "id": "10514382",
+        "itemNoGlobal": "70504276",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "10514382",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 9990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "9,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/fridnaes-nesting-tables-with-stools-set-of-4-black-birch-effect__1057890_pe849044_s5.jpg",
+        "mainImageAlt": "FRIDNÄS Nesting tables with stools set of 4, black/birch effect",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "SKRUVBY",
+        "typeName": "Side table",
+        "itemMeasureReferenceText": "40x32 cm (15 3/4x12 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/skruvby-side-table-white__1123690_pe874848_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/skruvby-side-table-white-60532010/",
+        "id": "60532010",
+        "itemNoGlobal": "80532009",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "80531986",
+              "pipUrl": "https://www.ikea.com/in/en/p/skruvby-side-table-black-blue-80531986/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/skruvby-side-table-black-blue__1123678_pe874844_s5.jpg",
+              "imageAlt": "SKRUVBY Side table, black-blue, 40x32 cm (15 3/4x12 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "SKRUVBY",
+              "typeName": "Side table",
+              "itemMeasureReferenceText": "40x32 cm (15 3/4x12 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/skruvby-side-table-black-blue__1123678_pe874844_s5.jpg",
+              "mainImageAlt": "SKRUVBY Side table, black-blue, 40x32 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/skruvby-side-table-black-blue__1123676_pe874846_s5.jpg",
+              "itemNoGlobal": "50531983",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "80531986",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 3490.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "3,490",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NEW_PRODUCT",
+        "tagText": "New",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "60532010",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 3490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "3,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NEW_PRODUCT",
+          "tagText": "New"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/skruvby-side-table-white__1123688_pe874847_s5.jpg",
+        "mainImageAlt": "SKRUVBY Side table, white, 40x32 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "RÅSKOG",
+        "typeName": "Trolley",
+        "itemMeasureReferenceText": "35x45x78 cm (13 3/4x17 3/4x30 3/4 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/raskog-trolley-white__0503386_pe632627_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/raskog-trolley-white-70376721/",
+        "id": "70376721",
+        "itemNoGlobal": "20382932",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "70333977",
+              "pipUrl": "https://www.ikea.com/in/en/p/raskog-trolley-black-70333977/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/raskog-trolley-black__0736869_pe740783_s5.jpg",
+              "imageAlt": "RÅSKOG Trolley, black, 35x45x78 cm (13 3/4x17 3/4x30 3/4 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "RÅSKOG",
+              "typeName": "Trolley",
+              "itemMeasureReferenceText": "35x45x78 cm (13 3/4x17 3/4x30 3/4 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/raskog-trolley-black__0736869_pe740783_s5.jpg",
+              "mainImageAlt": "RÅSKOG Trolley, black, 35x45x78 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/raskog-trolley-black__0871118_pe687702_s5.jpg",
+              "itemNoGlobal": "90333976",
+              "onlineSellable": true,
+              "lastChance": false,
+              "badge": {
+                "type": "TOP_SELLER",
+                "text": "Top seller"
+              },
+              "itemNo": "70333977",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2290.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,290",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "badge": {
+          "type": "TOP_SELLER",
+          "text": "Top seller"
+        },
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "70376721",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 2290.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "2,290",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/raskog-trolley-white__1134462_pe878783_s5.jpg",
+        "mainImageAlt": "RÅSKOG Trolley, white, 35x45x78 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Kitchen",
+          "homeFurnishingBusinessNo": "07",
+          "productAreaName": "Kitchen furniture",
+          "productAreaNo": "0782",
+          "productRangeAreaName": "Freestanding kitchens and kitchen furniture",
+          "productRangeAreaNo": "078"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Trolleys",
+            "key": "fu005"
+          },
+          {
+            "name": "Kitchen islands \u0026 trolleys",
+            "key": "10471"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "SMÅGÖRA",
+        "typeName": "Desk",
+        "itemMeasureReferenceText": "93x51 cm (36 5/8x20 1/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/smagoera-desk-white__0973408_pe812005_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/smagoera-desk-white-20489886/",
+        "id": "20489886",
+        "itemNoGlobal": "90489883",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "badge": {
+          "type": "TOP_SELLER",
+          "text": "Top seller"
+        },
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "20489886",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 5990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "5,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/smagoera-desk-white__0973410_pe812008_s5.jpg",
+        "mainImageAlt": "SMÅGÖRA Desk, white, 93x51 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Children´s IKEA",
+          "homeFurnishingBusinessNo": "09",
+          "productAreaName": "Children`s study furniture and accessories",
+          "productAreaNo": "0924",
+          "productRangeAreaName": "Children´s storage \u0026 study",
+          "productRangeAreaNo": "092"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Children\u0027s desks",
+            "key": "24714"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "NIKKEBY",
+        "typeName": "Chest of 2 drawers",
+        "itemMeasureReferenceText": "46x70 cm (18 1/8x27 3/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/nikkeby-chest-of-2-drawers-grey-green__0729042_pe738505_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/nikkeby-chest-of-2-drawers-grey-green-70439455/",
+        "id": "70439455",
+        "itemNoGlobal": "30439457",
+        "onlineSellable": true,
+        "lastChance": true,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          },
+          {
+            "name": "green",
+            "id": "10033",
+            "hex": "3b7d22"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "70439455",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 4990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "4,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/nikkeby-chest-of-2-drawers-grey-green__0729228_pe738500_s5.jpg",
+        "mainImageAlt": "NIKKEBY Chest of 2 drawers, grey-green, 46x70 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Bedroom furniture",
+          "homeFurnishingBusinessNo": "04",
+          "productAreaName": "Chest of drawers.",
+          "productAreaNo": "0431",
+          "productRangeAreaName": "Chests \u0026 other furniture",
+          "productRangeAreaNo": "043"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Chest of drawers \u0026 drawer units",
+            "key": "st004"
+          },
+          {
+            "name": "Chests of drawers",
+            "key": "10451"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "SKOGSTA",
+        "typeName": "Dining table",
+        "itemMeasureReferenceText": "235x100 cm (92 1/2x39 3/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/skogsta-dining-table-acacia__0546603_pe656255_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/skogsta-dining-table-acacia-40419265/",
+        "id": "40419265",
+        "itemNoGlobal": "70419264",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "40419265",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 39990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "39,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/skogsta-dining-table-acacia__1015064_ph176248_s5.jpg",
+        "mainImageAlt": "SKOGSTA Dining table, acacia, 235x100 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Dining tables",
+            "key": "21825"
+          },
+          {
+            "name": "Up to 10 seats",
+            "key": "21828"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "LINNMON / OLOV",
+        "typeName": "Desk",
+        "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-dark-grey-white__0977214_pe813459_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/linnmon-olov-desk-dark-grey-white-s19416117/",
+        "id": "s19416117",
+        "itemNoGlobal": "39416116",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 5,
+          "variants": [
+            {
+              "id": "s19416377",
+              "pipUrl": "https://www.ikea.com/in/en/p/linnmon-olov-desk-black-brown-white-s19416377/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-black-brown-white__0974306_pe812349_s5.jpg",
+              "imageAlt": "LINNMON / OLOV Desk, black-brown/white, 100x60 cm (39 3/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LINNMON / OLOV",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-black-brown-white__0974306_pe812349_s5.jpg",
+              "mainImageAlt": "LINNMON / OLOV Desk, black-brown/white, 100x60 cm",
+              "itemNoGlobal": "79416379",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "19416377",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 3990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "3,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s39416381",
+              "pipUrl": "https://www.ikea.com/in/en/p/linnmon-olov-desk-black-brown-s39416381/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-black-brown__0974305_pe812351_s5.jpg",
+              "imageAlt": "LINNMON / OLOV Desk, black-brown, 100x60 cm (39 3/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LINNMON / OLOV",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-black-brown__0974305_pe812351_s5.jpg",
+              "mainImageAlt": "LINNMON / OLOV Desk, black-brown, 100x60 cm",
+              "itemNoGlobal": "59416380",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "39416381",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 3990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "3,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s89416114",
+              "pipUrl": "https://www.ikea.com/in/en/p/linnmon-olov-desk-dark-grey-black-s89416114/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-dark-grey-black__0977213_pe813458_s5.jpg",
+              "imageAlt": "LINNMON / OLOV Desk, dark grey/black, 100x60 cm (39 3/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LINNMON / OLOV",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-dark-grey-black__0977213_pe813458_s5.jpg",
+              "mainImageAlt": "LINNMON / OLOV Desk, dark grey/black, 100x60 cm",
+              "itemNoGlobal": "09416113",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "89416114",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 3990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "3,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s59416196",
+              "pipUrl": "https://www.ikea.com/in/en/p/linnmon-olov-desk-white-black-s59416196/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-white-black__0974308_pe812348_s5.jpg",
+              "imageAlt": "LINNMON / OLOV Desk, white/black, 100x60 cm (39 3/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LINNMON / OLOV",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-white-black__0974308_pe812348_s5.jpg",
+              "mainImageAlt": "LINNMON / OLOV Desk, white/black, 100x60 cm",
+              "itemNoGlobal": "79416195",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "59416196",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 3990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "3,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s99416199",
+              "pipUrl": "https://www.ikea.com/in/en/p/linnmon-olov-desk-white-s99416199/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-white__0974307_pe812350_s5.jpg",
+              "imageAlt": "LINNMON / OLOV Desk, white, 100x60 cm (39 3/8x23 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "LINNMON / OLOV",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "100x60 cm (39 3/8x23 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/linnmon-olov-desk-white__0974307_pe812350_s5.jpg",
+              "mainImageAlt": "LINNMON / OLOV Desk, white, 100x60 cm",
+              "itemNoGlobal": "19416198",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "99416199",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 3990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "3,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          },
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "19416117",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 3990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "3,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "mainImageAlt": "LINNMON / OLOV Desk, dark grey/white, 100x60 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Home desks.",
+          "productAreaNo": "0341",
+          "productRangeAreaName": "Home workspace",
+          "productRangeAreaNo": "034"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Table \u0026 desk systems",
+            "key": "47423"
+          },
+          {
+            "name": "Table bar system",
+            "key": "11811"
+          },
+          {
+            "name": "Combinations",
+            "key": "18623"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "LINDVED",
+        "typeName": "Side table",
+        "itemMeasureReferenceText": "50x68 cm (20x26 3/4 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/lindved-side-table-white__0656039_pe709209_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/lindved-side-table-white-80433896/",
+        "id": "80433896",
+        "itemNoGlobal": "00433895",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "80433896",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 1990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "1,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/lindved-side-table-white__0658465_pe710224_s5.jpg",
+        "mainImageAlt": "LINDVED Side table, white, 50x68 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "KLINGSBO",
+        "typeName": "Coffee table",
+        "itemMeasureReferenceText": "116x78 cm (45 5/8x30 3/4 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/klingsbo-coffee-table-black-clear-glass__80789_pe205172_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/klingsbo-coffee-table-black-clear-glass-40161557/",
+        "id": "40161557",
+        "itemNoGlobal": "90128565",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "40161557",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 5990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "5,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/klingsbo-coffee-table-black-clear-glass__0257946_pe401940_s5.jpg",
+        "mainImageAlt": "KLINGSBO Coffee table, black/clear glass, 116x78 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Coffee tables",
+            "key": "10716"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "KRAGSTA",
+        "typeName": "Nest of tables, set of 2",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/kragsta-nest-of-tables-set-of-2-black__0313789_pe517045_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/kragsta-nest-of-tables-set-of-2-black-10353058/",
+        "id": "10353058",
+        "itemNoGlobal": "00299825",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "90353059",
+              "pipUrl": "https://www.ikea.com/in/en/p/kragsta-nest-of-tables-set-of-2-white-90353059/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/kragsta-nest-of-tables-set-of-2-white__0313796_pe517046_s5.jpg",
+              "imageAlt": "KRAGSTA Nest of tables, set of 2, white",
+              "quickFacts": [],
+              "availability": [],
+              "name": "KRAGSTA",
+              "typeName": "Nest of tables, set of 2",
+              "itemMeasureReferenceText": "",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/kragsta-nest-of-tables-set-of-2-white__0313796_pe517046_s5.jpg",
+              "mainImageAlt": "KRAGSTA Nest of tables, set of 2, white",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/kragsta-nest-of-tables-set-of-2-white__0835756_pe603107_s5.jpg",
+              "itemNoGlobal": "20299829",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "90353059",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 6990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "6,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "10353058",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 6990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "6,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/kragsta-nest-of-tables-set-of-2-black__0836677_pe603108_s5.jpg",
+        "mainImageAlt": "KRAGSTA Nest of tables, set of 2, black",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "TROTTEN",
+        "typeName": "Desk",
+        "itemMeasureReferenceText": "120x70 cm (47 1/4x27 1/2 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white__1012705_pe828980_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/trotten-desk-white-s09424943/",
+        "id": "s09424943",
+        "itemNoGlobal": "29424942",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 3,
+          "variants": [
+            {
+              "id": "s29434390",
+              "pipUrl": "https://www.ikea.com/in/en/p/trotten-desk-beige-white-s29434390/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-beige-white__1020750_pe831977_s5.jpg",
+              "imageAlt": "TROTTEN Desk, beige/white, 120x70 cm (47 1/4x27 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "TROTTEN",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "120x70 cm (47 1/4x27 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-beige-white__1020750_pe831977_s5.jpg",
+              "mainImageAlt": "TROTTEN Desk, beige/white, 120x70 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-beige-white__1187424_pe899210_s5.jpg",
+              "itemNoGlobal": "49434389",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "29434390",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 6990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "6,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s89429569",
+              "pipUrl": "https://www.ikea.com/in/en/p/trotten-desk-beige-anthracite-s89429569/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-beige-anthracite__1012700_pe828979_s5.jpg",
+              "imageAlt": "TROTTEN Desk, beige/anthracite, 120x70 cm (47 1/4x27 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "TROTTEN",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "120x70 cm (47 1/4x27 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-beige-anthracite__1012700_pe828979_s5.jpg",
+              "mainImageAlt": "TROTTEN Desk, beige/anthracite, 120x70 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-beige-anthracite__1191378_pe900624_s5.jpg",
+              "itemNoGlobal": "09429568",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "89429569",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 6990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "6,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            },
+            {
+              "id": "s29429572",
+              "pipUrl": "https://www.ikea.com/in/en/p/trotten-desk-white-anthracite-s29429572/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white-anthracite__1012707_pe828982_s5.jpg",
+              "imageAlt": "TROTTEN Desk, white/anthracite, 120x70 cm (47 1/4x27 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "TROTTEN",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "120x70 cm (47 1/4x27 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white-anthracite__1012707_pe828982_s5.jpg",
+              "mainImageAlt": "TROTTEN Desk, white/anthracite, 120x70 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white-anthracite__1187437_pe899220_s5.jpg",
+              "itemNoGlobal": "49429571",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "29429572",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 6990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "6,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "09424943",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 6990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "6,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-white__1192595_pe901174_s5.jpg",
+        "mainImageAlt": "TROTTEN Desk, white, 120x70 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Office desks and tables",
+          "productAreaNo": "0351",
+          "productRangeAreaName": "Office workspace",
+          "productRangeAreaNo": "035"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Table \u0026 desk systems",
+            "key": "47423"
+          },
+          {
+            "name": "TROTTEN system",
+            "key": "55989"
+          },
+          {
+            "name": "TROTTEN office desks \u0026 tables",
+            "key": "55993"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "TROTTEN",
+        "typeName": "Drawer unit",
+        "itemMeasureReferenceText": "34x56 cm (13 3/8x22 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-drawer-unit-white__1009417_pe827588_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/trotten-drawer-unit-white-00474782/",
+        "id": "00474782",
+        "itemNoGlobal": "20474762",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "00474862",
+              "pipUrl": "https://www.ikea.com/in/en/p/trotten-drawer-unit-anthracite-00474862/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/trotten-drawer-unit-anthracite__1009416_pe827587_s5.jpg",
+              "imageAlt": "TROTTEN Drawer unit, anthracite, 34x56 cm (13 3/8x22 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "TROTTEN",
+              "typeName": "Drawer unit",
+              "itemMeasureReferenceText": "34x56 cm (13 3/8x22 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-drawer-unit-anthracite__1009416_pe827587_s5.jpg",
+              "mainImageAlt": "TROTTEN Drawer unit, anthracite, 34x56 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-drawer-unit-anthracite__1189424_pe899821_s5.jpg",
+              "itemNoGlobal": "40474841",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "00474862",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2490.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,490",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": true,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "00474782",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 2490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "2,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": true,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-drawer-unit-white__1025908_pe834225_s5.jpg",
+        "mainImageAlt": "TROTTEN Drawer unit, white, 34x56 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Office storage",
+          "productAreaNo": "0353",
+          "productRangeAreaName": "Office workspace",
+          "productRangeAreaNo": "035"
+        },
+        "categoryPath": [
+          {
+            "name": "Beds \u0026 mattresses",
+            "key": "bm001"
+          },
+          {
+            "name": "Bedside tables",
+            "key": "20656"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "NORDEN",
+        "typeName": "Gateleg table",
+        "itemMeasureReferenceText": "26/89/152x80 cm (10 1/4/35/59 7/8x31 1/2 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/norden-gateleg-table-birch__66396_pe179294_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/norden-gateleg-table-birch-80423883/",
+        "id": "80423883",
+        "itemNoGlobal": "90423887",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "70422394",
+              "pipUrl": "https://www.ikea.com/in/en/p/norden-gateleg-table-white-70422394/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/norden-gateleg-table-white__0737112_pe740886_s5.jpg",
+              "imageAlt": "NORDEN Gateleg table, white, 26/89/152x80 cm (10 1/4/35/59 7/8x31 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "NORDEN",
+              "typeName": "Gateleg table",
+              "itemMeasureReferenceText": "26/89/152x80 cm (10 1/4/35/59 7/8x31 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/norden-gateleg-table-white__0737112_pe740886_s5.jpg",
+              "mainImageAlt": "NORDEN Gateleg table, white, 26/89/152x80 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/norden-gateleg-table-white__0871796_pe596028_s5.jpg",
+              "itemNoGlobal": "10423886",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "70422394",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 22990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "22,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "80423883",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 22990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "22,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/norden-gateleg-table-birch__0872350_pe716747_s5.jpg",
+        "mainImageAlt": "NORDEN Gateleg table, birch, 26/89/152x80 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Dining tables",
+            "key": "21825"
+          },
+          {
+            "name": "Up to 4 seats",
+            "key": "21826"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "TROTTEN",
+        "typeName": "Desk sit/stand",
+        "itemMeasureReferenceText": "120x70 cm (47 1/4x27 1/2 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-sit-stand-white__1020756_pe831984_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/trotten-desk-sit-stand-white-s79429579/",
+        "id": "s79429579",
+        "itemNoGlobal": "99429578",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "s69434128",
+              "pipUrl": "https://www.ikea.com/in/en/p/trotten-desk-sit-stand-beige-white-s69434128/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-sit-stand-beige-white__1020755_pe831983_s5.jpg",
+              "imageAlt": "TROTTEN Desk sit/stand, beige/white, 120x70 cm (47 1/4x27 1/2 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "TROTTEN",
+              "typeName": "Desk sit/stand",
+              "itemMeasureReferenceText": "120x70 cm (47 1/4x27 1/2 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-sit-stand-beige-white__1020755_pe831983_s5.jpg",
+              "mainImageAlt": "TROTTEN Desk sit/stand, beige/white, 120x70 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-sit-stand-beige-white__1192588_pe901168_s5.jpg",
+              "itemNoGlobal": "89434127",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "69434128",
+              "itemType": "SPR",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 16690.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "16,690",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "79429579",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 16690.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "16,690",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/trotten-desk-sit-stand-white__1040109_pe840587_s5.jpg",
+        "mainImageAlt": "TROTTEN Desk sit/stand, white, 120x70 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Office desks and tables",
+          "productAreaNo": "0351",
+          "productRangeAreaName": "Office workspace",
+          "productRangeAreaNo": "035"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Standing desks",
+            "key": "55008"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "JOKKMOKK",
+        "typeName": "Table and 4 chairs",
+        "itemMeasureReferenceText": "",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/jokkmokk-table-and-4-chairs-antique-stain__0736929_pe740809_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/jokkmokk-table-and-4-chairs-antique-stain-60365803/",
+        "id": "60365803",
+        "itemNoGlobal": "50211104",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "beige",
+            "id": "10003",
+            "hex": "f4f3d7"
+          },
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "60365803",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 16490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "16,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/jokkmokk-table-and-4-chairs-antique-stain__0870916_pe716638_s5.jpg",
+        "mainImageAlt": "JOKKMOKK Table and 4 chairs, antique stain",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Furniture sets",
+            "key": "55036"
+          },
+          {
+            "name": "Dining sets",
+            "key": "19145"
+          },
+          {
+            "name": "Dining sets up to 4 chairs",
+            "key": "36212"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "MICKE",
+        "typeName": "Desk",
+        "itemMeasureReferenceText": "73x50 cm (28 3/4x19 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/micke-desk-white__0736022_pe740349_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/micke-desk-white-80354281/",
+        "id": "80354281",
+        "itemNoGlobal": "30213076",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "20354279",
+              "pipUrl": "https://www.ikea.com/in/en/p/micke-desk-black-brown-20354279/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/micke-desk-black-brown__0736021_pe740348_s5.jpg",
+              "imageAlt": "MICKE Desk, black-brown, 73x50 cm (28 3/4x19 5/8 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "MICKE",
+              "typeName": "Desk",
+              "itemMeasureReferenceText": "73x50 cm (28 3/4x19 5/8 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/micke-desk-black-brown__0736021_pe740348_s5.jpg",
+              "mainImageAlt": "MICKE Desk, black-brown, 73x50 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/micke-desk-black-brown__0921903_pe787995_s5.jpg",
+              "itemNoGlobal": "20244747",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "20354279",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 4990.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "4,990",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "80354281",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 4990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "4,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/micke-desk-white__0921905_pe787996_s5.jpg",
+        "mainImageAlt": "MICKE Desk, white, 73x50 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Workspaces",
+          "homeFurnishingBusinessNo": "03",
+          "productAreaName": "Home desks.",
+          "productAreaNo": "0341",
+          "productRangeAreaName": "Home workspace",
+          "productRangeAreaNo": "034"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Desks for home",
+            "key": "20651"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "SANDARED",
+        "typeName": "Pouffe",
+        "itemMeasureReferenceText": "56 cm (22 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/sandared-pouffe-grey__0561032_pe662663_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/sandared-pouffe-grey-90385319/",
+        "id": "90385319",
+        "itemNoGlobal": "00385309",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "grey",
+            "id": "10028",
+            "hex": "949494"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "90385319",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 4990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "4,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/sandared-pouffe-grey__0841656_pe662669_s5.jpg",
+        "mainImageAlt": "SANDARED Pouffe, grey, 56 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Footstools..",
+          "productAreaNo": "0126",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "KULLEN",
+        "typeName": "Chest of 2 drawers",
+        "itemMeasureReferenceText": "35x49 cm (13 3/4x19 1/4 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/kullen-chest-of-2-drawers-black-brown__0651177_pe706789_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/kullen-chest-of-2-drawers-black-brown-30355706/",
+        "id": "30355706",
+        "itemNoGlobal": "60322130",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 1,
+          "variants": [
+            {
+              "id": "70355728",
+              "pipUrl": "https://www.ikea.com/in/en/p/kullen-chest-of-2-drawers-white-70355728/",
+              "imageUrl": "https://www.ikea.com/in/en/images/products/kullen-chest-of-2-drawers-white__0651179_pe706791_s5.jpg",
+              "imageAlt": "KULLEN Chest of 2 drawers, white, 35x49 cm (13 3/4x19 1/4 \")",
+              "quickFacts": [],
+              "availability": [],
+              "name": "KULLEN",
+              "typeName": "Chest of 2 drawers",
+              "itemMeasureReferenceText": "35x49 cm (13 3/4x19 1/4 \")",
+              "mainImageUrl": "https://www.ikea.com/in/en/images/products/kullen-chest-of-2-drawers-white__0651179_pe706791_s5.jpg",
+              "mainImageAlt": "KULLEN Chest of 2 drawers, white, 35x49 cm",
+              "contextualImageUrl": "https://www.ikea.com/in/en/images/products/kullen-chest-of-2-drawers-white__0778037_pe758813_s5.jpg",
+              "itemNoGlobal": "80309241",
+              "onlineSellable": true,
+              "lastChance": false,
+              "itemNo": "70355728",
+              "itemType": "ART",
+              "salesPrice": {
+                "currencyCode": "INR",
+                "numeral": 2490.0,
+                "current": {
+                  "prefix": "Rs.",
+                  "wholeNumber": "2,490",
+                  "separator": "",
+                  "decimals": "",
+                  "suffix": "",
+                  "isRegularCurrency": true
+                },
+                "isBreathTaking": false,
+                "discount": "",
+                "tag": "NONE"
+              }
+            }
+          ]
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "badge": {
+          "type": "TOP_SELLER",
+          "text": "Top seller"
+        },
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "30355706",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 2490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "2,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/kullen-chest-of-2-drawers-black-brown__0778036_pe758812_s5.jpg",
+        "mainImageAlt": "KULLEN Chest of 2 drawers, black-brown, 35x49 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Bedroom furniture",
+          "homeFurnishingBusinessNo": "04",
+          "productAreaName": "Chest of drawers.",
+          "productAreaNo": "0431",
+          "productRangeAreaName": "Chests \u0026 other furniture",
+          "productRangeAreaNo": "043"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Chest of drawers \u0026 drawer units",
+            "key": "st004"
+          },
+          {
+            "name": "Chests of drawers",
+            "key": "10451"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "LÖVBACKEN",
+        "typeName": "Side table",
+        "itemMeasureReferenceText": "77x39 cm (30 3/8x15 3/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/loevbacken-side-table-medium-brown__0173699_pe327848_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/loevbacken-side-table-medium-brown-80253989/",
+        "id": "80253989",
+        "itemNoGlobal": "80270125",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "80253989",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 5990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "5,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/loevbacken-side-table-medium-brown__0836346_pe618845_s5.jpg",
+        "mainImageAlt": "LÖVBACKEN Side table, medium brown, 77x39 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Side tables",
+            "key": "10717"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "IDANÄS",
+        "typeName": "Drop-leaf table",
+        "itemMeasureReferenceText": "51/86x96 cm (20 1/8/33 7/8x37 3/4 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/idanaes-drop-leaf-table-white__0926738_pe789490_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/idanaes-drop-leaf-table-white-20487651/",
+        "id": "20487651",
+        "itemNoGlobal": "00487652",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "20487651",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 14990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "14,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/idanaes-drop-leaf-table-white__0926755_pe789495_s5.jpg",
+        "mainImageAlt": "IDANÄS Drop-leaf table, white, 51/86x96 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Study tables \u0026 computer desks",
+            "key": "20649"
+          },
+          {
+            "name": "Desks for home",
+            "key": "20651"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "NACKANÄS / NACKANÄS",
+        "typeName": "Table and 4 chairs",
+        "itemMeasureReferenceText": "80 cm (31 1/2 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/nackanaes-nackanaes-table-and-4-chairs-acacia-acacia__1127602_pe876273_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/nackanaes-nackanaes-table-and-4-chairs-acacia-acacia-s09484220/",
+        "id": "s09484220",
+        "itemNoGlobal": "29484219",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "09484220",
+        "itemType": "SPR",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 30790.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "30,790",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/nackanaes-nackanaes-table-and-4-chairs-acacia-acacia__1127603_pe876274_s5.jpg",
+        "mainImageAlt": "NACKANÄS / NACKANÄS Table and 4 chairs, acacia/acacia, 80 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Furniture sets",
+            "key": "55036"
+          },
+          {
+            "name": "Dining sets",
+            "key": "19145"
+          },
+          {
+            "name": "Dining sets up to 4 chairs",
+            "key": "36212"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "NORDVIKEN",
+        "typeName": "Drop-leaf table",
+        "itemMeasureReferenceText": "74/104x74 cm (29 1/8/41x29 1/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/nordviken-drop-leaf-table-white__0956860_pe804827_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/nordviken-drop-leaf-table-white-20369596/",
+        "id": "20369596",
+        "itemNoGlobal": "50368717",
+        "onlineSellable": true,
+        "lastChance": true,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "white",
+            "id": "10156",
+            "hex": "ffffff"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "20369596",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 12990.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "12,990",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/nordviken-drop-leaf-table-white__0797430_pe766874_s5.jpg",
+        "mainImageAlt": "NORDVIKEN Drop-leaf table, white, 74/104x74 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Dining",
+          "homeFurnishingBusinessNo": "08",
+          "productAreaName": "Tables.",
+          "productAreaNo": "0811",
+          "productRangeAreaName": "Dining tables",
+          "productRangeAreaNo": "081"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Dining tables",
+            "key": "21825"
+          },
+          {
+            "name": "Up to 4 seats",
+            "key": "21826"
+          }
+        ],
+        "heroBackoffData": {}
+      },
+      {
+        "name": "VITTSJÖ",
+        "typeName": "Nest of tables, set of 2",
+        "itemMeasureReferenceText": "90x50 cm (35 3/8x19 5/8 \")",
+        "mainImageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__0735687_pe740087_s5.jpg",
+        "pipUrl": "https://www.ikea.com/in/en/p/vittsjoe-nest-of-tables-set-of-2-black-brown-glass-60215333/",
+        "id": "60215333",
+        "itemNoGlobal": "80215332",
+        "onlineSellable": true,
+        "lastChance": false,
+        "gprDescription": {
+          "numberOfVariants": 0,
+          "variants": []
+        },
+        "colors": [
+          {
+            "name": "brown",
+            "id": "10019",
+            "hex": "814820"
+          },
+          {
+            "name": "black",
+            "id": "10139",
+            "hex": "000000"
+          }
+        ],
+        "tag": "NONE",
+        "quickFacts": [],
+        "features": [],
+        "availability": [],
+        "itemNo": "60215333",
+        "itemType": "ART",
+        "salesPrice": {
+          "currencyCode": "INR",
+          "numeral": 4490.0,
+          "current": {
+            "prefix": "Rs.",
+            "wholeNumber": "4,490",
+            "separator": "",
+            "decimals": "",
+            "suffix": "",
+            "isRegularCurrency": true
+          },
+          "isBreathTaking": false,
+          "discount": "",
+          "tag": "NONE"
+        },
+        "contextualImageUrl": "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__0836370_pe601384_s5.jpg",
+        "mainImageAlt": "VITTSJÖ Nest of tables, set of 2, black-brown/glass, 90x50 cm",
+        "businessStructure": {
+          "homeFurnishingBusinessName": "Living room seating",
+          "homeFurnishingBusinessNo": "01",
+          "productAreaName": "Sofa tables",
+          "productAreaNo": "0121",
+          "productRangeAreaName": "Armchairs, footstool \u0026 sofa tables",
+          "productRangeAreaNo": "012"
+        },
+        "categoryPath": [
+          {
+            "name": "Furniture",
+            "key": "fu001"
+          },
+          {
+            "name": "Tables",
+            "key": "fu004"
+          },
+          {
+            "name": "Coffee \u0026 side tables",
+            "key": "10705"
+          },
+          {
+            "name": "Coffee tables",
+            "key": "10716"
+          }
+        ],
+        "heroBackoffData": {}
+      }
+    ]
+  }
+}

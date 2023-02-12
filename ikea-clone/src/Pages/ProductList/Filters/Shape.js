@@ -4,12 +4,13 @@ const FilterStyle = {
     zIndex: "1",
     position: "absolute",
     top: "260px",
-    left: "630px",
-    border: "1px solid",
+    left: "450px",
+    border: "0px solid",
     backgroundColor: "white",
     padding: "15px",
     borderRadius : "10px",
-    width : "fitcontent"
+    width : "200px"
+    , overflow : "auto"
 }
 
 const buttonStyle = {

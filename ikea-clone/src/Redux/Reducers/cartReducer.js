@@ -56,7 +56,12 @@ function cartReducer ( state = initialData , action ) {
                 }
             })
         }
+    }else if(action.type === "QTY"){
+        return {
+            ...state , cartData : action.payload
+        }
     }
+
     return state;
 }
 

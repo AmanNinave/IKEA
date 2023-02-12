@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { BiUser } from "@react-icons/all-files/bi/BiUser";
 import { FiTruck } from "@react-icons/all-files/fi/FiTruck"
 import { AiOutlineHeart } from "@react-icons/all-files/ai/AiOutlineHeart"
@@ -11,12 +11,104 @@ import { FiMenu } from "@react-icons/all-files/fi/FiMenu"
 import { FaTimes } from "@react-icons/all-files/fa/FaTimes";
 import { GrCamera } from "@react-icons/all-files/gr/GrCamera";
 import { FaChevronRight } from "@react-icons/all-files/fa/FaChevronRight";
+import { FiLogOut } from "@react-icons/all-files/fi/FiLogOut";
+import { useSelector } from 'react-redux';
+import { signinAction } from '../../Redux/Action/signupAction';
 // import { IoIosArrowForward } from "react-icons/io";
+import BedData from './../../JsonFiles/bed1.json'
+import SofaData from './../../JsonFiles/sofa1.json'
+import TablesData from './../../JsonFiles/tables.json'
+import BooksCasesData from './../../JsonFiles/bookCases.json'
+import FurnitureSetsData from './../../JsonFiles/furnitureSet.json'
+import BeddingData from './../../JsonFiles/bedding.json'
+import BedSideTablesData from './../../JsonFiles/bedSideTables.json'
+import MattressData from './../../JsonFiles/mattress.json'
 
+import listFirstAction from '../../Redux/Action/listFirstAction';
+import { useDispatch } from 'react-redux';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 function Navbar() {
+
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+    const handleRoute = (dta) => {
+        console.log("aman");
+        listFirstAction(dta, dispatch);
+    }
+
+    const [user, setuser] = useState(JSON.parse(localStorage.getItem('userName')));
+
+    const data = useSelector((storedData) => {
+        return storedData.signupReducer;
+    })
+    console.log(user)
+
+    const [searchQuery, setSearchQuery] = useState("");
+    const handleSearch = () => {
+
+        switch (searchQuery) {
+            case "Sofa": case "Sofa set": case "sofa set":
+            case "sofa": handleRoute(SofaData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+            case "bed":
+            case "Bed": handleRoute(BedData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "Table": case "Tables": case "tables":
+            case "table": handleRoute(TablesData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "bookscases": case "bookcases": case "Bookcases": case "Book cases": case "book cases": case "Books cases": case "books cases":
+            case "Bookscases": handleRoute(BooksCasesData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "Furnitureset": case "furnitureset": case "furnituresets":
+            case "Furnituresets": handleRoute(FurnitureSetsData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "Bedding": case "bedding": case "bedcovers": case "bedcover": case "Bedcover":
+            case "Bedcovers": handleRoute(BeddingData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "bedsidetables": case "Bedsidetables": case "bedsidetable":
+            case "Bedsidetable": handleRoute(BedSideTablesData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "Mattress": case "mattress": case "cover":
+            case "covers": handleRoute(MattressData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+                    default: toast.info('Product Not Available!', {
+                                position: "top-center",
+                                autoClose: 5000,
+                                hideProgressBar: false,
+                                closeOnClick: true,
+                                pauseOnHover: true,
+                                draggable: true,
+                                progress: undefined,
+                                theme: "light",
+                            });
+                break;
+        }
+
+    }
+
+
+
     return (
         <nav className="" >
+
+
 
             <div style={{ textAlign: 'center', backgroundColor: 'black', color: "white" }}>
                 <p style={{ fontSize: '12px', padding: '9px', textAlign: "center" }}><FiTruck /> Now get home delivery from Rs. 99</p>
@@ -29,24 +121,34 @@ function Navbar() {
                 </div>
                 <Link to='/'><img src="https://www.ikea.com/in/en/static/ikea-logo.f7d9229f806b59ec64cb.svg" alt="logo" width='100%' /></Link>
 
-                <span id='search1' className=' d-flex mx-3 col-6 p-1 d-none d-md-block'>
-                    <HiSearch className='col-1' /><input type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera /></span>
+                <span id='search1' className=' d-flex mx-3 col-6 p-1 d-none d-md-block' >
+                    <span onClick={handleSearch} > <HiSearch className='col-1' /> </span> <input onChange={(e) => { setSearchQuery(e.target.value) }} style={{ color: "black" }} type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera /></span>
 
-                <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px', alignItems:"center" }} onClick={() => {
+                <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px', alignItems: "center" }} onClick={() => {
 
                     document.getElementById("rightSidebar").style.display = 'block';
-                }}><BiUser className='my-1' /><span className='d-none d-md-block pt-1 mx-2 my-1'>Hej! Log in or sign up</span> </h4>
+                }}><BiUser className='my-1' /><span className='d-none d-md-block pt-1 mx-2 my-1'>{
+                    data.Auth ? JSON.parse(localStorage.getItem('userName')) : 'Hej! Log in or sign up'
+                }</span> </h4>
 
-                <h4 className='dch mx-3'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart'><FiTruck /></Link></h4>
+                {
+                    data.Auth ? <h4 onClick={() => {
+                        localStorage.removeItem('userName');
+                        signinAction(false);
+
+                    }} style={{ marginLeft: '-20px' }}><FiLogOut /> </h4> : ''
+                }
+
+                <h4 className='dch mx-3'><Link style={{ textDecoration: 'none', color: 'black' }} to='/delivery'><FiTruck /></Link></h4>
                 <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black', margin: "0 25px" }} to='/favourites' ><AiOutlineHeart /></Link></h4>
                 <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart' ><MdAddShoppingCart /></Link></h4>
             </div>
 
             <div className='thirdnav d-none d-md-block'>
-                <Link to='/products' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Products</b></Link>
-                <Link to='/rooms' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Rooms</b></Link>
+                <Link to='/product-page' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Products</b></Link>
+                <Link to='/product-page' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Rooms</b></Link>
                 <Link to='/signup' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>New at IKEA</b></Link>
-                <Link to='/offers' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Offers</b></Link>
+                <Link style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Offers</b></Link>
             </div>
 
 
@@ -76,11 +178,11 @@ function Navbar() {
                             }
                         }}> <b>Furniture</b>  </Link>
                         <div className='px-5 pb-3' id='submenu1'  >
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Sofas & Sofa-beds </Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Furniture sets</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Beds</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bookcases & shelving units</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Tables</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(SofaData.moreProducts.productWindow) }}> Sofas & Sofa-beds </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(FurnitureSetsData.moreProducts.productWindow) }}> Furniture sets</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedData.moreProducts.productWindow) }}> Beds</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BooksCasesData.moreProducts.productWindow) }}> Bookcases & shelving units</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(TablesData.moreProducts.productWindow) }}> Tables</Link>
                         </div>
 
                         <Link id='right' style={{ lineHeight: '40px' }} onClick={() => {
@@ -106,11 +208,11 @@ function Navbar() {
                         }}> <b>Beds & mattresses</b></Link>
 
                         <div className='px-5 pb-3' id='submenu3' >
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Beds </Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bedding</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Mattresses</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bedside tables</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Under bed storage</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedData.moreProducts.productWindow) }} > Beds </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BeddingData.moreProducts.productWindow) }} > Bedding</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(MattressData.moreProducts.productWindow) }} > Mattresses</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedSideTablesData.moreProducts.productWindow) }}> Bedside tables</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedData.moreProducts.productWindow) }}> Under bed storage</Link>
                         </div>
                     </div>
 
@@ -130,6 +232,7 @@ function Navbar() {
 
 
             <div id='rightSidebar' style={{ display: 'none' }} >
+
                 <div className='p-4 ' style={{ backgroundColor: '#0058A3' }}>
                     <p className='text-end px-4 ' onClick={() => {
                         document.getElementById('rightSidebar').style.display = 'none';
@@ -137,20 +240,28 @@ function Navbar() {
                         <FaTimes id='temp' />
                     </p>
                 </div>
+
                 <div className='d-flex justify-content-between pt-3 px-5 pb-4' style={{ backgroundColor: '#0058A3' }} >
                     <h1 style={{ color: 'white', fontSize: '2.25rem', fontWeight: 'bold' }}>Hej <span></span></h1>
-                    <button id='rightlogin hov'><Link id='right' to='sign-in' >Log in</Link></button>
+                    <button id='rightlogin hov' onClick={() => {
+                        document.getElementById('rightSidebar').style.display = 'none'
+                    }}><Link id='right' to='sign-in' >Log in</Link></button>
                 </div>
+
                 <div className='d-flex justify-content-between p-3 px-5 ' style={{ backgroundColor: '#0058A3', borderTop: '1px solid #007CC1', borderBottom: '1px solid #007CC1' }}>
-                    <h3 style={{ fontSize: '14px', fontWeight: 'bold' }} id='hov'><Link style={{ lineHeight: '40px', color: 'white' }} to='signup'> Join IKEA Family</Link></h3>
+                    <h3 style={{ fontSize: '14px', fontWeight: 'bold' }} id='hov'><Link style={{ lineHeight: '40px', color: 'white' }} to='signup' onClick={() => {
+                        document.getElementById('rightSidebar').style.display = 'none'
+                    }}> Join IKEA Family</Link></h3>
                     <h3><FaChevronRight /></h3>
 
                 </div>
+
                 <div className='d-flex justify-content-between p-3 px-5' style={{ backgroundColor: '#0058A3' }}>
                     <h3 style={{ fontSize: '14px', fontWeight: 'bold' }} id='hov'><Link style={{ lineHeight: '40px', color: 'white' }}>Join IKEA Business Network</Link></h3>
                     <h3><FaChevronRight /></h3>
 
                 </div>
+
                 <div className='p-3 px-5 bg-white' style={{ height: '300px', textAlign: 'initial' }}>
                     <p id='hov' >Purchase history</p>
                     <p id='hov' >Shopping list</p>
@@ -158,7 +269,23 @@ function Navbar() {
                 </div>
             </div>
 
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
+
+
         </nav >
+
+
     )
 }
 

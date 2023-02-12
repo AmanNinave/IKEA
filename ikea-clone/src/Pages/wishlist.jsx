@@ -9,7 +9,7 @@ import { wishAction, wishQtyAction, wishSubAction, wishDeleteAction } from '../R
 
 const Wishlist = () => {
     const wishdata = useSelector((store) => {
-        return store.wishReducer.wishData
+        return store.wishlistReducer.wishData
       })
       console.log(wishdata)
     //   var Totalprice = 0

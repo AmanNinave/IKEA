@@ -1,11 +1,13 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import listAction from '../../../Redux/Action/listAction';
 
 const FilterStyle = {
     zIndex: "1",
     position: "absolute",
     top: "260px",
-    left: "530px",
-    border: "1px solid",
+    left: "330px",
+    border: "0px solid",
     backgroundColor: "white",
     padding: "15px",
     borderRadius : "10px",
@@ -39,10 +41,75 @@ function Price (props) {
             title : "₹80,000 - 99,999"
         },
         { 
-            title : "₹80,000 +  "
+            title : "₹1,00,000 +  "
         },
 
     ]
+
+    const productData = useSelector((productlist) => {
+        return productlist.listReducer.listData
+    });
+
+    const dispatch = useDispatch();
+
+    const handleFilter = (ele) => {
+        let pdtDta;
+        switch (ele.title) {
+            case data[0].title:   pdtDta =  productData.filter(( element , index )=> {
+                                    
+                                 return element.salesPrice.numeral < 20000 ;
+                                })
+
+                                listAction( pdtDta , dispatch);
+
+                break;
+            case data[1].title:   pdtDta =  productData.filter(( element , index )=> {
+                                    let temp = element.salesPrice.numeral
+                                    return temp >=  20000 && temp <40000 ;
+                                })
+
+                                listAction( pdtDta , dispatch);
+
+                break;
+            case data[2].title:   pdtDta =  productData.filter(( element , index )=> {
+                                    let temp = element.salesPrice.numeral
+                                    return temp >=  40000 && temp < 60000 ;
+                                })
+
+                                listAction( pdtDta , dispatch);
+
+                break;
+            case data[3].title:
+                                pdtDta =  productData.filter(( element , index )=> {
+                                    let temp = element.salesPrice.numeral
+                                    return temp >=  60000 && temp < 80000 ;
+                                })
+
+                                listAction( pdtDta , dispatch);
+                break;
+            case data[4].title:
+                            pdtDta =  productData.filter(( element , index )=> {
+                                let temp = element.salesPrice.numeral
+                                    return temp >=  80000 && temp < 100000 ;
+                            })
+
+                            listAction( pdtDta , dispatch);
+                    break;
+            case data[5].title:
+                            pdtDta =  productData.filter(( element , index )=> {
+                                let temp = element.salesPrice.numeral
+                                    return temp >=  100000 ;
+                            })
+
+                            listAction( pdtDta , dispatch);
+                        break;
+            default:
+                break;
+        }
+    }
+
+
+    
 
     return (
         <div style={ FilterStyle } >
@@ -50,7 +117,7 @@ function Price (props) {
             { data.length > 0 && 
                     data.map(( ele )=> {
                         return <>
-                            <button style={ buttonStyle }> <input type="checkbox" name = "aman" width="40px"/> {ele.title} </button>
+                            <button  onClick={() => { handleFilter(ele) }} style={ buttonStyle }> <input type="checkbox" name = "aman" width="40px"/> {ele.title} </button>
                             <br />
                         </>
                             

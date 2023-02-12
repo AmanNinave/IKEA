@@ -2,7 +2,7 @@ const initialData = {
     wishData : []
 }
 
-function wishReducer ( state = initialData , action ) {
+function wishlistReducer ( state = initialData , action ) {
     if(action.type === "ADD_TO_WISH"){
         return {
             ...state , 
@@ -60,4 +60,4 @@ function wishReducer ( state = initialData , action ) {
     return state;
 }
 
-export default wishReducer;
+export default wishlistReducer;
