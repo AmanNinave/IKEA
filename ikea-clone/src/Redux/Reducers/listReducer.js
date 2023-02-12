@@ -1,6 +1,6 @@
 const initialData = {
-    mainData : [] ,
-    listData : [],
+    mainData : JSON.parse(localStorage.getItem("ProductData")) || [] ,
+    listData :   [],
     
 }
    

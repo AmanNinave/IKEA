@@ -80,7 +80,7 @@ const Cart = () => {
           <div className='carthr'></div>
           <div className='cartotal'>
             <span>Subtotal</span>
-            <h2>{Totalprice}</h2>
+            <h2> ₹ {Totalprice}</h2>
           </div>
           <div className="deliveryEstimate">
             Delivery estimates will be available on the next page.

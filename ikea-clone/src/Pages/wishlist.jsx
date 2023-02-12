@@ -2,22 +2,84 @@ import React from 'react'
 import styles from "../Pages/cart.css"
 import { HiShoppingCart } from "@react-icons/all-files/hi/HiShoppingCart"
 import { AiOutlinePlus } from "@react-icons/all-files/ai/AiOutlinePlus"
+import { HiArrowRight } from "@react-icons/all-files/hi/HiArrowRight"
+
 import { useSelector, useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
 import { BiMinus } from "@react-icons/all-files/bi/BiMinus"
 import { wishlistAction, wishQtyAction, wishSubAction, wishDeleteAction } from '../Redux/Action/wishlistAction'
-
+import { cartAction } from '../Redux/Action/cartAction'
 
 
 const Wishlist = () => {
+
     const wishdata = useSelector((store) => {
         return store.wishlistReducer.wishData
     })
-    console.log(wishdata)
+
+    const dispatch = useDispatch();
+
+    const cartdata = useSelector((store) => {
+        return store.cartReducer.cartData
+    })
+
+    let isCart = false ;
+
+    
+
+    function addToCart ( elem  ) {  
+
+        cartdata.map((element) => {
+            if(element.id == elem.id){
+                isCart = true;
+                
+            }
+        })
+
+        if( !isCart || cartdata.length == 0){
+            cartAction({...elem  , Qty : 1 }, dispatch);
+            
+        }  
+
+        wishDeleteAction(elem)
+
+    } 
+    
+
+
     var Totalprice = 0
     wishdata.map((ele, index) => {
         Totalprice += ele.Qty * ele.salesPrice.numeral
     })
+
+    let isWishCart = false;
+
+    const AddAllToCart = () => {
+
+        wishdata.map ((wishelem) => {
+
+            cartdata.map((element) => {
+                if(element.id == wishelem.id){
+                    isWishCart = true;  
+                }
+            })
+
+            if( !isWishCart || cartdata.length == 0){
+                cartAction({...wishelem  , Qty : 1 }, dispatch);
+                
+            }
+
+            wishDeleteAction( wishelem )
+        })
+
+
+        
+
+    }
+
+
+
+
     return (
         <div className='wishmain'>
             <div className="wishlist-container">
@@ -73,7 +135,7 @@ const Wishlist = () => {
                                             </div>
                                             <div className="wishsavebutton">
                                                 <button onClick={() => wishDeleteAction(ele)}>Remove product</button>
-                                                <button>Add to cart</button>
+                                                <button onClick={() => { addToCart( ele ); }} >Add to cart</button>
                                             </div>
                                         </div>
                                     </div>
@@ -92,11 +154,11 @@ const Wishlist = () => {
                     <p>Wish list summary</p>
                     <div className='wishtotal'>
                         <span>Regular price:</span>
-                        <h2>{Totalprice}</h2>
+                        <h2> ₹ {Totalprice}</h2>
                     </div>
                     <h5>Want to buy these articles online?</h5>
                     <div className="wishdelivery">
-                        <button><HiShoppingCart />View Add all products to cart<span><i className="fa fa-arrow"></i></span></button>
+                        <button><HiShoppingCart />  View Add all products to cart <span onClick={AddAllToCart}> <HiArrowRight style={ { color : "black"}}/></span></button>
                     </div>
                 </div>
             <div className="cartempty">

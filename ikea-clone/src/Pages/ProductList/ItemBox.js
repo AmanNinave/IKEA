@@ -27,6 +27,7 @@ function ItemBox({elem}) {
             
         }
     })
+
     wishdata.map((element) => {
         if(element.id == elem.id){
             isWish = true;
@@ -57,10 +58,7 @@ function ItemBox({elem}) {
             <p style={{ marginBottom: "3px" }}>{elem.typeName}</p>
             <h4><span style={{ fontSize: "15px" }}>{elem.salesPrice.current.prefix}</span>{elem.salesPrice.current.wholeNumber}</h4>
 
-            <span style={{ marginRight: "20px" }} onClick={() => {
-                addToCart(elem  );
-                
-            }}>
+            <span style={{ marginRight: "20px" }} onClick={() => {  addToCart(elem  );}}>
                  <HiShoppingCart id = {elem.id} style={{ color : isCart ? "#0058A3" : "black" }} />  </span>
 
             <span onClick={() => {
