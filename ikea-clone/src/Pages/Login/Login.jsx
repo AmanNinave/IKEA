@@ -5,6 +5,9 @@ import { useSelector } from 'react-redux'
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { signinAction } from "../../Redux/Action/signupAction";
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
+
 function Login() {
     const data = useSelector((storedData) => {
         return storedData.signupReducer.signupUsers;
@@ -25,21 +28,75 @@ function Login() {
 
 
     const handleSignin = () => {
-        let login;
+        let login = false 
         for (let i = 0; i < data.length; i++) {
             if (data[i].email == inputData.email && data[i].password == inputData.password) {
                 localStorage.setItem("userName", JSON.stringify((data[i].firstname + " " + " " + data[i].surname)));
                 // console.log(data[i].firstname)
                 signinAction(true);
+                login = true;
+
+                toast.success('Login Sucessful!', {
+                    position: "top-center",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                });
+
                 navigate('/')
             }
         }
-
+        if(!login) {
+            toast.error('Login failed !', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
+            navigate('/sign-in')
+        }
+        
 
     }
     // console.log(inputData)
     // 
     return (<div id='login_parentdiv'>
+
+        <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="colored"
+        />
+
+        <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="colored"
+        />
+
+
         <div className="p-5" id='login_firstchildiv'>
             <Link to='/'><AiOutlineArrowLeft style={{ color: 'white' }} /></Link>
             <img src="https://in.accounts.ikea.com/resources/static/logo.svg" alt="logo" style={{ marginLeft: '30px ' }} />

@@ -31,7 +31,7 @@ function Filters(props) {
     return (
         <div>
 
-            <div className="Filters_productList" style={{ display: "block" }}>
+            <div className="Filters_productList" style={{ display: "block" , marginTop : "20px"}}>
 
                 <button onClick={() => {
 
