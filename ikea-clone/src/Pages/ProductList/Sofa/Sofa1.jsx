@@ -15,15 +15,22 @@ function Sofa1() {
     const dispatch = useDispatch();
 
     useEffect(()=>{
-        listFirstAction( dta  , dispatch );
+        listFirstAction( JSON.parse(localStorage.getItem("ProductData"))  , dispatch );
     },[])
 
- 
+   
+  
     let showData = useSelector((storeData ) => {
         
         return storeData.listReducer.listData;
     })
 
+   
+
+    // if( showData.length == 0 ){
+
+    //     showData = JSON.parse(localStorage.getItem("ProductData"));
+    // }
     
     return (
         

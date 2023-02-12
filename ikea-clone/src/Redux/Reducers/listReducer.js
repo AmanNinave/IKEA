@@ -3,7 +3,7 @@ const initialData = {
     listData : [],
     
 }
-
+   
 function listReducer ( state = initialData , action ) {
     if(action.type === "LIST"){
         console.log("List")
@@ -11,7 +11,9 @@ function listReducer ( state = initialData , action ) {
             ...state , listData : action.payload 
         }
     }else if(action.type === "FIRST"){
-        console.log("first")
+        
+        localStorage.setItem("ProductData" , JSON.stringify(action.payload)) ;
+
         return {
             ...state , listData : action.payload , mainData : action.payload
         }

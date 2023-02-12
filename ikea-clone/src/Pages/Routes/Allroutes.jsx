@@ -6,7 +6,7 @@ import Login from '../Login/Login'
 import Cart from '../cart'
 import Sofa1 from '../ProductList/Sofa/Sofa1'
 import Wishlist from '../wishlist'
-
+import Payment from '../Payment/Payment'
 function Allroutes() {
     return (
         <div>
@@ -17,6 +17,7 @@ function Allroutes() {
                 <Route path='/cart' element={<Cart />}></Route>
                 <Route path='/product-page' element={<Sofa1 />}></Route>
                 <Route path='/favourites' element={<Wishlist />}></Route>
+                <Route path='/delivery' element= {<Payment/>}/>
             </Routes>
         </div>
     )

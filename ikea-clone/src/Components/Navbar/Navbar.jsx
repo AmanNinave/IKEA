@@ -12,9 +12,28 @@ import { FaTimes } from "@react-icons/all-files/fa/FaTimes";
 import { GrCamera } from "@react-icons/all-files/gr/GrCamera";
 import { FaChevronRight } from "@react-icons/all-files/fa/FaChevronRight";
 // import { IoIosArrowForward } from "react-icons/io";
+import BedData from './../../JsonFiles/bed1.json'
+import SofaData from './../../JsonFiles/sofa1.json'
+import TablesData from './../../JsonFiles/tables.json'
+import BooksCasesData from './../../JsonFiles/bookCases.json'
+import FurnitureSetsData from './../../JsonFiles/furnitureSet.json'
+import BeddingData from './../../JsonFiles/bedding.json'
+import BedSideTablesData from './../../JsonFiles/bedSideTables.json'
+import MattressData from './../../JsonFiles/mattress.json'
 
+import listFirstAction from '../../Redux/Action/listFirstAction';
+import { useDispatch } from 'react-redux';
 
 function Navbar() {
+
+    const dispatch = useDispatch(); 
+
+    const handleRoute = (dta)  => {
+        listFirstAction( dta  , dispatch );
+    }
+
+
+
     return (
         <nav className="" >
 
@@ -37,7 +56,7 @@ function Navbar() {
                     document.getElementById("rightSidebar").style.display = 'block';
                 }}><BiUser className='my-1' /><span className='d-none d-md-block pt-1 mx-2 my-1'>Hej! Log in or sign up</span> </h4>
 
-                <h4 className='dch mx-3'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart'><FiTruck /></Link></h4>
+                <h4 className='dch mx-3'><Link style={{ textDecoration: 'none', color: 'black' }} to='/delivery'><FiTruck /></Link></h4>
                 <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black', margin: "0 25px" }} to='/favourites' ><AiOutlineHeart /></Link></h4>
                 <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart' ><MdAddShoppingCart /></Link></h4>
             </div>
@@ -76,11 +95,11 @@ function Navbar() {
                             }
                         }}> <b>Furniture</b>  </Link>
                         <div className='px-5 pb-3' id='submenu1'  >
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Sofas & Sofa-beds </Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Furniture sets</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Beds</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bookcases & shelving units</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Tables</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(SofaData.moreProducts.productWindow)  }}> Sofas & Sofa-beds </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(FurnitureSetsData.moreProducts.productWindow)  }}> Furniture sets</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedData.moreProducts.productWindow)  }}> Beds</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BooksCasesData.moreProducts.productWindow)  }}> Bookcases & shelving units</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(TablesData.moreProducts.productWindow)  }}> Tables</Link>
                         </div>
 
                         <Link id='right' style={{ lineHeight: '40px' }} onClick={() => {
@@ -106,11 +125,11 @@ function Navbar() {
                         }}> <b>Beds & mattresses</b></Link>
 
                         <div className='px-5 pb-3' id='submenu3' >
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Beds </Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bedding</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Mattresses</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Bedside tables</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'> Under bed storage</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(BedData.moreProducts.productWindow)  }} > Beds </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(BeddingData.moreProducts.productWindow)  }} > Bedding</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(MattressData.moreProducts.productWindow)  }} > Mattresses</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(BedSideTablesData.moreProducts.productWindow)  }}> Bedside tables</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(BedData.moreProducts.productWindow)  }}> Under bed storage</Link>
                         </div>
                     </div>
 
