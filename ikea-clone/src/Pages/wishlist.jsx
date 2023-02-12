@@ -1,15 +1,22 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
 import { HiShoppingCart } from "@react-icons/all-files/hi/HiShoppingCart"
-import { useSelector } from 'react-redux'
+import { AiOutlinePlus } from "@react-icons/all-files/ai/AiOutlinePlus"
+import { useSelector, useDispatch } from 'react-redux'
+import { myStore } from '../Redux/Store'
+import { wishlistAction, wishQtyAction, wishSubAction, wishDeleteAction } from '../Redux/Action/wishlistAction'
 
 
 
 const Wishlist = () => {
     const wishdata = useSelector((store) => {
-        return store.wishlistReducer
-    })
-    console.log(wishdata)
+        return store.wishlistReducer.wishData
+      })
+      console.log(wishdata)
+    //   var Totalprice = 0
+    //   wishdata.map((ele, index) => {
+    //     Totalprice += ele.Qty * ele.salesPrice.numeral
+    //   })
     return (
         <div>
             <div className="wishlist-container">
@@ -31,6 +38,46 @@ const Wishlist = () => {
                         <button className='wishnotactive'>Buy in Store</button>
                     </div>
                 </div>
+                <div className="cartdiv">
+            {
+
+              wishdata.length > 0 &&
+              wishdata.map((ele, index) => {
+                return (
+                  <div className="cartdivmain">
+                    <div className="cartimg">
+                      <img src={ele.contextualImageUrl} alt="" />
+                      <span>{ele.id}</span>
+                    </div>
+                    <div className="cartdetails">
+                      <div className='cartdetailsinner'>
+                        <h4>{ele.name}</h4>
+                        <p>{ele.typeName}</p>
+                        <div>
+                          {ele.colors.length > 0 &&
+                            ele.colors.map((c) => {
+                              return (
+                                c.name
+                              )
+                            })
+                          }
+                        </div>
+                      </div>
+                      <h5>{ele.salesPrice.current.prefix} {ele.salesPrice.numeral}</h5>
+                      <div className='cartproduct'>
+                        <button onClick={() => (wishQtyAction(ele))}><AiOutlinePlus/></button>
+                        <button>{ele.Qty}</button>
+                        <button disabled={ele.Qty == 1} onClick={() => wishSubAction(ele)}></button>
+                        <button onClick={() => wishDeleteAction(ele)}>Remove product</button>
+                        <button>Save for later</button>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })
+            }
+
+          </div>
                 <div className="wish-summary">
                     <p>Wish list summary</p>
                     <div className='wishtotal'>
