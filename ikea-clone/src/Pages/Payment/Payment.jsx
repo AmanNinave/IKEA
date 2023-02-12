@@ -146,9 +146,9 @@ function Payment(props) {
                     </div> */}
                     <div id="parent_payment_lft_guest">
 
-                        <h2 style={{ backgroundColor: "black", color: "white", padding: "10px" }}>Shipping Details</h2>
+                        <h3 style={{ backgroundColor: "black", color: "white", padding: "10px" }}>Shipping Details</h3>
 
-                        <h3>1.Email and delivery address</h3>
+                        <h4>1.Email and delivery address</h4>
                         <form>
                             <p>*Email address</p>
                             <input id="EnterEmail" type="email" />
@@ -186,18 +186,18 @@ function Payment(props) {
                             </div>
                         </form>
                     </div>
-                    {/* <div id="parent_payment_lft_delivery">
-                        <h2>2. Select Delivery Option</h2>
-                        <div>
-                            <p><i className="fa-solid fa-circle-info"></i> enter your address so we can calculate your delivery options.</p>
+                    <div id="parent_payment_lft_delivery">
+                        <h4>2. Select Delivery Option</h4>
+                        <div >
+                            <p style={{ marginBottom : "50px"}} ><i className="fa-solid fa-circle-info"></i> enter your address so we can calculate your delivery options.</p>
                         </div>
-                    </div> */}
-                    <div id="parent_payment_lft_paymentMethod">
+                    </div>
+                    <div id="parent_payment_lft_paymentMethod" >
                         <div>
-                            <h2>3. Select Payment Method</h2>
-                            <div>
-                                <div id="border_select">
-                                    <h3>Credit/Debit Card</h3>
+                            <h4>3. Select Payment Method</h4>
+                            <div  >
+                                <div id="border_select" style={ { padding : "10px"}} >
+                                    <h5>Credit/Debit Card</h5>
                                     <div>
                                         <img src="https://s1.thcdn.com/checkout/resources/images/3c2e42cbf9d0b0df0d3b3bb81aa41d6a.svg"
                                             alt="miss pic" />
@@ -214,13 +214,14 @@ function Payment(props) {
                                         <img src="https://s1.thcdn.com/checkout/resources/images/248074ffdeeeaeffed9c5db35f35fe45.svg"
                                             alt="miss pic" />
                                         <p>*Card Number</p>
-                                        <input id="CardNO" type="text" />
+                                        <input id="CardNO" type="text" style={ { width : "97.5%"}} />
 
                                         <p>*Name on card</p>
-                                        <input id="NameonCard" type="text" />
+                                        <input id="NameonCard" type="text" style={ { width : "97.5%"}} />
                                         <p>*Expiry Date</p>
+                                        
                                         <div id="expiry">
-                                            <select name="Expiry" id="Expiry_Month">
+                                            <select name="Expiry" id="Expiry_Month" style={ { width : "42%"}}>
                                                 <option value="">Month</option>
                                                 <option value="01">01</option>
                                                 <option value="02">02</option>
@@ -235,7 +236,7 @@ function Payment(props) {
                                                 <option value="11">11</option>
                                                 <option value="12">12</option>
                                             </select>
-                                            <select name="Expiry" id="Expiry_year">
+                                            <select name="Expiry" id="Expiry_year"  style={ { width : "42%"}}>
                                                 <option value="">Year</option>
                                                 <option value="22">22</option>
                                                 <option value="23">23</option>
@@ -249,6 +250,7 @@ function Payment(props) {
                                             </select>
                                         </div>
                                         <div>
+                                            <br />
                                             <p>*Security Code (CV2)</p>
                                             <input type="text" id="security_code" />
                                             <button id="question_btn">?</button>
