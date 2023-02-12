@@ -61,7 +61,7 @@ function ItemBox({elem}) {
                 addToCart(elem  );
                 
             }}>
-                 <HiShoppingCart id = {elem.id} style={{ color : isCart ? "green" : "black" }} />  </span>
+                 <HiShoppingCart id = {elem.id} style={{ color : isCart ? "#0058A3" : "black" }} />  </span>
 
             <span onClick={() => {
                 addToWishlist(elem);

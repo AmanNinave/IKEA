@@ -49,6 +49,7 @@ const Wishlist = () => {
                       <img src={ele.contextualImageUrl} alt="" />
                       <span>{ele.id}</span>
                     </div>
+                    
                     <div className="cartdetails">
                       <div className='cartdetailsinner'>
                         <h4>{ele.name}</h4>
@@ -90,7 +91,7 @@ const Wishlist = () => {
                     </div>
                 </div>
             </div>
-            <div className="cartempty">
+            <div className="cartempty" style={{}}>
                 <div class="cartemptyinner">
                     <h2>Your bag is empty</h2>
                     <button type="button" class="" aria-label="Open context menu for shopping bag" data-testid="context_menu">...</button></div>

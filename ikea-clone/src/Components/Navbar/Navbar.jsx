@@ -144,8 +144,11 @@ function Navbar() {
 
                 <h4 className='dch mx-3'><Link style={{ textDecoration: 'none', color: 'black' }} to='/delivery'><FiTruck /></Link></h4>
                 <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black', margin: "0 25px" }} to='/favourites' ><AiOutlineHeart /></Link></h4>
-
-                <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart' ><sup style={{display: cartdata.length>0? "block":"none"}}>{cartdata.length}</sup><MdAddShoppingCart /></Link></h4>
+                <div className='carticon'>
+                <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black' }} to='/cart' ><MdAddShoppingCart/></Link></h4>
+                <div className="cartqty" style={{display: cartdata.length>0? "flex":"none"}}>{cartdata.length}</div>
+                </div>
+               
             </div>
 
             <div className='thirdnav d-none d-md-block'>

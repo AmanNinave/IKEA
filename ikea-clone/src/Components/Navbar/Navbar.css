@@ -10,6 +10,19 @@ svg{
     text-align: initial;
     color: #f5f5f5;
 }
+.cartqty {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #0058A3;
+    height: 22px;
+    width: 22px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-top: -7px;
+    margin-left: -6px;
+}
 .dch svg{
     font-size: 21px;
 }
