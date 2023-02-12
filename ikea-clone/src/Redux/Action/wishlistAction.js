@@ -1,11 +1,37 @@
-import React from 'react';
-
-function wishlistAction( elem , dispatch ) {
+import { myStore } from "../Store"
+export const wishAction=( elem , dispatch )=> {
     
-    dispatch({
-        type : "WISHLIST",
-        payload : elem
-    })
+    dispatch(
+        {
+            type : "ADD_TO_WISH",
+            payload : elem
+        }
+    )
 }
-
-export default wishlistAction;
+export const wishQtyAction=( elem , dispatch )=> {
+    
+        return myStore.dispatch(
+            {
+                type : "ADD",
+                payload : elem
+            }
+        )
+    }
+export const wishSubAction=( elem , dispatch )=> {
+    
+        return myStore.dispatch(
+            {
+                type : "SUB",
+                payload : elem
+            }
+        )
+    }
+    export const wishDeleteAction=( elem , dispatch )=> {
+    
+        return myStore.dispatch(
+            {
+                type : "DELETE",
+                payload : elem
+            }
+        )
+    }

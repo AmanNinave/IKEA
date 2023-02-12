@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
 import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
+import { AiOutlinePlus } from "@react-icons/all-files/ai/AiOutlinePlus"
+
 import { useSelector, useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
 import { cartAction, cartQtyAction, cartSubAction, cartDeleteAction } from '../Redux/Action/cartAction'
@@ -50,9 +52,9 @@ const Cart = () => {
                       </div>
                       <h5>{ele.salesPrice.current.prefix} {ele.salesPrice.numeral}</h5>
                       <div className='cartproduct'>
-                        <button onClick={() => (cartQtyAction(ele))}>+</button>
+                        <button onClick={() => (cartQtyAction(ele))}><AiOutlinePlus/></button>
                         <button>{ele.Qty}</button>
-                        <button disabled={ele.Qty == 1} onClick={() => cartSubAction(ele)}>-</button>
+                        <button disabled={ele.Qty == 1} onClick={() => cartSubAction(ele)}></button>
                         <button onClick={() => cartDeleteAction(ele)}>Remove product</button>
                         <button>Save for later</button>
                       </div>

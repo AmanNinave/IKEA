@@ -1,6 +1,11 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./MainFooter.css"
+// import { BsFacebook } from "@react-icons/all-files/bs/BsFacebook"
+// import { FiInstagram } from "@react-icons/all-files/fi/FiInstagram"
+// import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter"
+// import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube"
+
 
 export const MainFooter = () => {
   return (
@@ -43,26 +48,28 @@ export const MainFooter = () => {
               <div className="footer__infoLinks">
                 <a>Design your room</a>
                 <a>Delivery service</a>
-                <a>My orders</a>
+                <a>Installation Service</a>
                 <a>Returns &amp; claims</a>
                 <a>Delivery</a>
-                <a>Stock information</a>
+                <a>Measuring Service</a>
                 <a>Kitchen Planning</a>
-                <a>Recalls</a>
-                <a>Personal advice</a>
-                <a>Track your orders</a>
+                <a>Customer Service</a>
+                <a>Click & collect</a>
+                <a>Personal shopper</a>
               </div>
             </li>
 
             <li className="footer__infoLi">
-              <h5>Shopping at IKEA</h5>
+              <h5>Help</h5>
               <div className="footer__infoLinks">
-                <a>Opening hours</a>
+                <a>How to Shop</a>
                 <a>All stores</a>
-                <a>Offers</a>
-                <a>Restaurant</a>
-                <a>Swedish Food Market</a>
-                <a>IKEA App</a>
+                <a>Return policy</a>
+                <a>FAQ's</a>
+                <a>Size guide - Beds & mattressest</a>
+                <a>Contact us</a>
+                <a>Buying guides</a>
+                <a>Gift card</a>
                 <a>Gift card</a>
               </div>
             </li>
@@ -72,10 +79,10 @@ export const MainFooter = () => {
               <div className="footer__infoLinks">
                 <a>This is IKEA</a>
                 <a>Working at IKEA</a>
-                <a>Newsroom</a>
+                <a>Prices and price tags</a>
+                <a>News Rooom</a>
+                <a>IKEA Stores</a>
                 <a>Sustainability</a>
-                <a>Ideas</a>
-                <a>IKEA stores</a>
                 <a>IKEA Restaurant</a>
                 <a>IKEA for Business</a>
               </div>
@@ -86,19 +93,19 @@ export const MainFooter = () => {
       <div className="footer__social">
         <div className="footer__links">
           <div className="footer__socialIcons">
-           
+           {/* <BsFacebook/> */}
           </div>
 
           <div className="footer__socialIcons">
-           
+          {/* <FiInstagram/> */}
           </div>
 
           <div className="footer__socialIcons">
-           
+           {/* <AiOutlineTwitter/> */}
           </div>
 
           <div className="footer__socialIcons">
-            
+            {/* <FaYoutube/> */}
           </div>
         </div>
 
