@@ -4,6 +4,7 @@ import "./Login.css"
 import { useSelector } from 'react-redux'
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { signinAction } from "../../Redux/Action/signupAction";
 function Login() {
     const data = useSelector((storedData) => {
         return storedData.signupReducer.signupUsers;
@@ -24,11 +25,17 @@ function Login() {
 
 
     const handleSignin = () => {
+        let login;
         for (let i = 0; i < data.length; i++) {
             if (data[i].email == inputData.email && data[i].password == inputData.password) {
+                localStorage.setItem("userName", JSON.stringify((data[i].firstname + " " + " " + data[i].surname)));
+                // console.log(data[i].firstname)
+                signinAction(true);
                 navigate('/')
             }
         }
+
+
     }
     // console.log(inputData)
     // 

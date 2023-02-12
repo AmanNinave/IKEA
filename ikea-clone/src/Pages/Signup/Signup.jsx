@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Card from './Card';
 import "./Signup.css"
 import signupAction from '../../Redux/Action/signupAction';
+import { useNavigate } from 'react-router-dom'
 function Signup() {
     const [inputData, setInputData] = useState({
         firstname: '',
@@ -14,6 +15,8 @@ function Signup() {
         password: ''
     });
 
+    const navigate = useNavigate();
+
     const handle = (e) => {
         let name = e.target.name;
         let value = e.target.value;
@@ -21,6 +24,7 @@ function Signup() {
     }
     const handleSubmit = () => {
         signupAction(inputData)
+        navigate('/sign-in')
     }
 
     // console.log(inputData)

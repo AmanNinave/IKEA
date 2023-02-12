@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
 import { BiUser } from "@react-icons/all-files/bi/BiUser";
@@ -11,6 +11,9 @@ import { FiMenu } from "@react-icons/all-files/fi/FiMenu"
 import { FaTimes } from "@react-icons/all-files/fa/FaTimes";
 import { GrCamera } from "@react-icons/all-files/gr/GrCamera";
 import { FaChevronRight } from "@react-icons/all-files/fa/FaChevronRight";
+import { FiLogOut } from "@react-icons/all-files/fi/FiLogOut";
+import { useSelector } from 'react-redux';
+import { signinAction } from '../../Redux/Action/signupAction';
 // import { IoIosArrowForward } from "react-icons/io";
 import BedData from './../../JsonFiles/bed1.json'
 import SofaData from './../../JsonFiles/sofa1.json'
@@ -34,6 +37,13 @@ function Navbar() {
 
 
 
+    const [user, setuser] = useState(JSON.parse(localStorage.getItem('userName')));
+
+    const data = useSelector((storedData) => {
+        return storedData.signupReducer;
+    })
+    console.log(user)
+    // console.log(localStorage.getItem('userName'))
     return (
         <nav className="" >
 
@@ -54,7 +64,17 @@ function Navbar() {
                 <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px', alignItems:"center" }} onClick={() => {
 
                     document.getElementById("rightSidebar").style.display = 'block';
-                }}><BiUser className='my-1' /><span className='d-none d-md-block pt-1 mx-2 my-1'>Hej! Log in or sign up</span> </h4>
+                }}><BiUser className='my-1' /><span className='d-none d-md-block pt-1 mx-2 my-1'>{
+                    data.Auth ? JSON.parse(localStorage.getItem('userName')) : 'Hej! Log in or sign up'
+                }</span> </h4>
+
+                {
+                    data.Auth ? <h4 onClick={() => {
+                        localStorage.removeItem('userName');
+                        signinAction(false);
+
+                    }} style={{ marginLeft: '-20px' }}><FiLogOut /> </h4> : ''
+                }
 
                 <h4 className='dch mx-3'><Link style={{ textDecoration: 'none', color: 'black' }} to='/delivery'><FiTruck /></Link></h4>
                 <h4 className='dch'><Link style={{ textDecoration: 'none', color: 'black', margin: "0 25px" }} to='/favourites' ><AiOutlineHeart /></Link></h4>
@@ -62,10 +82,10 @@ function Navbar() {
             </div>
 
             <div className='thirdnav d-none d-md-block'>
-                <Link to='/products' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Products</b></Link>
-                <Link to='/rooms' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Rooms</b></Link>
+                <Link to='/product-page' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Products</b></Link>
+                <Link to='/product-page' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Rooms</b></Link>
                 <Link to='/signup' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>New at IKEA</b></Link>
-                <Link to='/offers' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Offers</b></Link>
+                <Link style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Offers</b></Link>
             </div>
 
 
@@ -149,6 +169,7 @@ function Navbar() {
 
 
             <div id='rightSidebar' style={{ display: 'none' }} >
+
                 <div className='p-4 ' style={{ backgroundColor: '#0058A3' }}>
                     <p className='text-end px-4 ' onClick={() => {
                         document.getElementById('rightSidebar').style.display = 'none';
@@ -156,20 +177,28 @@ function Navbar() {
                         <FaTimes id='temp' />
                     </p>
                 </div>
+
                 <div className='d-flex justify-content-between pt-3 px-5 pb-4' style={{ backgroundColor: '#0058A3' }} >
                     <h1 style={{ color: 'white', fontSize: '2.25rem', fontWeight: 'bold' }}>Hej <span></span></h1>
-                    <button id='rightlogin hov'><Link id='right' to='sign-in' >Log in</Link></button>
+                    <button id='rightlogin hov' onClick={() => {
+                        document.getElementById('rightSidebar').style.display = 'none'
+                    }}><Link id='right' to='sign-in' >Log in</Link></button>
                 </div>
+
                 <div className='d-flex justify-content-between p-3 px-5 ' style={{ backgroundColor: '#0058A3', borderTop: '1px solid #007CC1', borderBottom: '1px solid #007CC1' }}>
-                    <h3 style={{ fontSize: '14px', fontWeight: 'bold' }} id='hov'><Link style={{ lineHeight: '40px', color: 'white' }} to='signup'> Join IKEA Family</Link></h3>
+                    <h3 style={{ fontSize: '14px', fontWeight: 'bold' }} id='hov'><Link style={{ lineHeight: '40px', color: 'white' }} to='signup' onClick={() => {
+                        document.getElementById('rightSidebar').style.display = 'none'
+                    }}> Join IKEA Family</Link></h3>
                     <h3><FaChevronRight /></h3>
 
                 </div>
+
                 <div className='d-flex justify-content-between p-3 px-5' style={{ backgroundColor: '#0058A3' }}>
                     <h3 style={{ fontSize: '14px', fontWeight: 'bold' }} id='hov'><Link style={{ lineHeight: '40px', color: 'white' }}>Join IKEA Business Network</Link></h3>
                     <h3><FaChevronRight /></h3>
 
                 </div>
+
                 <div className='p-3 px-5 bg-white' style={{ height: '300px', textAlign: 'initial' }}>
                     <p id='hov' >Purchase history</p>
                     <p id='hov' >Shopping list</p>

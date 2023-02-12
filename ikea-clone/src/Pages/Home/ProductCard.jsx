@@ -7,7 +7,7 @@ function ProductCard({ image, name, price }) {
             <img src={image} alt={name} width='100%' height='220px' style={{ borderRadius: ' 10px 10px 0px 0px' }} />
             <div style={{ padding: '40px 18px' }}>
                 <div className='d-flex justify-content-between'>
-                    <p style={{ color: 'white', backgroundColor: 'red', padding: '2px 10px', borderRadius: '20px', fontSize: '12px' }}> New</p>
+                    <p style={{ color: 'white', backgroundColor: 'red', padding: '6px 10px', borderRadius: '20px', fontSize: '12px' }}> New</p>
                     <h5> <BiRupee style={{ fontSize: '20px ', marginRight: '-10%' }} /> {price}</h5>
 
                 </div>
