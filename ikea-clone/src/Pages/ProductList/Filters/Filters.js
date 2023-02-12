@@ -23,7 +23,7 @@ function Filters(props) {
     const dispatch = useDispatch();
 
     const clearFilters = () => {
-
+        setFilterBox("CLEAR");
         listAction(maindta, dispatch );
 
     }
@@ -102,6 +102,9 @@ function Filters(props) {
                 }
                 {
                     filterBox == "SHAPE" ? (<Shape />) : <></>
+                }
+                {
+                    filterBox == "CLEAR" ? <></> : <></>
                 }
             </div>
 
