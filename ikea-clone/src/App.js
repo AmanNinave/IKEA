@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { json } from "react-router-dom";
 import Payment from "./Pages/Payment/Payment";
+
 function App() {
 
  const storeData =  useSelector((dta)=> {
@@ -17,7 +18,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Allroutes />
-     
+      
     </div>
   );
 }
