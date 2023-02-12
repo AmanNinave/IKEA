@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { BiUser } from "@react-icons/all-files/bi/BiUser";
 import { FiTruck } from "@react-icons/all-files/fi/FiTruck"
 import { AiOutlineHeart } from "@react-icons/all-files/ai/AiOutlineHeart"
@@ -26,16 +26,17 @@ import MattressData from './../../JsonFiles/mattress.json'
 
 import listFirstAction from '../../Redux/Action/listFirstAction';
 import { useDispatch } from 'react-redux';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 function Navbar() {
 
-    const dispatch = useDispatch(); 
-
-    const handleRoute = (dta)  => {
-        listFirstAction( dta  , dispatch );
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+    const handleRoute = (dta) => {
+        console.log("aman");
+        listFirstAction(dta, dispatch);
     }
-
-
 
     const [user, setuser] = useState(JSON.parse(localStorage.getItem('userName')));
 
@@ -43,9 +44,71 @@ function Navbar() {
         return storedData.signupReducer;
     })
     console.log(user)
-    // console.log(localStorage.getItem('userName'))
+
+    const [searchQuery, setSearchQuery] = useState("");
+    const handleSearch = () => {
+
+        switch (searchQuery) {
+            case "Sofa": case "Sofa set": case "sofa set":
+            case "sofa": handleRoute(SofaData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+            case "bed":
+            case "Bed": handleRoute(BedData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "Table": case "Tables": case "tables":
+            case "table": handleRoute(TablesData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "bookscases": case "bookcases": case "Bookcases": case "Book cases": case "book cases": case "Books cases": case "books cases":
+            case "Bookscases": handleRoute(BooksCasesData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "Furnitureset": case "furnitureset": case "furnituresets":
+            case "Furnituresets": handleRoute(FurnitureSetsData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "Bedding": case "bedding": case "bedcovers": case "bedcover": case "Bedcover":
+            case "Bedcovers": handleRoute(BeddingData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "bedsidetables": case "Bedsidetables": case "bedsidetable":
+            case "Bedsidetable": handleRoute(BedSideTablesData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+            case "Mattress": case "mattress": case "cover":
+            case "covers": handleRoute(MattressData.moreProducts.productWindow); navigate('/product-page');
+
+                break;
+
+                    default: toast.info('Product Not Available!', {
+                                position: "top-center",
+                                autoClose: 5000,
+                                hideProgressBar: false,
+                                closeOnClick: true,
+                                pauseOnHover: true,
+                                draggable: true,
+                                progress: undefined,
+                                theme: "light",
+                            });
+                break;
+        }
+
+    }
+
+
+
     return (
         <nav className="" >
+
+
 
             <div style={{ textAlign: 'center', backgroundColor: 'black', color: "white" }}>
                 <p style={{ fontSize: '12px', padding: '9px', textAlign: "center" }}><FiTruck /> Now get home delivery from Rs. 99</p>
@@ -58,10 +121,10 @@ function Navbar() {
                 </div>
                 <Link to='/'><img src="https://www.ikea.com/in/en/static/ikea-logo.f7d9229f806b59ec64cb.svg" alt="logo" width='100%' /></Link>
 
-                <span id='search1' className=' d-flex mx-3 col-6 p-1 d-none d-md-block'>
-                    <HiSearch className='col-1' /><input type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera /></span>
+                <span id='search1' className=' d-flex mx-3 col-6 p-1 d-none d-md-block' >
+                    <span onClick={handleSearch} > <HiSearch className='col-1' /> </span> <input onChange={(e) => { setSearchQuery(e.target.value) }} style={{ color: "black" }} type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera /></span>
 
-                <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px', alignItems:"center" }} onClick={() => {
+                <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px', alignItems: "center" }} onClick={() => {
 
                     document.getElementById("rightSidebar").style.display = 'block';
                 }}><BiUser className='my-1' /><span className='d-none d-md-block pt-1 mx-2 my-1'>{
@@ -115,11 +178,11 @@ function Navbar() {
                             }
                         }}> <b>Furniture</b>  </Link>
                         <div className='px-5 pb-3' id='submenu1'  >
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(SofaData.moreProducts.productWindow)  }}> Sofas & Sofa-beds </Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(FurnitureSetsData.moreProducts.productWindow)  }}> Furniture sets</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedData.moreProducts.productWindow)  }}> Beds</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BooksCasesData.moreProducts.productWindow)  }}> Bookcases & shelving units</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(TablesData.moreProducts.productWindow)  }}> Tables</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(SofaData.moreProducts.productWindow) }}> Sofas & Sofa-beds </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(FurnitureSetsData.moreProducts.productWindow) }}> Furniture sets</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedData.moreProducts.productWindow) }}> Beds</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BooksCasesData.moreProducts.productWindow) }}> Bookcases & shelving units</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(TablesData.moreProducts.productWindow) }}> Tables</Link>
                         </div>
 
                         <Link id='right' style={{ lineHeight: '40px' }} onClick={() => {
@@ -145,11 +208,11 @@ function Navbar() {
                         }}> <b>Beds & mattresses</b></Link>
 
                         <div className='px-5 pb-3' id='submenu3' >
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(BedData.moreProducts.productWindow)  }} > Beds </Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(BeddingData.moreProducts.productWindow)  }} > Bedding</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(MattressData.moreProducts.productWindow)  }} > Mattresses</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(BedSideTablesData.moreProducts.productWindow)  }}> Bedside tables</Link>
-                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page'onClick={() => { handleRoute(BedData.moreProducts.productWindow)  }}> Under bed storage</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedData.moreProducts.productWindow) }} > Beds </Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BeddingData.moreProducts.productWindow) }} > Bedding</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(MattressData.moreProducts.productWindow) }} > Mattresses</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedSideTablesData.moreProducts.productWindow) }}> Bedside tables</Link>
+                            <Link id='right' style={{ lineHeight: '40px' }} to='/product-page' onClick={() => { handleRoute(BedData.moreProducts.productWindow) }}> Under bed storage</Link>
                         </div>
                     </div>
 
@@ -206,7 +269,23 @@ function Navbar() {
                 </div>
             </div>
 
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
+
+
         </nav >
+
+
     )
 }
 

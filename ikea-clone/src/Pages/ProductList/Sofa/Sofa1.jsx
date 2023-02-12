@@ -38,7 +38,7 @@ function Sofa1() {
 
             <Filters/>
             
-            <div style={{ display : "grid" , gridTemplateColumns : "1fr 1fr 1fr 1fr" , gap : "10px"  }}>
+            <div id="listGrid" style={{ display : "grid"  , gap : "10px"  }}>
 
                 { showData.length > 0 && 
 

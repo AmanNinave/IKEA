@@ -12,6 +12,12 @@ const intialData = {
       email: "amanninave987@gmail.com",
       password: "1234",
     },
+    {
+      firstname: "Nikita",
+      surname: "Saini",
+      email: "nikitasaini097@gmail.com",
+      password: "1234",
+    }
   ],
   Auth: false,
 };

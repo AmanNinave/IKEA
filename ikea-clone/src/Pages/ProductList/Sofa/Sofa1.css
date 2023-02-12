@@ -16,3 +16,26 @@
     padding: 6px 15px;
     border-radius: 30px;
 }
+
+#listGrid{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media screen and (min-width : 480px) and (max-width: 910px) {
+    #listGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen  and (min-width : 400px) and (max-width: 590px) {
+    #listGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen   and (max-width: 400px) {
+    #listGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
