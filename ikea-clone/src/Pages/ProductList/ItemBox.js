@@ -8,14 +8,14 @@ import { useDispatch , useSelector  } from 'react-redux'
 import {wishlistAction} from "./../../Redux/Action/wishlistAction";
 
 function ItemBox({elem}) {
-
+   
     const dispatch = useDispatch();
 
     const cartdata = useSelector((store) => {
         return store.cartReducer.cartData
     })
     const wishdata = useSelector((store) => {
-        return store.wishlistReducer.wishlistData
+        return store.wishlistReducer.wishData
     })
 
     let isCart = false ;
