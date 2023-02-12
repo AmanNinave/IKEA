@@ -2,9 +2,11 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "./MainFooter.css"
 // import { BsFacebook } from "@react-icons/all-files/bs/BsFacebook"
-// import { FiInstagram } from "@react-icons/all-files/fi/FiInstagram"
-// import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter"
-// import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube"
+import { FiInstagram } from "@react-icons/all-files/fi/FiInstagram"
+import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter"
+import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube"
+
+import {IoLogoFacebook } from "@react-icons/all-files/io/IoLogoFacebook"
 
 
 export const MainFooter = () => {
@@ -93,19 +95,19 @@ export const MainFooter = () => {
       <div className="footer__social">
         <div className="footer__links">
           <div className="footer__socialIcons">
-           {/* <BsFacebook/> */}
+          <IoLogoFacebook/>
           </div>
 
           <div className="footer__socialIcons">
-          {/* <FiInstagram/> */}
+          <FiInstagram/>
           </div>
 
           <div className="footer__socialIcons">
-           {/* <AiOutlineTwitter/> */}
+           <AiOutlineTwitter/>
           </div>
 
           <div className="footer__socialIcons">
-            {/* <FaYoutube/> */}
+            <FaYoutube/>
           </div>
         </div>
 

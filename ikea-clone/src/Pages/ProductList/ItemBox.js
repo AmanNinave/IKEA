@@ -5,7 +5,7 @@ import { FiChevronDown } from "@react-icons/all-files/fi/FiChevronDown"
 
 import {cartAction} from "./../../Redux/Action/cartAction";
 import { useDispatch , useSelector  } from 'react-redux'
-import wishlistAction from "./../../Redux/Action/wishlistAction";
+import {wishlistAction} from "./../../Redux/Action/wishlistAction";
 
 function ItemBox({elem}) {
 

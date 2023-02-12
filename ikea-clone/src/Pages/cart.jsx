@@ -97,7 +97,7 @@ const Cart = () => {
         {
 
         }
-        <div className="cartempty">
+        <div className="cartempty" style={{displa:"none"}}>
           <div class="cartemptyinner">
             <h2>Your bag is empty</h2>
             <button type="button" class="" aria-label="Open context menu for shopping bag" data-testid="context_menu">...</button>

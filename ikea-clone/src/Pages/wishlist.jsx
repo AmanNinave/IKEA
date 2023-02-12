@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
 import { HiShoppingCart } from "@react-icons/all-files/hi/HiShoppingCart"
+import { AiOutlinePlus } from "@react-icons/all-files/ai/AiOutlinePlus"
 import { useSelector, useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
-import { wishAction, wishQtyAction, wishSubAction, wishDeleteAction } from '../Redux/Action/cartAction'
+import { wishlistAction, wishQtyAction, wishSubAction, wishDeleteAction } from '../Redux/Action/wishlistAction'
 
 
 

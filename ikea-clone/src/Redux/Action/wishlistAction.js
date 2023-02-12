@@ -1,5 +1,5 @@
 import { myStore } from "../Store"
-export const wishAction=( elem , dispatch )=> {
+export const wishlistAction=( elem , dispatch )=> {
     
     dispatch(
         {
