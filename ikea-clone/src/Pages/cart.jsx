@@ -21,7 +21,7 @@ const Cart = () => {
   return (
     <div>
       <div className="cart-container">
-        <div className='cart-container-inner'>
+        <div className='cart-container-inner col-7'>
           <div className='cartheading'>
             <h1>Shopping bag</h1>
             <h2>...</h2>
