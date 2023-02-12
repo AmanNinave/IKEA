@@ -15,11 +15,11 @@ const intialData = {
     {
       firstname: "Nikita",
       surname: "Saini",
-      email: "nikitasaini097@gmail.com",
+      email: "nikitasaini09@gmail.com",
       password: "1234",
     }
   ],
-  Auth: false,
+  Auth: true,
 };
 function signupReducer(state = intialData, action) {
   switch (action.type) {

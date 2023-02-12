@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from "../Pages/cart.css"
+import { Link} from 'react-router-dom'
 import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight"
 import { AiOutlinePlus } from "@react-icons/all-files/ai/AiOutlinePlus"
+import { BiMinus } from "@react-icons/all-files/bi/BiMinus"
 
 import { useSelector, useDispatch } from 'react-redux'
 import { myStore } from '../Redux/Store'
@@ -19,7 +21,7 @@ const Cart = () => {
   return (
     <div>
       <div className="cart-container">
-        <div className='cart-container-inner'>
+        <div className='cart-container-inner col-7'>
           <div className='cartheading'>
             <h1>Shopping bag</h1>
             <h2>...</h2>
@@ -27,7 +29,6 @@ const Cart = () => {
 
           <div className="cartdiv">
             {
-
               cartdata.length > 0 &&
               cartdata.map((ele, index) => {
                 return (
@@ -52,13 +53,17 @@ const Cart = () => {
                       </div>
                       <h5>{ele.salesPrice.current.prefix} {ele.salesPrice.numeral}</h5>
                       <div className='cartproduct'>
-                        <button onClick={() => (cartQtyAction(ele))}><AiOutlinePlus/></button>
+                        <div className='cartproductbutton'>
+                        <button onClick={() => (cartQtyAction(ele))}><AiOutlinePlus /></button>
                         <button>{ele.Qty}</button>
-                        <button disabled={ele.Qty == 1} onClick={() => cartSubAction(ele)}></button>
+                        <button disabled={ele.Qty == 1} onClick={() => cartSubAction(ele)}><BiMinus style={{color:"#000", fontSize:"22px"}}/></button>
+                        </div>
+                        <div className='savebutton'>
                         <button onClick={() => cartDeleteAction(ele)}>Remove product</button>
                         <button>Save for later</button>
-                      </div>
+                        </div>
                     </div>
+                      </div>
                   </div>
                 )
               })
@@ -81,7 +86,7 @@ const Cart = () => {
             Delivery estimates will be available on the next page.
           </div>
           <div className="viewdelivery">
-            <button> delivery and pickup options <span><BsArrowRight /></span></button>
+          <Link to="/delivery"><button> Place your order <span><BsArrowRight /></span></button></Link>
           </div>
           <div className="cartreturnpolicy">
             <span><i className=""></i></span>
@@ -93,11 +98,8 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <div className="bagempty">
-        {
-
-        }
-        <div className="cartempty" style={{displa:"none"}}>
+      <div className="bagempty" style={{ display: "none" }}>
+        <div className="cartempty">
           <div class="cartemptyinner">
             <h2>Your bag is empty</h2>
             <button type="button" class="" aria-label="Open context menu for shopping bag" data-testid="context_menu">...</button>

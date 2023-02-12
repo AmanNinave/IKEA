@@ -24,12 +24,12 @@ export const MainFooter = () => {
           </Link>
         </div>
         <div className="footer__info">
-          <h3>Join IKEA Family</h3>
+          <h3>IKEA Business Network</h3>
           <p>
           e membership program for business customers with exciting benefits and features. Join us for free and enjoy member discounts, quick-fix tips, online tutorials and a lo
           </p>
           <Link to="/login" className="footer__infoLink">
-            <button className="footer_btn">Join the club</button>
+            <button className="footer_btn">Join now</button>
           </Link>
         </div>
        </div>
