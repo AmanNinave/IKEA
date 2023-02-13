@@ -109,13 +109,14 @@ function Navbar() {
 
 
     return (
-        <nav className="" >
+        <>
+        <nav className="" style={ { position : "fixed" , top : "0" , backgroundColor : "white" , width : "100%" , zIndex : "10"}}>
 
 
 
-            <div style={{ textAlign: 'center', backgroundColor: 'black', color: "white" }}>
+            {/* <div style={{ textAlign: 'center', backgroundColor: 'black', color: "white" }}>
                 <p style={{ fontSize: '12px', padding: '9px', textAlign: "center" }}><FiTruck /> Now get home delivery from Rs. 99</p>
-            </div>
+            </div> */}
 
             <div style={{ display: 'flex', justifyContent: '', alignItems: 'center', textAlign: 'center', height: "90px",  borderBottom: "solid 1px rgb(var(--colour-neutral-2, 245, 245, 245))" }}>
                 <div className='col-1' style={{ textAlign: 'center'  }}>
@@ -151,7 +152,7 @@ function Navbar() {
                
             </div>
 
-            <div className='thirdnav d-none d-md-block'>
+            <div className='thirdnav d-none d-md-block' style={ {height : "0px" , marginTop : "10px" }} >
                 <Link to='/product-page' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Products</b></Link>
                 <Link to='/product-page' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>Rooms</b></Link>
                 <Link to='/signup' style={{ textDecoration: 'none', color: 'black', marginRight: '20px' }}><b>New at IKEA</b></Link>
@@ -291,7 +292,10 @@ function Navbar() {
 
 
         </nav >
+                    <div style={ { height : "120px" }}>
 
+                    </div>
+        </>
 
     )
 }

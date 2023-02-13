@@ -19,6 +19,7 @@
     margin: 80px;
     gap: 10px;
     cursor: pointer;
+    margin-top: 10px;
   }
   
   /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--------parent_payment_lft-------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -278,7 +279,7 @@
     width: 35%;
     height: 150%;
     position: sticky;
-    top: 10px;
+    top: 140px;
     
   }
   .flexdata {
