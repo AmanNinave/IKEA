@@ -8,7 +8,9 @@ svg{
     font-size: 16px;
     font-weight: 500;
     text-align: initial;
+    cursor: initial;
     color: #f5f5f5;
+    outline: none;
 }
 .cartqty {
     align-items: center;

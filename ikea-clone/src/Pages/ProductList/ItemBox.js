@@ -1,6 +1,8 @@
 import React from 'react';
 import { HiShoppingCart } from "@react-icons/all-files/hi/HiShoppingCart"
 import { HiHeart } from "@react-icons/all-files/hi/HiHeart"
+import { AiOutlineHeart } from "@react-icons/all-files/ai/AiOutlineHeart"
+
 import { FiChevronDown } from "@react-icons/all-files/fi/FiChevronDown"
 
 import {cartAction} from "./../../Redux/Action/cartAction";
@@ -64,7 +66,7 @@ function ItemBox({elem}) {
             <span onClick={() => {
                 addToWishlist(elem);
                 
-            }} > <HiHeart id = {elem.itemNo+elem.name} style={{ color : isWish ? "red" : "black" }} /> </span>
+            }} >   { !isWish ? <AiOutlineHeart /> :  <HiHeart id = {elem.itemNo+elem.name} style={{ color : "black" }} />} </span>
 
 
         </div>
