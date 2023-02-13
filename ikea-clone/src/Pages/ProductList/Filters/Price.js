@@ -5,7 +5,7 @@ import listAction from '../../../Redux/Action/listAction';
 const FilterStyle = {
     zIndex: "1",
     position: "absolute",
-    top: "260px",
+    top: "190px",
     left: "330px",
     border: "0px solid",
     backgroundColor: "white",
