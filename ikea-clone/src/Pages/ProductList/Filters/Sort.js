@@ -6,7 +6,7 @@ import listSortAction from '../../../Redux/Action/listFirstAction';
 const FilterStyle = {
     zIndex: "1",
     position: "absolute",
-    top: "260px",
+    top: "190px",
     left: "80px",
     border: "0px solid",
     backgroundColor: "white",

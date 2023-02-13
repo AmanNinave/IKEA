@@ -71,7 +71,7 @@ function Navbar() {
 
                 break;
 
-            case "Furnitureset": case "furnitureset": case "furnituresets":
+            case "Furnitureset": case "furnitureset": case "furnituresets": case "furniture set":
             case "Furnituresets": handleRoute(FurnitureSetsData.moreProducts.productWindow); navigate('/product-page');
 
                 break;
