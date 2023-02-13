@@ -117,15 +117,15 @@ function Navbar() {
                 <p style={{ fontSize: '12px', padding: '9px', textAlign: "center" }}><FiTruck /> Now get home delivery from Rs. 99</p>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: '', alignItems: 'center', textAlign: 'center', height: "90px", borderBottom: "solid 1px rgb(var(--colour-neutral-2, 245, 245, 245))" }}>
-                <div className='col-1' style={{ textAlign: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: '', alignItems: 'center', textAlign: 'center', height: "90px",  borderBottom: "solid 1px rgb(var(--colour-neutral-2, 245, 245, 245))" }}>
+                <div className='col-1' style={{ textAlign: 'center'  }}>
                     <p onClick={() => { document.getElementById('leftSidebar').style.display = 'block' }} style={{ textAlign: 'center' }}> <FiMenu /> </p>
                     <p className='d-none d-md-block' style={{ textAlign: 'center' }}> Menu</p>
                 </div>
                 <Link to='/'><img src="https://www.ikea.com/in/en/static/ikea-logo.f7d9229f806b59ec64cb.svg" alt="logo" width='100%' /></Link>
 
                 <span id='search1' className=' d-flex mx-3 col-6 p-1 d-none d-md-block' >
-                    <span onClick={handleSearch} > <HiSearch className='col-1' /> </span> <input onChange={(e) => { setSearchQuery(e.target.value) }} style={{ color: "black" }} type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera /></span>
+                    <span onClick={handleSearch} > <HiSearch className='col-1' /> </span> <input onChange={(e) => { setSearchQuery(e.target.value) }} style={{ color: "black"   }} type="search" placeholder='What are you looking for?' name="" id="search" className=' p-2 col-10 rounded border-0' /><GrCamera /></span>
 
                 <h4 id="loginsvg" className='col-2 mx-2 sm-col-2 d-flex justify-content-center' style={{ fontSize: '14px', alignItems: "center" }} onClick={() => {
 
