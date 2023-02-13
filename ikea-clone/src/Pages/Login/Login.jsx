@@ -45,7 +45,7 @@ function Login() {
                     draggable: true,
                     progress: undefined,
                     theme: "colored",
-                });
+                });   
 
                 navigate('/')
             }

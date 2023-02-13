@@ -3,6 +3,8 @@ import './Payment.css'
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 function Payment(props) {
 
@@ -107,28 +109,50 @@ function Payment(props) {
         localStorage.setItem("paymentdetails", JSON.stringify(JobData));
 
         if (check) {
-            alert(" Your Order has been placed ");
-                navigate("/");
-           
+            toast.success('Your order has been placed !', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
+            navigate("/");
+
 
         }
 
     }
 
-    let displayData = useSelector((storeData) => { 
+    let displayData = useSelector((storeData) => {
         return storeData.cartReducer.cartData
-     })
-     console.log("cart Data " , displayData);
-   
-     let totalAmount =  0 ;
-     displayData.map((elem) => {
-            totalAmount = totalAmount + elem.salesPrice.numeral * elem.Qty
-     })
+    })
+    console.log("cart Data ", displayData);
+
+    let totalAmount = 0;
+    displayData.map((elem) => {
+        totalAmount = totalAmount + elem.salesPrice.numeral * elem.Qty
+    })
 
 
 
     return (
         <div>
+
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="colored"
+            />
 
             <div id="Pay_container">
                 <div id="parent_payment_lft">
@@ -189,14 +213,14 @@ function Payment(props) {
                     <div id="parent_payment_lft_delivery">
                         <h4>2. Select Delivery Option</h4>
                         <div >
-                            <p style={{ marginBottom : "50px"}} ><i className="fa-solid fa-circle-info"></i> enter your address so we can calculate your delivery options.</p>
+                            <p style={{ marginBottom: "50px" }} ><i className="fa-solid fa-circle-info"></i> enter your address so we can calculate your delivery options.</p>
                         </div>
                     </div>
                     <div id="parent_payment_lft_paymentMethod" >
                         <div>
                             <h4>3. Select Payment Method</h4>
                             <div  >
-                                <div id="border_select" style={ { padding : "10px"}} >
+                                <div id="border_select" style={{ padding: "10px" }} >
                                     <h5>Credit/Debit Card</h5>
                                     <div>
                                         <img src="https://s1.thcdn.com/checkout/resources/images/3c2e42cbf9d0b0df0d3b3bb81aa41d6a.svg"
@@ -214,14 +238,14 @@ function Payment(props) {
                                         <img src="https://s1.thcdn.com/checkout/resources/images/248074ffdeeeaeffed9c5db35f35fe45.svg"
                                             alt="miss pic" />
                                         <p>*Card Number</p>
-                                        <input id="CardNO" type="text" style={ { width : "97.5%"}} />
+                                        <input id="CardNO" type="text" style={{ width: "97.5%" }} />
 
                                         <p>*Name on card</p>
-                                        <input id="NameonCard" type="text" style={ { width : "97.5%"}} />
+                                        <input id="NameonCard" type="text" style={{ width: "97.5%" }} />
                                         <p>*Expiry Date</p>
-                                        
+
                                         <div id="expiry">
-                                            <select name="Expiry" id="Expiry_Month" style={ { width : "42%"}}>
+                                            <select name="Expiry" id="Expiry_Month" style={{ width: "42%" }}>
                                                 <option value="">Month</option>
                                                 <option value="01">01</option>
                                                 <option value="02">02</option>
@@ -236,7 +260,7 @@ function Payment(props) {
                                                 <option value="11">11</option>
                                                 <option value="12">12</option>
                                             </select>
-                                            <select name="Expiry" id="Expiry_year"  style={ { width : "42%"}}>
+                                            <select name="Expiry" id="Expiry_year" style={{ width: "42%" }}>
                                                 <option value="">Year</option>
                                                 <option value="22">22</option>
                                                 <option value="23">23</option>
@@ -312,21 +336,21 @@ function Payment(props) {
                     <div className="flexdata">
                         {/* <!--  1st div     --> */}
                         <div>Order Summary :            </div>
-                        <div> <span id="itemsspan" style={ { fontSize : "15px" , marginLeft : "20px" }}>  {displayData.length}</span> Items</div>
+                        <div> <span id="itemsspan" style={{ fontSize: "15px", marginLeft: "20px" }}>  {displayData.length}</span> Items</div>
                     </div>
 
-                    <div className="flexdata">Order Number  :  <span id="orderNumber" style={ { fontSize : "15px" , marginLeft : "20px" }}>4946663456</span> </div>
+                    <div className="flexdata">Order Number  :  <span id="orderNumber" style={{ fontSize: "15px", marginLeft: "20px" }}>4946663456</span> </div>
                     {/* <div className="horizontal_lines"></div> */}
                     <div id="cartdatainpaymentpage">
 
-                        { displayData.length > 0 && 
-                            displayData.map((elem , index ) => {
+                        {displayData.length > 0 &&
+                            displayData.map((elem, index) => {
 
-                            return    <div style={{borderTop : "1px solid black"}}>
+                                return <div style={{ borderTop: "1px solid black" }}>
                                     <img src={elem.mainImageUrl} alt="" />
-                                    <div style={ {  marginLeft : "20px" }}>
-                                        <h6 style={ { fontSize : "18px", marginBottom : "0px"}}>{elem.name}</h6>
-                                        <div><b style={ { fontWeight : "540" , fontSize : "15px"}}> Quantity :  </b>{elem.Qty}</div>
+                                    <div style={{ marginLeft: "20px" }}>
+                                        <h6 style={{ fontSize: "18px", marginBottom: "0px" }}>{elem.name}</h6>
+                                        <div><b style={{ fontWeight: "540", fontSize: "15px" }}> Quantity :  </b>{elem.Qty}</div>
                                         <div> ₹ <span >{elem.salesPrice.numeral}</span> </div>
                                     </div>
 
@@ -342,13 +366,13 @@ function Payment(props) {
 
                     {/* <!-- <<<<<<<<<<<<<< bottom part of summary >>>>>>>>>>>>>>>>>> --> */}
 
-                   
 
-                
+
+
                     <div className="horizontal_lines"></div>
                     <div id="ammountDiv" className="flexdata">
                         <button>Total to pay</button>
-                        <button> ₹ <span id="totalamt" style={ { fontSize : "20px" }} > <b> {totalAmount} </b> </span></button>
+                        <button> ₹ <span id="totalamt" style={{ fontSize: "20px" }} > <b> {totalAmount} </b> </span></button>
 
                     </div>
                     {/* <!-- <<<<<<<<<<<<<< bottom part of summary >>>>>>>>>>>>>>>>>> --> */}
